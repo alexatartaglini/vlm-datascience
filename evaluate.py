@@ -20,8 +20,10 @@ from prompting import load_prompts_and_renders
 
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
 
+with open('openai_api_key.txt', 'r') as f:
+    api_key = f.read()
+client = OpenAI(api_key=api_key)
 
 EXTRACT_NUMERIC_PROMPT = """You are a helpful assistant that extracts numerical values from text. Given a response, return ONLY the primary numerical value being discussed.
 
