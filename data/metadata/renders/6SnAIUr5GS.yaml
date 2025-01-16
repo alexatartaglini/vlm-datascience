@@ -1,0 +1,12 @@
+bins: 3
+dataset_name: dataset_17
+generator_name: generator_17
+legend: false
+num_vars: 1
+render_id: 6SnAIUr5GS
+renders:
+  plot: data/plots/6SnAIUr5GS.png
+  table: data/tables/6SnAIUr5GS.txt
+type: histogram
+x: State
+x_type: categorical

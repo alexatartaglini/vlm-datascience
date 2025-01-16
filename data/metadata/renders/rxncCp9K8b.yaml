@@ -1,0 +1,12 @@
+bins: 16
+dataset_name: dataset_20
+generator_name: generator_20
+legend: false
+num_vars: 1
+render_id: rxncCp9K8b
+renders:
+  plot: data/plots/rxncCp9K8b.png
+  table: data/tables/rxncCp9K8b.txt
+type: histogram
+x: X
+x_type: categorical

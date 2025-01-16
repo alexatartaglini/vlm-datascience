@@ -1,0 +1,15 @@
+dataset_name: dataset_21
+generator_name: generator_21
+hue: W
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: Hwd4WBz5UB
+renders:
+  plot: data/plots/Hwd4WBz5UB.png
+  table: data/tables/Hwd4WBz5UB.txt
+type: scatter
+x: X
+x_type: numeric
+y: Z
+y_type: numeric

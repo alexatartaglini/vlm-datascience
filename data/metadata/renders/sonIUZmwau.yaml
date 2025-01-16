@@ -1,0 +1,17 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: X
+hue_type: numeric
+legend: true
+num_vars: 4
+render_id: sonIUZmwau
+renders:
+  plot: data/plots/sonIUZmwau.png
+  table: data/tables/sonIUZmwau.txt
+style: C2
+style_type: categorical
+type: scatter
+x: Z
+x_type: numeric
+y: Y
+y_type: numeric

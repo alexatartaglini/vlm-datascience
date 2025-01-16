@@ -1,0 +1,4 @@
+Category  count
+    High     57
+     Low     50
+     Mid     39

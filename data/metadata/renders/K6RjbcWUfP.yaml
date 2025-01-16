@@ -1,0 +1,16 @@
+agg_func: mean
+dataset_name: dataset_20
+generator_name: generator_20
+hue: C
+hue_type: categorical
+legend: true
+num_vars: 3
+render_id: K6RjbcWUfP
+renders:
+  plot: data/plots/K6RjbcWUfP.png
+  table: data/tables/K6RjbcWUfP.txt
+type: bar
+x: X
+x_type: categorical
+y: Y
+y_type: numeric

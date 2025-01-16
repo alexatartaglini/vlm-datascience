@@ -1,0 +1,23 @@
+# Description: Phase transitions across time periods with clustering behavior
+
+# Define the variables in order
+variables: ["Period", "G1", "G2", "State"]
+
+# Define the distribution of each variable
+variable_objects:
+  Period: "categorical(probs=[0.2, 0.2, 0.2, 0.2, 0.2], categories=['E1', 'E2', 'E3', 'E4', 'E5'], sequential=True)"
+  G1: "normal(mean=0, std=1)"
+  G2: "normal(mean=0, std=1)"
+  State: "categorical(probs=[0.33, 0.33, 0.34], categories=['S1', 'S2', 'S3'])"
+
+# Define dependencies between variables
+dependencies:
+  Period:
+    G1: "BooleanFunction(['x==E1', 'x==E2', 'x==E3', 'x==E4'], [-2, -1, 1, 2, 0], 'mean')"
+    G2: "BooleanFunction(['x==E1', 'x==E2', 'x==E3', 'x==E4'], [2, -2, -1, 1, 0], 'mean')"
+  G1:
+    State: "BooleanFunction(['x < -1', 'x > 1'], ['S1', 'S3', 'S2'])"
+  G2:
+    State: "BooleanFunction(['abs(x) > 1.5'], ['S3', 'S2'])"
+
+  

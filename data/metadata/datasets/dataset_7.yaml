@@ -1,0 +1,20 @@
+categorical_vars:
+- C1
+- C2
+generator_name: generator_7
+n_categorical: 2
+n_numeric: 3
+n_sequential: 0
+name: dataset_7
+num_points: 54
+numeric_vars:
+- X
+- Y
+- Z
+sequential_vars: []
+variables:
+- C1
+- C2
+- X
+- Z
+- Y

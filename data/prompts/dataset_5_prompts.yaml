@@ -1,0 +1,1927 @@
+- answer: 0.6857293445566075
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the O value for N=-1.35?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: q4jlsNGSdh
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/q4jlsNGSdh.png
+    table: /home/alexart/vlm-benchmark/data/tables/q4jlsNGSdh.txt
+- answer: 6.43
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of N values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: q4jlsNGSdh
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/q4jlsNGSdh.png
+    table: /home/alexart/vlm-benchmark/data/tables/q4jlsNGSdh.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: q4jlsNGSdh
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/q4jlsNGSdh.png
+    table: /home/alexart/vlm-benchmark/data/tables/q4jlsNGSdh.txt
+- answer: -3.38
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: q4jlsNGSdh
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/q4jlsNGSdh.png
+    table: /home/alexart/vlm-benchmark/data/tables/q4jlsNGSdh.txt
+- answer: N
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - N
+  - O
+  prompt: which has a larger range of values, N or O?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: q4jlsNGSdh
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/q4jlsNGSdh.png
+    table: /home/alexart/vlm-benchmark/data/tables/q4jlsNGSdh.txt
+- answer: 1
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the degree of the polynomial that best fits the relationship between
+    N and O?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: q4jlsNGSdh
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/q4jlsNGSdh.png
+    table: /home/alexart/vlm-benchmark/data/tables/q4jlsNGSdh.txt
+- answer: linear
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - linear
+  - nonlinear
+  prompt: is the relationship between N and O linear or nonlinear?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: q4jlsNGSdh
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/q4jlsNGSdh.png
+    table: /home/alexart/vlm-benchmark/data/tables/q4jlsNGSdh.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by P?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: q4jlsNGSdh
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/q4jlsNGSdh.png
+    table: /home/alexart/vlm-benchmark/data/tables/q4jlsNGSdh.txt
+- answer: -2.3601773652699185
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the N value for O=1.25?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: OWwsYjVig3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OWwsYjVig3.png
+    table: /home/alexart/vlm-benchmark/data/tables/OWwsYjVig3.txt
+- answer: 1.25
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of O values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: OWwsYjVig3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OWwsYjVig3.png
+    table: /home/alexart/vlm-benchmark/data/tables/OWwsYjVig3.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: OWwsYjVig3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OWwsYjVig3.png
+    table: /home/alexart/vlm-benchmark/data/tables/OWwsYjVig3.txt
+- answer: -3.38
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: OWwsYjVig3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OWwsYjVig3.png
+    table: /home/alexart/vlm-benchmark/data/tables/OWwsYjVig3.txt
+- answer: N
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - O
+  - N
+  prompt: which has a larger range of values, O or N?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: OWwsYjVig3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OWwsYjVig3.png
+    table: /home/alexart/vlm-benchmark/data/tables/OWwsYjVig3.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by M?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: OWwsYjVig3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OWwsYjVig3.png
+    table: /home/alexart/vlm-benchmark/data/tables/OWwsYjVig3.txt
+- answer: 6.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the P value for N=2.46?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 2pNeQdjy6Q
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2pNeQdjy6Q.png
+    table: /home/alexart/vlm-benchmark/data/tables/2pNeQdjy6Q.txt
+- answer: 10.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of P values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 2pNeQdjy6Q
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2pNeQdjy6Q.png
+    table: /home/alexart/vlm-benchmark/data/tables/2pNeQdjy6Q.txt
+- answer: 12.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 2pNeQdjy6Q
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2pNeQdjy6Q.png
+    table: /home/alexart/vlm-benchmark/data/tables/2pNeQdjy6Q.txt
+- answer: 2.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 2pNeQdjy6Q
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2pNeQdjy6Q.png
+    table: /home/alexart/vlm-benchmark/data/tables/2pNeQdjy6Q.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - N
+  - P
+  prompt: which has a larger range of values, N or P?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 2pNeQdjy6Q
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2pNeQdjy6Q.png
+    table: /home/alexart/vlm-benchmark/data/tables/2pNeQdjy6Q.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by O?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 2pNeQdjy6Q
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2pNeQdjy6Q.png
+    table: /home/alexart/vlm-benchmark/data/tables/2pNeQdjy6Q.txt
+- answer: 2
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations are in the 2nd bin?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 83vObd2oAB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/83vObd2oAB.png
+    table: /home/alexart/vlm-benchmark/data/tables/83vObd2oAB.txt
+- answer: 28
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations occur between N=-2.10 and N=-0.81?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 83vObd2oAB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/83vObd2oAB.png
+    table: /home/alexart/vlm-benchmark/data/tables/83vObd2oAB.txt
+- answer: 17.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the maximum count for N?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 83vObd2oAB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/83vObd2oAB.png
+    table: /home/alexart/vlm-benchmark/data/tables/83vObd2oAB.txt
+- answer: -0.01
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: which value of N appears most frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 83vObd2oAB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/83vObd2oAB.png
+    table: /home/alexart/vlm-benchmark/data/tables/83vObd2oAB.txt
+- answer: -3.22
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: which nonzero value of N appears least frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 83vObd2oAB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/83vObd2oAB.png
+    table: /home/alexart/vlm-benchmark/data/tables/83vObd2oAB.txt
+- answer: -1.94
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - -1.94
+  - -3.22
+  prompt: which N value is more frequent, N=-1.94 or N=-3.22?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 83vObd2oAB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/83vObd2oAB.png
+    table: /home/alexart/vlm-benchmark/data/tables/83vObd2oAB.txt
+- answer: 0.16556291390728478
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the probability that a new observation will have N greater than
+    1.76?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: 83vObd2oAB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/83vObd2oAB.png
+    table: /home/alexart/vlm-benchmark/data/tables/83vObd2oAB.txt
+- answer: -2.4414662042087576
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the N value for P=8.00?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: HwW3hVD9dy
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HwW3hVD9dy.png
+    table: /home/alexart/vlm-benchmark/data/tables/HwW3hVD9dy.txt
+- answer: 10.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of P values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: HwW3hVD9dy
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HwW3hVD9dy.png
+    table: /home/alexart/vlm-benchmark/data/tables/HwW3hVD9dy.txt
+- answer: 12.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: HwW3hVD9dy
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HwW3hVD9dy.png
+    table: /home/alexart/vlm-benchmark/data/tables/HwW3hVD9dy.txt
+- answer: 2.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: HwW3hVD9dy
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HwW3hVD9dy.png
+    table: /home/alexart/vlm-benchmark/data/tables/HwW3hVD9dy.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - P
+  - N
+  prompt: which has a larger range of values, P or N?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: HwW3hVD9dy
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HwW3hVD9dy.png
+    table: /home/alexart/vlm-benchmark/data/tables/HwW3hVD9dy.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by O?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: HwW3hVD9dy
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HwW3hVD9dy.png
+    table: /home/alexart/vlm-benchmark/data/tables/HwW3hVD9dy.txt
+- answer: 1.1799311135423678
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the O value for P=5.00?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: WM8BzQ5gLr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WM8BzQ5gLr.png
+    table: /home/alexart/vlm-benchmark/data/tables/WM8BzQ5gLr.txt
+- answer: 1.25
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of O values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: WM8BzQ5gLr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WM8BzQ5gLr.png
+    table: /home/alexart/vlm-benchmark/data/tables/WM8BzQ5gLr.txt
+- answer: 1.6
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum O value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: WM8BzQ5gLr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WM8BzQ5gLr.png
+    table: /home/alexart/vlm-benchmark/data/tables/WM8BzQ5gLr.txt
+- answer: 0.35
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum O value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: WM8BzQ5gLr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WM8BzQ5gLr.png
+    table: /home/alexart/vlm-benchmark/data/tables/WM8BzQ5gLr.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - P
+  - O
+  prompt: which has a larger range of values, P or O?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: WM8BzQ5gLr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WM8BzQ5gLr.png
+    table: /home/alexart/vlm-benchmark/data/tables/WM8BzQ5gLr.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by M?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: WM8BzQ5gLr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WM8BzQ5gLr.png
+    table: /home/alexart/vlm-benchmark/data/tables/WM8BzQ5gLr.txt
+- answer: 1.2154282906473135
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the O value for N=-0.12?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: GCYwprVZ8b
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/GCYwprVZ8b.png
+    table: /home/alexart/vlm-benchmark/data/tables/GCYwprVZ8b.txt
+- answer: 6.43
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of N values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: GCYwprVZ8b
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/GCYwprVZ8b.png
+    table: /home/alexart/vlm-benchmark/data/tables/GCYwprVZ8b.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: GCYwprVZ8b
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/GCYwprVZ8b.png
+    table: /home/alexart/vlm-benchmark/data/tables/GCYwprVZ8b.txt
+- answer: -3.38
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: GCYwprVZ8b
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/GCYwprVZ8b.png
+    table: /home/alexart/vlm-benchmark/data/tables/GCYwprVZ8b.txt
+- answer: N
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - N
+  - O
+  prompt: which has a larger range of values, N or O?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: GCYwprVZ8b
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/GCYwprVZ8b.png
+    table: /home/alexart/vlm-benchmark/data/tables/GCYwprVZ8b.txt
+- answer: 1
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the degree of the polynomial that best fits the relationship between
+    N and O?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: GCYwprVZ8b
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/GCYwprVZ8b.png
+    table: /home/alexart/vlm-benchmark/data/tables/GCYwprVZ8b.txt
+- answer: linear
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - linear
+  - nonlinear
+  prompt: is the relationship between N and O linear or nonlinear?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: GCYwprVZ8b
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/GCYwprVZ8b.png
+    table: /home/alexart/vlm-benchmark/data/tables/GCYwprVZ8b.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by M?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: GCYwprVZ8b
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/GCYwprVZ8b.png
+    table: /home/alexart/vlm-benchmark/data/tables/GCYwprVZ8b.txt
+- answer: -1.3691033081207644
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the N value for P=7.00?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: WxkxIHa298
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WxkxIHa298.png
+    table: /home/alexart/vlm-benchmark/data/tables/WxkxIHa298.txt
+- answer: 10.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of P values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: WxkxIHa298
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WxkxIHa298.png
+    table: /home/alexart/vlm-benchmark/data/tables/WxkxIHa298.txt
+- answer: 12.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: WxkxIHa298
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WxkxIHa298.png
+    table: /home/alexart/vlm-benchmark/data/tables/WxkxIHa298.txt
+- answer: 2.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: WxkxIHa298
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WxkxIHa298.png
+    table: /home/alexart/vlm-benchmark/data/tables/WxkxIHa298.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - P
+  - N
+  prompt: which has a larger range of values, P or N?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: WxkxIHa298
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WxkxIHa298.png
+    table: /home/alexart/vlm-benchmark/data/tables/WxkxIHa298.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by M?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: WxkxIHa298
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WxkxIHa298.png
+    table: /home/alexart/vlm-benchmark/data/tables/WxkxIHa298.txt
+- answer: 65
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations are there for M=1?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 2WNb4GWNBr
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2WNb4GWNBr.png
+    table: /home/alexart/vlm-benchmark/data/tables/2WNb4GWNBr.txt
+- answer: 28
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the difference in number of observations between 1
+    and 2?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 2WNb4GWNBr
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2WNb4GWNBr.png
+    table: /home/alexart/vlm-benchmark/data/tables/2WNb4GWNBr.txt
+- answer: 65.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the maximum count for M?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 2WNb4GWNBr
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2WNb4GWNBr.png
+    table: /home/alexart/vlm-benchmark/data/tables/2WNb4GWNBr.txt
+- answer: '1'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: which value of M appears most frequently?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 2WNb4GWNBr
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2WNb4GWNBr.png
+    table: /home/alexart/vlm-benchmark/data/tables/2WNb4GWNBr.txt
+- answer: '2'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: which nonzero value of M appears least frequently?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 2WNb4GWNBr
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2WNb4GWNBr.png
+    table: /home/alexart/vlm-benchmark/data/tables/2WNb4GWNBr.txt
+- answer: '1'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - '1'
+  - '2'
+  prompt: which M value is more frequent, 1 or 2?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 2WNb4GWNBr
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2WNb4GWNBr.png
+    table: /home/alexart/vlm-benchmark/data/tables/2WNb4GWNBr.txt
+- answer: 0.4276315789473684
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the probability that a new observation will have M=1?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: 2WNb4GWNBr
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/2WNb4GWNBr.png
+    table: /home/alexart/vlm-benchmark/data/tables/2WNb4GWNBr.txt
+- answer: 2
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations are in the 2nd bin for M=1?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: fJUdsr22hI
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fJUdsr22hI.png
+    table: /home/alexart/vlm-benchmark/data/tables/fJUdsr22hI.txt
+- answer: 7
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: for M=2, approximately how many total observations occur between O=1.10
+    and O=1.22?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: fJUdsr22hI
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fJUdsr22hI.png
+    table: /home/alexart/vlm-benchmark/data/tables/fJUdsr22hI.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 0
+  - 2
+  prompt: which has more total observations, M=0 or M=2?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: fJUdsr22hI
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fJUdsr22hI.png
+    table: /home/alexart/vlm-benchmark/data/tables/fJUdsr22hI.txt
+- answer: 14.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the maximum count for M=1?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: fJUdsr22hI
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fJUdsr22hI.png
+    table: /home/alexart/vlm-benchmark/data/tables/fJUdsr22hI.txt
+- answer: '1'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - '0'
+  - '1'
+  - '2'
+  prompt: for observations with O=0.97, which category of M are they most likely to
+    belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: fJUdsr22hI
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fJUdsr22hI.png
+    table: /home/alexart/vlm-benchmark/data/tables/fJUdsr22hI.txt
+- answer: 8.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the P value for O=1.08?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: fuSSYU4SIL
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fuSSYU4SIL.png
+    table: /home/alexart/vlm-benchmark/data/tables/fuSSYU4SIL.txt
+- answer: 10.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of P values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: fuSSYU4SIL
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fuSSYU4SIL.png
+    table: /home/alexart/vlm-benchmark/data/tables/fuSSYU4SIL.txt
+- answer: 12.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: fuSSYU4SIL
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fuSSYU4SIL.png
+    table: /home/alexart/vlm-benchmark/data/tables/fuSSYU4SIL.txt
+- answer: 2.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: fuSSYU4SIL
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fuSSYU4SIL.png
+    table: /home/alexart/vlm-benchmark/data/tables/fuSSYU4SIL.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - O
+  - P
+  prompt: which has a larger range of values, O or P?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: fuSSYU4SIL
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fuSSYU4SIL.png
+    table: /home/alexart/vlm-benchmark/data/tables/fuSSYU4SIL.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by M?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: fuSSYU4SIL
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fuSSYU4SIL.png
+    table: /home/alexart/vlm-benchmark/data/tables/fuSSYU4SIL.txt
+- answer: 0.821520415236066
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the O value for P=6.00?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: Lf07qbdESY
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Lf07qbdESY.png
+    table: /home/alexart/vlm-benchmark/data/tables/Lf07qbdESY.txt
+- answer: 1.25
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of O values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: Lf07qbdESY
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Lf07qbdESY.png
+    table: /home/alexart/vlm-benchmark/data/tables/Lf07qbdESY.txt
+- answer: 12.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Lf07qbdESY
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Lf07qbdESY.png
+    table: /home/alexart/vlm-benchmark/data/tables/Lf07qbdESY.txt
+- answer: 2.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Lf07qbdESY
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Lf07qbdESY.png
+    table: /home/alexart/vlm-benchmark/data/tables/Lf07qbdESY.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - P
+  - O
+  prompt: which has a larger range of values, P or O?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: Lf07qbdESY
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Lf07qbdESY.png
+    table: /home/alexart/vlm-benchmark/data/tables/Lf07qbdESY.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by N?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: Lf07qbdESY
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Lf07qbdESY.png
+    table: /home/alexart/vlm-benchmark/data/tables/Lf07qbdESY.txt
+- answer: -2.026267
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the mean N value for M=0?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: IJNGLr93Ir
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/IJNGLr93Ir.png
+    table: /home/alexart/vlm-benchmark/data/tables/IJNGLr93Ir.txt
+- answer: 1.927095
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the difference in mean N value between M=2 and M=1?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: IJNGLr93Ir
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/IJNGLr93Ir.png
+    table: /home/alexart/vlm-benchmark/data/tables/IJNGLr93Ir.txt
+- answer: 2
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  options: &id001
+  - 0
+  - 1
+  - 2
+  prompt: which category has the highest mean N value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: IJNGLr93Ir
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/IJNGLr93Ir.png
+    table: /home/alexart/vlm-benchmark/data/tables/IJNGLr93Ir.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  options: *id001
+  prompt: which category has the lowest mean N value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: IJNGLr93Ir
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/IJNGLr93Ir.png
+    table: /home/alexart/vlm-benchmark/data/tables/IJNGLr93Ir.txt
+- answer: 9.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the P value for N=0.38?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: fbvomilL0A
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fbvomilL0A.png
+    table: /home/alexart/vlm-benchmark/data/tables/fbvomilL0A.txt
+- answer: 6.43
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of N values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: fbvomilL0A
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fbvomilL0A.png
+    table: /home/alexart/vlm-benchmark/data/tables/fbvomilL0A.txt
+- answer: 12.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: fbvomilL0A
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fbvomilL0A.png
+    table: /home/alexart/vlm-benchmark/data/tables/fbvomilL0A.txt
+- answer: 2.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: fbvomilL0A
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fbvomilL0A.png
+    table: /home/alexart/vlm-benchmark/data/tables/fbvomilL0A.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - N
+  - P
+  prompt: which has a larger range of values, N or P?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: fbvomilL0A
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/fbvomilL0A.png
+    table: /home/alexart/vlm-benchmark/data/tables/fbvomilL0A.txt
+- answer: 0.6425181711619885
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the N value for O=0.94?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: iKwI4P8iah
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iKwI4P8iah.png
+    table: /home/alexart/vlm-benchmark/data/tables/iKwI4P8iah.txt
+- answer: 1.25
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of O values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: iKwI4P8iah
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iKwI4P8iah.png
+    table: /home/alexart/vlm-benchmark/data/tables/iKwI4P8iah.txt
+- answer: 1.6
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum O value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: iKwI4P8iah
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iKwI4P8iah.png
+    table: /home/alexart/vlm-benchmark/data/tables/iKwI4P8iah.txt
+- answer: 0.35
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum O value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: iKwI4P8iah
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iKwI4P8iah.png
+    table: /home/alexart/vlm-benchmark/data/tables/iKwI4P8iah.txt
+- answer: N
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - O
+  - N
+  prompt: which has a larger range of values, O or N?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: iKwI4P8iah
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iKwI4P8iah.png
+    table: /home/alexart/vlm-benchmark/data/tables/iKwI4P8iah.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by P?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: iKwI4P8iah
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iKwI4P8iah.png
+    table: /home/alexart/vlm-benchmark/data/tables/iKwI4P8iah.txt
+- answer: 1
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations are in the last bin?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 6WFGGnU5IA
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6WFGGnU5IA.png
+    table: /home/alexart/vlm-benchmark/data/tables/6WFGGnU5IA.txt
+- answer: 30
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations occur between P=2.00 and P=4.00?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 6WFGGnU5IA
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6WFGGnU5IA.png
+    table: /home/alexart/vlm-benchmark/data/tables/6WFGGnU5IA.txt
+- answer: 35.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the maximum count for P?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6WFGGnU5IA
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6WFGGnU5IA.png
+    table: /home/alexart/vlm-benchmark/data/tables/6WFGGnU5IA.txt
+- answer: 6.75
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: which value of P appears most frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6WFGGnU5IA
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6WFGGnU5IA.png
+    table: /home/alexart/vlm-benchmark/data/tables/6WFGGnU5IA.txt
+- answer: 10.75
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: which nonzero value of P appears least frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6WFGGnU5IA
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6WFGGnU5IA.png
+    table: /home/alexart/vlm-benchmark/data/tables/6WFGGnU5IA.txt
+- answer: 8.25
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 10.25
+  - 8.25
+  prompt: which P value is more frequent, P=10.25 or P=8.25?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 6WFGGnU5IA
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6WFGGnU5IA.png
+    table: /home/alexart/vlm-benchmark/data/tables/6WFGGnU5IA.txt
+- answer: 0.0136986301369863
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the probability that a new observation will have P greater than
+    10.00?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: 6WFGGnU5IA
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6WFGGnU5IA.png
+    table: /home/alexart/vlm-benchmark/data/tables/6WFGGnU5IA.txt
+- answer: 8
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations are in the last bin for M=2?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: JfpjH9qw8j
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/JfpjH9qw8j.png
+    table: /home/alexart/vlm-benchmark/data/tables/JfpjH9qw8j.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: for M=0, approximately how many total observations occur between N=0.47
+    and N=1.11?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: JfpjH9qw8j
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/JfpjH9qw8j.png
+    table: /home/alexart/vlm-benchmark/data/tables/JfpjH9qw8j.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 0
+  - 2
+  prompt: which has more total observations, M=0 or M=2?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: JfpjH9qw8j
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/JfpjH9qw8j.png
+    table: /home/alexart/vlm-benchmark/data/tables/JfpjH9qw8j.txt
+- answer: 28.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the maximum count for M=1?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: JfpjH9qw8j
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/JfpjH9qw8j.png
+    table: /home/alexart/vlm-benchmark/data/tables/JfpjH9qw8j.txt
+- answer: '2'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - '0'
+  - '1'
+  - '2'
+  prompt: for observations with N=1.11, which category of M are they most likely to
+    belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: JfpjH9qw8j
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/JfpjH9qw8j.png
+    table: /home/alexart/vlm-benchmark/data/tables/JfpjH9qw8j.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations are in the 3rd bin for M=2?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: SE3zAA86V2
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/SE3zAA86V2.png
+    table: /home/alexart/vlm-benchmark/data/tables/SE3zAA86V2.txt
+- answer: 2
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: for M=2, approximately how many total observations occur between P=2.00
+    and P=4.00?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: SE3zAA86V2
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/SE3zAA86V2.png
+    table: /home/alexart/vlm-benchmark/data/tables/SE3zAA86V2.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 2
+  - 0
+  prompt: which has more total observations, M=2 or M=0?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: SE3zAA86V2
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/SE3zAA86V2.png
+    table: /home/alexart/vlm-benchmark/data/tables/SE3zAA86V2.txt
+- answer: 9.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the maximum count for M=2?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: SE3zAA86V2
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/SE3zAA86V2.png
+    table: /home/alexart/vlm-benchmark/data/tables/SE3zAA86V2.txt
+- answer: '0'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - '0'
+  - '1'
+  - '2'
+  prompt: for observations with P=2.0, which category of M are they most likely to
+    belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: SE3zAA86V2
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/SE3zAA86V2.png
+    table: /home/alexart/vlm-benchmark/data/tables/SE3zAA86V2.txt
+- answer: 1.151794
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the mean O value for M=2?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: prPx3eL769
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/prPx3eL769.png
+    table: /home/alexart/vlm-benchmark/data/tables/prPx3eL769.txt
+- answer: 0.18152999999999997
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the difference in mean O value between M=0 and M=1?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: prPx3eL769
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/prPx3eL769.png
+    table: /home/alexart/vlm-benchmark/data/tables/prPx3eL769.txt
+- answer: 2
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  options: &id002
+  - 0
+  - 1
+  - 2
+  prompt: which category has the highest mean O value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: prPx3eL769
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/prPx3eL769.png
+    table: /home/alexart/vlm-benchmark/data/tables/prPx3eL769.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  options: *id002
+  prompt: which category has the lowest mean O value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: prPx3eL769
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/prPx3eL769.png
+    table: /home/alexart/vlm-benchmark/data/tables/prPx3eL769.txt
+- answer: 6.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the P value for O=1.25?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 1A8KElu0t1
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/1A8KElu0t1.png
+    table: /home/alexart/vlm-benchmark/data/tables/1A8KElu0t1.txt
+- answer: 1.25
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of O values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 1A8KElu0t1
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/1A8KElu0t1.png
+    table: /home/alexart/vlm-benchmark/data/tables/1A8KElu0t1.txt
+- answer: 1.6
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum O value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 1A8KElu0t1
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/1A8KElu0t1.png
+    table: /home/alexart/vlm-benchmark/data/tables/1A8KElu0t1.txt
+- answer: 0.35
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum O value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 1A8KElu0t1
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/1A8KElu0t1.png
+    table: /home/alexart/vlm-benchmark/data/tables/1A8KElu0t1.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - O
+  - P
+  prompt: which has a larger range of values, O or P?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 1A8KElu0t1
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/1A8KElu0t1.png
+    table: /home/alexart/vlm-benchmark/data/tables/1A8KElu0t1.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by N?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 1A8KElu0t1
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/1A8KElu0t1.png
+    table: /home/alexart/vlm-benchmark/data/tables/1A8KElu0t1.txt
+- answer: 6
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations are in the 3rd bin?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: vVdNcNUCvL
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vVdNcNUCvL.png
+    table: /home/alexart/vlm-benchmark/data/tables/vVdNcNUCvL.txt
+- answer: 37
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately how many observations occur between O=1.10 and O=1.35?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: vVdNcNUCvL
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vVdNcNUCvL.png
+    table: /home/alexart/vlm-benchmark/data/tables/vVdNcNUCvL.txt
+- answer: 23.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the maximum count for O?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: vVdNcNUCvL
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vVdNcNUCvL.png
+    table: /home/alexart/vlm-benchmark/data/tables/vVdNcNUCvL.txt
+- answer: 0.89
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: which value of O appears most frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: vVdNcNUCvL
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vVdNcNUCvL.png
+    table: /home/alexart/vlm-benchmark/data/tables/vVdNcNUCvL.txt
+- answer: 0.39
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: which nonzero value of O appears least frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: vVdNcNUCvL
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vVdNcNUCvL.png
+    table: /home/alexart/vlm-benchmark/data/tables/vVdNcNUCvL.txt
+- answer: 0.89
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 0.89
+  - 0.39
+  prompt: which O value is more frequent, O=0.89 or O=0.39?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: vVdNcNUCvL
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vVdNcNUCvL.png
+    table: /home/alexart/vlm-benchmark/data/tables/vVdNcNUCvL.txt
+- answer: 1.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the probability that a new observation will have O greater than
+    0.35?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: vVdNcNUCvL
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vVdNcNUCvL.png
+    table: /home/alexart/vlm-benchmark/data/tables/vVdNcNUCvL.txt
+- answer: 1.19579128563074
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the O value for N=0.59?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: Ggn6Yxz1P7
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Ggn6Yxz1P7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Ggn6Yxz1P7.txt
+- answer: 1.25
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of O values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: Ggn6Yxz1P7
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Ggn6Yxz1P7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Ggn6Yxz1P7.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Ggn6Yxz1P7
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Ggn6Yxz1P7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Ggn6Yxz1P7.txt
+- answer: -3.38
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Ggn6Yxz1P7
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Ggn6Yxz1P7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Ggn6Yxz1P7.txt
+- answer: N
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - N
+  - O
+  prompt: which has a larger range of values, N or O?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: Ggn6Yxz1P7
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Ggn6Yxz1P7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Ggn6Yxz1P7.txt
+- answer: 1
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: what is the degree of the polynomial that best fits the relationship between
+    N and O?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: Ggn6Yxz1P7
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Ggn6Yxz1P7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Ggn6Yxz1P7.txt
+- answer: linear
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - linear
+  - nonlinear
+  prompt: is the relationship between N and O linear or nonlinear?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: Ggn6Yxz1P7
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Ggn6Yxz1P7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Ggn6Yxz1P7.txt
+- answer: 7.162162
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the mean P value for M=2?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 7SUTpB3OKC
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7SUTpB3OKC.png
+    table: /home/alexart/vlm-benchmark/data/tables/7SUTpB3OKC.txt
+- answer: 2.0621620000000007
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the difference in mean P value between M=2 and M=0?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 7SUTpB3OKC
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7SUTpB3OKC.png
+    table: /home/alexart/vlm-benchmark/data/tables/7SUTpB3OKC.txt
+- answer: 2
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  options: &id003
+  - 0
+  - 1
+  - 2
+  prompt: which category has the highest mean P value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 7SUTpB3OKC
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7SUTpB3OKC.png
+    table: /home/alexart/vlm-benchmark/data/tables/7SUTpB3OKC.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_5
+  generator: generator_5
+  options: *id003
+  prompt: which category has the lowest mean P value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 7SUTpB3OKC
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7SUTpB3OKC.png
+    table: /home/alexart/vlm-benchmark/data/tables/7SUTpB3OKC.txt
+- answer: 6.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the P value for N=1.68?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: WNhRJ1NtUa
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNhRJ1NtUa.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNhRJ1NtUa.txt
+- answer: 10.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of P values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: WNhRJ1NtUa
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNhRJ1NtUa.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNhRJ1NtUa.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: WNhRJ1NtUa
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNhRJ1NtUa.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNhRJ1NtUa.txt
+- answer: -3.38
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum N value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: WNhRJ1NtUa
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNhRJ1NtUa.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNhRJ1NtUa.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - N
+  - P
+  prompt: which has a larger range of values, N or P?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: WNhRJ1NtUa
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNhRJ1NtUa.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNhRJ1NtUa.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by M?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: WNhRJ1NtUa
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNhRJ1NtUa.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNhRJ1NtUa.txt
+- answer: 4.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the P value for O=1.05?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: wT5LRJ5nQw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wT5LRJ5nQw.png
+    table: /home/alexart/vlm-benchmark/data/tables/wT5LRJ5nQw.txt
+- answer: 10.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the range of P values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: wT5LRJ5nQw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wT5LRJ5nQw.png
+    table: /home/alexart/vlm-benchmark/data/tables/wT5LRJ5nQw.txt
+- answer: 12.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the maximum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: wT5LRJ5nQw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wT5LRJ5nQw.png
+    table: /home/alexart/vlm-benchmark/data/tables/wT5LRJ5nQw.txt
+- answer: 2.0
+  answer_type: <class 'float'>
+  dataset: dataset_5
+  generator: generator_5
+  prompt: approximately what is the minimum P value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: wT5LRJ5nQw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wT5LRJ5nQw.png
+    table: /home/alexart/vlm-benchmark/data/tables/wT5LRJ5nQw.txt
+- answer: P
+  answer_type: <class 'str'>
+  dataset: dataset_5
+  generator: generator_5
+  options:
+  - O
+  - P
+  prompt: which has a larger range of values, O or P?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: wT5LRJ5nQw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wT5LRJ5nQw.png
+    table: /home/alexart/vlm-benchmark/data/tables/wT5LRJ5nQw.txt

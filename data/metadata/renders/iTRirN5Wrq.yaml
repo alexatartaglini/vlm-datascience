@@ -1,0 +1,17 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C1
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: iTRirN5Wrq
+renders:
+  plot: data/plots/iTRirN5Wrq.png
+  table: data/tables/iTRirN5Wrq.txt
+style: C2
+style_type: categorical
+type: scatter
+x: X
+x_type: numeric
+y: Y
+y_type: numeric

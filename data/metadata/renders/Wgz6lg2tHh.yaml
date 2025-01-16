@@ -1,0 +1,14 @@
+agg_func: mean
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 2
+render_id: Wgz6lg2tHh
+renders:
+  plot: data/plots/Wgz6lg2tHh.png
+  table: data/tables/Wgz6lg2tHh.txt
+type: bar
+x: Category
+x_type: categorical
+y: W
+y_type: numeric

@@ -1,0 +1,21 @@
+# Description: bimodal distribution with quadratic and linear relationships. Bimodal data with two distinct clusters and mixed linear/nonlinear relationships.
+
+# Define the variables in order
+variables: ["A", "B", "C", "D"]
+
+# Define the distribution for each variable
+variable_objects:
+  A: "categorical(probs=[0.6, 0.4], categories=[0, 1])"
+  B: "normal(mean=0, std=1, dtype=float)"
+  C: "normal(mean=0, std=0.5, dtype=float)"
+  D: "uniform(low=-1, high=1, dtype=float)"
+
+# Define dependencies between variables
+dependencies:
+  A:
+    B: "BooleanFunction(['x==0', 'x==1'], [-2, 2], 'mean')"  # Creates two clusters based on A
+  B:
+    C: "Polynomial([0, 1.5, -0.3])"  # Quadratic relationship between B and C
+    D: "Polynomial([0, 0.7])"  # Linear relationship between B and D
+  C:
+    D: "Polynomial([0, 0.3, 0.2])"  # Another quadratic relationship

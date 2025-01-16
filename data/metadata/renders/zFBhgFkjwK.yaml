@@ -1,0 +1,19 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: C
+hue_type: categorical
+hue_values:
+- '''L3'''
+- '''L2'''
+- '''L1'''
+legend: true
+num_vars: 3
+render_id: zFBhgFkjwK
+renders:
+  plot: data/plots/zFBhgFkjwK.png
+  table: data/tables/zFBhgFkjwK.txt
+type: scatter
+x: Y
+x_type: numeric
+y: A
+y_type: numeric

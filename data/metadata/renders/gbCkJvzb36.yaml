@@ -1,0 +1,19 @@
+bins: 15
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 1
+plot_xticks:
+- -3.319928283786252
+- -2.046954644394597
+- -0.7739810050029425
+- 0.49899263438871166
+- 1.7719662737803668
+- 3.0449399131720205
+render_id: gbCkJvzb36
+renders:
+  plot: data/plots/gbCkJvzb36.png
+  table: data/tables/gbCkJvzb36.txt
+type: histogram
+x: Y
+x_type: numeric

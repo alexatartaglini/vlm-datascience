@@ -1,0 +1,25 @@
+bins: 20
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C2
+hue_type: categorical
+hue_values:
+- S
+- T
+- R
+legend: true
+num_vars: 2
+plot_xticks:
+- -3.1537902581944266
+- -1.9711584259747537
+- -0.7885265937550807
+- 0.3941052384645922
+- 1.5767370706842652
+- 2.759368902903938
+render_id: yBTf3HRRYb
+renders:
+  plot: data/plots/yBTf3HRRYb.png
+  table: data/tables/yBTf3HRRYb.txt
+type: histogram
+x: X
+x_type: numeric

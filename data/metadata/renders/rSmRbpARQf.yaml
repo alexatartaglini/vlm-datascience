@@ -1,0 +1,15 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: X
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: rSmRbpARQf
+renders:
+  plot: data/plots/rSmRbpARQf.png
+  table: data/tables/rSmRbpARQf.txt
+type: scatter
+x: Y
+x_type: numeric
+y: Z
+y_type: numeric

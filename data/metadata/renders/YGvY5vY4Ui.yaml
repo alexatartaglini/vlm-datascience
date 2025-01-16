@@ -1,0 +1,19 @@
+dataset_name: dataset_17
+generator_name: generator_17
+hue: State
+hue_type: categorical
+hue_values:
+- S3
+- S1
+- S2
+legend: true
+num_vars: 3
+render_id: YGvY5vY4Ui
+renders:
+  plot: data/plots/YGvY5vY4Ui.png
+  table: data/tables/YGvY5vY4Ui.txt
+type: scatter
+x: G2
+x_type: numeric
+y: G1
+y_type: numeric

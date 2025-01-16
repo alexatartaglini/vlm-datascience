@@ -1,0 +1,14 @@
+agg_func: mean
+dataset_name: dataset_7
+generator_name: generator_7
+legend: false
+num_vars: 2
+render_id: 8YAfs7SpGo
+renders:
+  plot: data/plots/8YAfs7SpGo.png
+  table: data/tables/8YAfs7SpGo.txt
+type: bar
+x: C2
+x_type: categorical
+y: Z
+y_type: numeric

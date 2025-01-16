@@ -1,0 +1,17 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C1
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: JRtVfmfkFd
+renders:
+  plot: data/plots/JRtVfmfkFd.png
+  table: data/tables/JRtVfmfkFd.txt
+style: C2
+style_type: categorical
+type: scatter
+x: Y
+x_type: numeric
+y: X
+y_type: numeric

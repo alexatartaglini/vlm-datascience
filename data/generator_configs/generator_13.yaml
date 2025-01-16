@@ -1,0 +1,24 @@
+# Description: Mixture with Phase Transitions. Phase transition systems with multiple stable states
+
+# Define the variables in order
+variables: ["C1", "A", "B", "D", "C2"]
+
+# Define the distribution of each variable
+variable_objects:
+  C1: "categorical(probs=[0.2, 0.3, 0.5], categories=['K', 'L', 'M'])"
+  A: "uniform(low=-10, high=10)"
+  B: "normal(mean=0, std=1)"
+  D: "beta(a=2, b=5)"
+  C2: "categorical(probs=[0.5, 0.5], categories=['V', 'W'])"
+
+# Define dependencies between variables
+dependencies:
+  A:
+    C1: "BooleanFunction(['x<-5', 'x<5'], ['K', 'L', 'M'])"
+    B: "Polynomial([0, 1, 0.1])"
+  C1:
+    B: "BooleanFunction(['x==K', 'x==L', 'x==M'], [-1, 0, 1])"
+    D: "BooleanFunction(['x==K', 'x==L', 'x==M'], [0.2, 0.5, 0.8])"
+  B:
+    C2: "BooleanFunction(['abs(x)>2'], ['W', 'V'])"
+    D: "BooleanFunction(['C1==K', 'C1==L', 'C1==M'], [0.1, 0.3, 0.5])"

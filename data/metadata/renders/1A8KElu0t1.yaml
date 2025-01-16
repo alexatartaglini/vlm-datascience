@@ -1,0 +1,15 @@
+dataset_name: dataset_5
+generator_name: generator_5
+hue: N
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: 1A8KElu0t1
+renders:
+  plot: data/plots/1A8KElu0t1.png
+  table: data/tables/1A8KElu0t1.txt
+type: scatter
+x: O
+x_type: numeric
+y: P
+y_type: numeric

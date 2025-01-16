@@ -1,0 +1,17 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: X
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: zUZqC1CINd
+renders:
+  plot: data/plots/zUZqC1CINd.png
+  table: data/tables/zUZqC1CINd.txt
+style: C
+style_type: categorical
+type: scatter
+x: A
+x_type: numeric
+y: Y
+y_type: numeric

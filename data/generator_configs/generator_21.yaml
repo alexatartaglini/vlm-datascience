@@ -1,0 +1,35 @@
+# Description: Multi-variable polynomial relationships with category-dependent coefficients
+
+variables: ["Category", "X", "Y", "Z", "W"]
+
+variable_objects:
+  Category: "categorical(probs=[0.33, 0.33, 0.34], categories=['Low', 'Mid', 'High'])"
+  X: "uniform(low=-2, high=2)"
+  Y: "normal(mean=0, std=1)"
+  Z: "normal(mean=0, std=1)"
+  W: "normal(mean=0, std=1)"
+
+dependencies:
+  Category:
+    # Different base offsets for each category
+    X: "BooleanFunction(['x==Low', 'x==Mid', 'x==High'], [-1, 0, 1])"
+    
+  Category:
+    # Y follows different polynomial relationships based on category # Low: y = x + 0.5x², # Mid: y = 2x - 0.3x², # High: y = x + x² + 0.2x³
+    Y: "BooleanFunction(['x==Low', 'x==Mid', 'x==High'], 
+        [Polynomial((0, 1, 0.5)),
+         Polynomial((0, 2, -0.3)),
+         Polynomial((0, 1, 1, 0.2))],
+        'dependency')"
+    
+  Y:
+    # Z has polynomial relationship with Y
+    Z: "Polynomial([0, 0.5, 1, -0.2])"  # z = 0.5y + y² - 0.2y³
+    
+  Category:
+    # W has category-dependent polynomial relationships with Z  # Low: simple linear # Mid: quadratic  # High: cubic with no quadratic term
+    W: "BooleanFunction(['x==Low', 'x==Mid', 'x==High'],
+        [Polynomial((0, 0.5)),
+         Polynomial((0, 1, 0.5)),
+         Polynomial((0, 1, 0, 0.2))],
+        'dependency')"

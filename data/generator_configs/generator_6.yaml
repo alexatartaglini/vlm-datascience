@@ -1,0 +1,18 @@
+# Description: Cyclic Patterns with Noise. Periodic relationships with noise
+
+# Define the variables in order
+variables: ["T", "U", "V"]
+
+# Define the distribution of each variable
+variable_objects:
+  T: "uniform(low=0, high=2*pi)"  # Circular parameter
+  U: "normal(mean=0, std=0.3)"  # Noise component
+  V: "normal(mean=0, std=0.5)"  # Additional variable
+
+# Define dependencies between variables
+dependencies:
+  T:
+    U: "Trigonometric(['sin(x)', 'cos(x)'], [1, 0.5])"  # Sinusoidal pattern
+    V: "Trigonometric(['sin(2*x)', 'cos(x)'], [0.7, 0.3])"  # More complex periodic pattern
+  U:
+    V: "Polynomial([0, 0.4])"  # Linear relationship with noise

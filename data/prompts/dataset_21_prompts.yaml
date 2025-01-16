@@ -1,0 +1,4230 @@
+- answer: 0.3719246285670418
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for Z=3.17?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 3NUacMpIln
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3NUacMpIln.png
+    table: /home/alexart/vlm-benchmark/data/tables/3NUacMpIln.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 3NUacMpIln
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3NUacMpIln.png
+    table: /home/alexart/vlm-benchmark/data/tables/3NUacMpIln.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 3NUacMpIln
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3NUacMpIln.png
+    table: /home/alexart/vlm-benchmark/data/tables/3NUacMpIln.txt
+- answer: -1.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 3NUacMpIln
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3NUacMpIln.png
+    table: /home/alexart/vlm-benchmark/data/tables/3NUacMpIln.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - W
+  prompt: which has a larger range of values, Z or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 3NUacMpIln
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3NUacMpIln.png
+    table: /home/alexart/vlm-benchmark/data/tables/3NUacMpIln.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Y?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 3NUacMpIln
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3NUacMpIln.png
+    table: /home/alexart/vlm-benchmark/data/tables/3NUacMpIln.txt
+- answer: -0.3313903900463702
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for Z=0.00?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: WNqsuBjLH6
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNqsuBjLH6.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNqsuBjLH6.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: WNqsuBjLH6
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNqsuBjLH6.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNqsuBjLH6.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: WNqsuBjLH6
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNqsuBjLH6.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNqsuBjLH6.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: WNqsuBjLH6
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNqsuBjLH6.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNqsuBjLH6.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - W
+  prompt: which has a larger range of values, Z or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: WNqsuBjLH6
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNqsuBjLH6.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNqsuBjLH6.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by X?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: WNqsuBjLH6
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/WNqsuBjLH6.png
+    table: /home/alexart/vlm-benchmark/data/tables/WNqsuBjLH6.txt
+- answer: -0.8670072909906318
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for W=0.14?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 9mmyHfpwiq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9mmyHfpwiq.png
+    table: /home/alexart/vlm-benchmark/data/tables/9mmyHfpwiq.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 9mmyHfpwiq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9mmyHfpwiq.png
+    table: /home/alexart/vlm-benchmark/data/tables/9mmyHfpwiq.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 9mmyHfpwiq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9mmyHfpwiq.png
+    table: /home/alexart/vlm-benchmark/data/tables/9mmyHfpwiq.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 9mmyHfpwiq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9mmyHfpwiq.png
+    table: /home/alexart/vlm-benchmark/data/tables/9mmyHfpwiq.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - W
+  - Y
+  prompt: which has a larger range of values, W or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 9mmyHfpwiq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9mmyHfpwiq.png
+    table: /home/alexart/vlm-benchmark/data/tables/9mmyHfpwiq.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 9mmyHfpwiq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9mmyHfpwiq.png
+    table: /home/alexart/vlm-benchmark/data/tables/9mmyHfpwiq.txt
+- answer: 0.429543135580265
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the X value for Z=4.07?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: wODdAbG3or
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wODdAbG3or.png
+    table: /home/alexart/vlm-benchmark/data/tables/wODdAbG3or.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: wODdAbG3or
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wODdAbG3or.png
+    table: /home/alexart/vlm-benchmark/data/tables/wODdAbG3or.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: wODdAbG3or
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wODdAbG3or.png
+    table: /home/alexart/vlm-benchmark/data/tables/wODdAbG3or.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: wODdAbG3or
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wODdAbG3or.png
+    table: /home/alexart/vlm-benchmark/data/tables/wODdAbG3or.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - X
+  prompt: which has a larger range of values, Z or X?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: wODdAbG3or
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wODdAbG3or.png
+    table: /home/alexart/vlm-benchmark/data/tables/wODdAbG3or.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: wODdAbG3or
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/wODdAbG3or.png
+    table: /home/alexart/vlm-benchmark/data/tables/wODdAbG3or.txt
+- answer: 1.050079918411423
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for Y=0.49?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: r7mfzeVcuo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/r7mfzeVcuo.png
+    table: /home/alexart/vlm-benchmark/data/tables/r7mfzeVcuo.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: r7mfzeVcuo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/r7mfzeVcuo.png
+    table: /home/alexart/vlm-benchmark/data/tables/r7mfzeVcuo.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: r7mfzeVcuo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/r7mfzeVcuo.png
+    table: /home/alexart/vlm-benchmark/data/tables/r7mfzeVcuo.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: r7mfzeVcuo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/r7mfzeVcuo.png
+    table: /home/alexart/vlm-benchmark/data/tables/r7mfzeVcuo.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - Z
+  prompt: which has a larger range of values, Y or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: r7mfzeVcuo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/r7mfzeVcuo.png
+    table: /home/alexart/vlm-benchmark/data/tables/r7mfzeVcuo.txt
+- answer: 1
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the degree of the polynomial that best fits the relationship between
+    Y and Z?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: r7mfzeVcuo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/r7mfzeVcuo.png
+    table: /home/alexart/vlm-benchmark/data/tables/r7mfzeVcuo.txt
+- answer: linear
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - linear
+  - nonlinear
+  prompt: is the relationship between Y and Z linear or nonlinear?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: r7mfzeVcuo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/r7mfzeVcuo.png
+    table: /home/alexart/vlm-benchmark/data/tables/r7mfzeVcuo.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by W?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: r7mfzeVcuo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/r7mfzeVcuo.png
+    table: /home/alexart/vlm-benchmark/data/tables/r7mfzeVcuo.txt
+- answer: 2
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations are in the last bin for Category=Mid?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: rR1hMgfhnv
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/rR1hMgfhnv.png
+    table: /home/alexart/vlm-benchmark/data/tables/rR1hMgfhnv.txt
+- answer: 8
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: for Category=High, approximately how many total observations occur between
+    W=-0.82 and W=-0.32?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: rR1hMgfhnv
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/rR1hMgfhnv.png
+    table: /home/alexart/vlm-benchmark/data/tables/rR1hMgfhnv.txt
+- answer: Low
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Mid
+  - Low
+  prompt: which has more total observations, Category=Mid or Category=Low?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: rR1hMgfhnv
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/rR1hMgfhnv.png
+    table: /home/alexart/vlm-benchmark/data/tables/rR1hMgfhnv.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the maximum count for Category=High?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: rR1hMgfhnv
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/rR1hMgfhnv.png
+    table: /home/alexart/vlm-benchmark/data/tables/rR1hMgfhnv.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - High
+  - Low
+  - Mid
+  prompt: for observations with W=0.18, which category of Category are they most likely
+    to belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: rR1hMgfhnv
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/rR1hMgfhnv.png
+    table: /home/alexart/vlm-benchmark/data/tables/rR1hMgfhnv.txt
+- answer: -0.4139155570278758
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for W=0.63?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 7aeQ7tAbcQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7aeQ7tAbcQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/7aeQ7tAbcQ.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 7aeQ7tAbcQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7aeQ7tAbcQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/7aeQ7tAbcQ.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 7aeQ7tAbcQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7aeQ7tAbcQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/7aeQ7tAbcQ.txt
+- answer: -1.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 7aeQ7tAbcQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7aeQ7tAbcQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/7aeQ7tAbcQ.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - W
+  - Z
+  prompt: which has a larger range of values, W or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 7aeQ7tAbcQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7aeQ7tAbcQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/7aeQ7tAbcQ.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by X?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 7aeQ7tAbcQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7aeQ7tAbcQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/7aeQ7tAbcQ.txt
+- answer: 72
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations are in the 2nd bin?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: DI2hHrPr8c
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DI2hHrPr8c.png
+    table: /home/alexart/vlm-benchmark/data/tables/DI2hHrPr8c.txt
+- answer: 32
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations occur between Z=1.61 and Z=3.29?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: DI2hHrPr8c
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DI2hHrPr8c.png
+    table: /home/alexart/vlm-benchmark/data/tables/DI2hHrPr8c.txt
+- answer: 72.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the maximum count for Z?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: DI2hHrPr8c
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DI2hHrPr8c.png
+    table: /home/alexart/vlm-benchmark/data/tables/DI2hHrPr8c.txt
+- answer: 0.78
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which value of Z appears most frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: DI2hHrPr8c
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DI2hHrPr8c.png
+    table: /home/alexart/vlm-benchmark/data/tables/DI2hHrPr8c.txt
+- answer: 7.47
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which nonzero value of Z appears least frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: DI2hHrPr8c
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DI2hHrPr8c.png
+    table: /home/alexart/vlm-benchmark/data/tables/DI2hHrPr8c.txt
+- answer: 4.12
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 9.14
+  - 4.12
+  prompt: which Z value is more frequent, Z=9.14 or Z=4.12?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: DI2hHrPr8c
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DI2hHrPr8c.png
+    table: /home/alexart/vlm-benchmark/data/tables/DI2hHrPr8c.txt
+- answer: 0.006896551724137931
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the probability that a new observation will have Z greater than
+    11.65?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: DI2hHrPr8c
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DI2hHrPr8c.png
+    table: /home/alexart/vlm-benchmark/data/tables/DI2hHrPr8c.txt
+- answer: 1.566934
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the mean Z value for Category=Low?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: AC3NJcVCj0
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AC3NJcVCj0.png
+    table: /home/alexart/vlm-benchmark/data/tables/AC3NJcVCj0.txt
+- answer: 0.10529200000000016
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the difference in mean Z value between Category=High
+    and Category=Mid?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: AC3NJcVCj0
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AC3NJcVCj0.png
+    table: /home/alexart/vlm-benchmark/data/tables/AC3NJcVCj0.txt
+- answer: Low
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options: &id001
+  - High
+  - Low
+  - Mid
+  prompt: which category has the highest mean Z value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: AC3NJcVCj0
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AC3NJcVCj0.png
+    table: /home/alexart/vlm-benchmark/data/tables/AC3NJcVCj0.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options: *id001
+  prompt: which category has the lowest mean Z value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: AC3NJcVCj0
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AC3NJcVCj0.png
+    table: /home/alexart/vlm-benchmark/data/tables/AC3NJcVCj0.txt
+- answer: 5
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations are in the 3rd bin for Category=Low?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: ClGgHD5jFu
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ClGgHD5jFu.png
+    table: /home/alexart/vlm-benchmark/data/tables/ClGgHD5jFu.txt
+- answer: 15
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: for Category=Low, approximately how many total observations occur between
+    X=-0.39 and X=0.40?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: ClGgHD5jFu
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ClGgHD5jFu.png
+    table: /home/alexart/vlm-benchmark/data/tables/ClGgHD5jFu.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - High
+  - Low
+  prompt: which has more total observations, Category=High or Category=Low?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ClGgHD5jFu
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ClGgHD5jFu.png
+    table: /home/alexart/vlm-benchmark/data/tables/ClGgHD5jFu.txt
+- answer: 9.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the maximum count for Category=High?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ClGgHD5jFu
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ClGgHD5jFu.png
+    table: /home/alexart/vlm-benchmark/data/tables/ClGgHD5jFu.txt
+- answer: Low
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - High
+  - Low
+  - Mid
+  prompt: for observations with X=1.99, which category of Category are they most likely
+    to belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: ClGgHD5jFu
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ClGgHD5jFu.png
+    table: /home/alexart/vlm-benchmark/data/tables/ClGgHD5jFu.txt
+- answer: 3.383982052708987
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for Y=1.40?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 6zVbjU0qTf
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zVbjU0qTf.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zVbjU0qTf.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 6zVbjU0qTf
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zVbjU0qTf.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zVbjU0qTf.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6zVbjU0qTf
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zVbjU0qTf.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zVbjU0qTf.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6zVbjU0qTf
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zVbjU0qTf.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zVbjU0qTf.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - Z
+  prompt: which has a larger range of values, Y or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 6zVbjU0qTf
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zVbjU0qTf.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zVbjU0qTf.txt
+- answer: 1
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the degree of the polynomial that best fits the relationship between
+    Y and Z?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: 6zVbjU0qTf
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zVbjU0qTf.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zVbjU0qTf.txt
+- answer: linear
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - linear
+  - nonlinear
+  prompt: is the relationship between Y and Z linear or nonlinear?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 6zVbjU0qTf
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zVbjU0qTf.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zVbjU0qTf.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 6zVbjU0qTf
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zVbjU0qTf.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zVbjU0qTf.txt
+- answer: -0.8217291834517171
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for Z=0.49?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: xhi9VUGX1d
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xhi9VUGX1d.png
+    table: /home/alexart/vlm-benchmark/data/tables/xhi9VUGX1d.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: xhi9VUGX1d
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xhi9VUGX1d.png
+    table: /home/alexart/vlm-benchmark/data/tables/xhi9VUGX1d.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: xhi9VUGX1d
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xhi9VUGX1d.png
+    table: /home/alexart/vlm-benchmark/data/tables/xhi9VUGX1d.txt
+- answer: -1.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: xhi9VUGX1d
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xhi9VUGX1d.png
+    table: /home/alexart/vlm-benchmark/data/tables/xhi9VUGX1d.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - Y
+  prompt: which has a larger range of values, Z or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: xhi9VUGX1d
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xhi9VUGX1d.png
+    table: /home/alexart/vlm-benchmark/data/tables/xhi9VUGX1d.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by W?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: xhi9VUGX1d
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xhi9VUGX1d.png
+    table: /home/alexart/vlm-benchmark/data/tables/xhi9VUGX1d.txt
+- answer: -0.3472641995834907
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for X=-1.47?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: PsOQnBRcE0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/PsOQnBRcE0.png
+    table: /home/alexart/vlm-benchmark/data/tables/PsOQnBRcE0.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: PsOQnBRcE0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/PsOQnBRcE0.png
+    table: /home/alexart/vlm-benchmark/data/tables/PsOQnBRcE0.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: PsOQnBRcE0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/PsOQnBRcE0.png
+    table: /home/alexart/vlm-benchmark/data/tables/PsOQnBRcE0.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: PsOQnBRcE0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/PsOQnBRcE0.png
+    table: /home/alexart/vlm-benchmark/data/tables/PsOQnBRcE0.txt
+- answer: W
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - W
+  prompt: which has a larger range of values, X or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: PsOQnBRcE0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/PsOQnBRcE0.png
+    table: /home/alexart/vlm-benchmark/data/tables/PsOQnBRcE0.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Z?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: PsOQnBRcE0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/PsOQnBRcE0.png
+    table: /home/alexart/vlm-benchmark/data/tables/PsOQnBRcE0.txt
+- answer: 0.3037496352204399
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for Y=-0.46?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: yq9IxquT7U
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/yq9IxquT7U.png
+    table: /home/alexart/vlm-benchmark/data/tables/yq9IxquT7U.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: yq9IxquT7U
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/yq9IxquT7U.png
+    table: /home/alexart/vlm-benchmark/data/tables/yq9IxquT7U.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: yq9IxquT7U
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/yq9IxquT7U.png
+    table: /home/alexart/vlm-benchmark/data/tables/yq9IxquT7U.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: yq9IxquT7U
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/yq9IxquT7U.png
+    table: /home/alexart/vlm-benchmark/data/tables/yq9IxquT7U.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - Z
+  prompt: which has a larger range of values, Y or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: yq9IxquT7U
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/yq9IxquT7U.png
+    table: /home/alexart/vlm-benchmark/data/tables/yq9IxquT7U.txt
+- answer: 1
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the degree of the polynomial that best fits the relationship between
+    Y and Z?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: yq9IxquT7U
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/yq9IxquT7U.png
+    table: /home/alexart/vlm-benchmark/data/tables/yq9IxquT7U.txt
+- answer: linear
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - linear
+  - nonlinear
+  prompt: is the relationship between Y and Z linear or nonlinear?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: yq9IxquT7U
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/yq9IxquT7U.png
+    table: /home/alexart/vlm-benchmark/data/tables/yq9IxquT7U.txt
+- answer: 0.0389269404844501
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for X=-1.77?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: HLUNWK8TBU
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HLUNWK8TBU.png
+    table: /home/alexart/vlm-benchmark/data/tables/HLUNWK8TBU.txt
+- answer: 5.01
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of W values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: HLUNWK8TBU
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HLUNWK8TBU.png
+    table: /home/alexart/vlm-benchmark/data/tables/HLUNWK8TBU.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: HLUNWK8TBU
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HLUNWK8TBU.png
+    table: /home/alexart/vlm-benchmark/data/tables/HLUNWK8TBU.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: HLUNWK8TBU
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HLUNWK8TBU.png
+    table: /home/alexart/vlm-benchmark/data/tables/HLUNWK8TBU.txt
+- answer: W
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - W
+  prompt: which has a larger range of values, X or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: HLUNWK8TBU
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HLUNWK8TBU.png
+    table: /home/alexart/vlm-benchmark/data/tables/HLUNWK8TBU.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: HLUNWK8TBU
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HLUNWK8TBU.png
+    table: /home/alexart/vlm-benchmark/data/tables/HLUNWK8TBU.txt
+- answer: -1.5132388524508888
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for X=0.77?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 7xJCW7eI9w
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7xJCW7eI9w.png
+    table: /home/alexart/vlm-benchmark/data/tables/7xJCW7eI9w.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 7xJCW7eI9w
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7xJCW7eI9w.png
+    table: /home/alexart/vlm-benchmark/data/tables/7xJCW7eI9w.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 7xJCW7eI9w
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7xJCW7eI9w.png
+    table: /home/alexart/vlm-benchmark/data/tables/7xJCW7eI9w.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 7xJCW7eI9w
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7xJCW7eI9w.png
+    table: /home/alexart/vlm-benchmark/data/tables/7xJCW7eI9w.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - Y
+  prompt: which has a larger range of values, X or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 7xJCW7eI9w
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7xJCW7eI9w.png
+    table: /home/alexart/vlm-benchmark/data/tables/7xJCW7eI9w.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 7xJCW7eI9w
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/7xJCW7eI9w.png
+    table: /home/alexart/vlm-benchmark/data/tables/7xJCW7eI9w.txt
+- answer: -0.4455442093295579
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for Y=-1.74?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 5BqrVKmZZ0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5BqrVKmZZ0.png
+    table: /home/alexart/vlm-benchmark/data/tables/5BqrVKmZZ0.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 5BqrVKmZZ0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5BqrVKmZZ0.png
+    table: /home/alexart/vlm-benchmark/data/tables/5BqrVKmZZ0.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 5BqrVKmZZ0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5BqrVKmZZ0.png
+    table: /home/alexart/vlm-benchmark/data/tables/5BqrVKmZZ0.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 5BqrVKmZZ0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5BqrVKmZZ0.png
+    table: /home/alexart/vlm-benchmark/data/tables/5BqrVKmZZ0.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - W
+  prompt: which has a larger range of values, Y or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 5BqrVKmZZ0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5BqrVKmZZ0.png
+    table: /home/alexart/vlm-benchmark/data/tables/5BqrVKmZZ0.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 5BqrVKmZZ0
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5BqrVKmZZ0.png
+    table: /home/alexart/vlm-benchmark/data/tables/5BqrVKmZZ0.txt
+- answer: -0.0216095550115494
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for X=0.24?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: CBAZyPMqdB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CBAZyPMqdB.png
+    table: /home/alexart/vlm-benchmark/data/tables/CBAZyPMqdB.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: CBAZyPMqdB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CBAZyPMqdB.png
+    table: /home/alexart/vlm-benchmark/data/tables/CBAZyPMqdB.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: CBAZyPMqdB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CBAZyPMqdB.png
+    table: /home/alexart/vlm-benchmark/data/tables/CBAZyPMqdB.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: CBAZyPMqdB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CBAZyPMqdB.png
+    table: /home/alexart/vlm-benchmark/data/tables/CBAZyPMqdB.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - Y
+  prompt: which has a larger range of values, X or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: CBAZyPMqdB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CBAZyPMqdB.png
+    table: /home/alexart/vlm-benchmark/data/tables/CBAZyPMqdB.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by W?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: CBAZyPMqdB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CBAZyPMqdB.png
+    table: /home/alexart/vlm-benchmark/data/tables/CBAZyPMqdB.txt
+- answer: -0.2414890672972952
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for X=0.25?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: ttIeItU2q2
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttIeItU2q2.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttIeItU2q2.txt
+- answer: 5.01
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of W values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: ttIeItU2q2
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttIeItU2q2.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttIeItU2q2.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ttIeItU2q2
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttIeItU2q2.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttIeItU2q2.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ttIeItU2q2
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttIeItU2q2.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttIeItU2q2.txt
+- answer: W
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - W
+  prompt: which has a larger range of values, X or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ttIeItU2q2
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttIeItU2q2.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttIeItU2q2.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Y?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: ttIeItU2q2
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttIeItU2q2.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttIeItU2q2.txt
+- answer: 1.229430589996777
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the X value for W=2.69?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: UFFsQpMnsq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/UFFsQpMnsq.png
+    table: /home/alexart/vlm-benchmark/data/tables/UFFsQpMnsq.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: UFFsQpMnsq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/UFFsQpMnsq.png
+    table: /home/alexart/vlm-benchmark/data/tables/UFFsQpMnsq.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: UFFsQpMnsq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/UFFsQpMnsq.png
+    table: /home/alexart/vlm-benchmark/data/tables/UFFsQpMnsq.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: UFFsQpMnsq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/UFFsQpMnsq.png
+    table: /home/alexart/vlm-benchmark/data/tables/UFFsQpMnsq.txt
+- answer: W
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - W
+  - X
+  prompt: which has a larger range of values, W or X?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: UFFsQpMnsq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/UFFsQpMnsq.png
+    table: /home/alexart/vlm-benchmark/data/tables/UFFsQpMnsq.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Y?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: UFFsQpMnsq
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/UFFsQpMnsq.png
+    table: /home/alexart/vlm-benchmark/data/tables/UFFsQpMnsq.txt
+- answer: 0.8832837273199328
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the X value for Z=0.30?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: QAv8Ans2Ia
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/QAv8Ans2Ia.png
+    table: /home/alexart/vlm-benchmark/data/tables/QAv8Ans2Ia.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: QAv8Ans2Ia
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/QAv8Ans2Ia.png
+    table: /home/alexart/vlm-benchmark/data/tables/QAv8Ans2Ia.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: QAv8Ans2Ia
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/QAv8Ans2Ia.png
+    table: /home/alexart/vlm-benchmark/data/tables/QAv8Ans2Ia.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: QAv8Ans2Ia
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/QAv8Ans2Ia.png
+    table: /home/alexart/vlm-benchmark/data/tables/QAv8Ans2Ia.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - X
+  prompt: which has a larger range of values, Z or X?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: QAv8Ans2Ia
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/QAv8Ans2Ia.png
+    table: /home/alexart/vlm-benchmark/data/tables/QAv8Ans2Ia.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Y?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: QAv8Ans2Ia
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/QAv8Ans2Ia.png
+    table: /home/alexart/vlm-benchmark/data/tables/QAv8Ans2Ia.txt
+- answer: -0.0053072482051371
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for Z=2.59?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: pjgSgt9bxN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/pjgSgt9bxN.png
+    table: /home/alexart/vlm-benchmark/data/tables/pjgSgt9bxN.txt
+- answer: 5.01
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of W values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: pjgSgt9bxN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/pjgSgt9bxN.png
+    table: /home/alexart/vlm-benchmark/data/tables/pjgSgt9bxN.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: pjgSgt9bxN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/pjgSgt9bxN.png
+    table: /home/alexart/vlm-benchmark/data/tables/pjgSgt9bxN.txt
+- answer: -1.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: pjgSgt9bxN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/pjgSgt9bxN.png
+    table: /home/alexart/vlm-benchmark/data/tables/pjgSgt9bxN.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - W
+  prompt: which has a larger range of values, Z or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: pjgSgt9bxN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/pjgSgt9bxN.png
+    table: /home/alexart/vlm-benchmark/data/tables/pjgSgt9bxN.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: pjgSgt9bxN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/pjgSgt9bxN.png
+    table: /home/alexart/vlm-benchmark/data/tables/pjgSgt9bxN.txt
+- answer: 0.2177578060813429
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for X=-0.01?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: ODrdqo2p27
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ODrdqo2p27.png
+    table: /home/alexart/vlm-benchmark/data/tables/ODrdqo2p27.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: ODrdqo2p27
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ODrdqo2p27.png
+    table: /home/alexart/vlm-benchmark/data/tables/ODrdqo2p27.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ODrdqo2p27
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ODrdqo2p27.png
+    table: /home/alexart/vlm-benchmark/data/tables/ODrdqo2p27.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ODrdqo2p27
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ODrdqo2p27.png
+    table: /home/alexart/vlm-benchmark/data/tables/ODrdqo2p27.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - Z
+  prompt: which has a larger range of values, X or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ODrdqo2p27
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ODrdqo2p27.png
+    table: /home/alexart/vlm-benchmark/data/tables/ODrdqo2p27.txt
+- answer: 0.8936580294061862
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the X value for Y=0.05?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: J90iAfaB2B
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/J90iAfaB2B.png
+    table: /home/alexart/vlm-benchmark/data/tables/J90iAfaB2B.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: J90iAfaB2B
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/J90iAfaB2B.png
+    table: /home/alexart/vlm-benchmark/data/tables/J90iAfaB2B.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: J90iAfaB2B
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/J90iAfaB2B.png
+    table: /home/alexart/vlm-benchmark/data/tables/J90iAfaB2B.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: J90iAfaB2B
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/J90iAfaB2B.png
+    table: /home/alexart/vlm-benchmark/data/tables/J90iAfaB2B.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - X
+  prompt: which has a larger range of values, Y or X?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: J90iAfaB2B
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/J90iAfaB2B.png
+    table: /home/alexart/vlm-benchmark/data/tables/J90iAfaB2B.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: J90iAfaB2B
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/J90iAfaB2B.png
+    table: /home/alexart/vlm-benchmark/data/tables/J90iAfaB2B.txt
+- answer: 4.077212309707992
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for W=-0.17?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: AQM6BBxKZB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AQM6BBxKZB.png
+    table: /home/alexart/vlm-benchmark/data/tables/AQM6BBxKZB.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: AQM6BBxKZB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AQM6BBxKZB.png
+    table: /home/alexart/vlm-benchmark/data/tables/AQM6BBxKZB.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: AQM6BBxKZB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AQM6BBxKZB.png
+    table: /home/alexart/vlm-benchmark/data/tables/AQM6BBxKZB.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: AQM6BBxKZB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AQM6BBxKZB.png
+    table: /home/alexart/vlm-benchmark/data/tables/AQM6BBxKZB.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - W
+  - Z
+  prompt: which has a larger range of values, W or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: AQM6BBxKZB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AQM6BBxKZB.png
+    table: /home/alexart/vlm-benchmark/data/tables/AQM6BBxKZB.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Y?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: AQM6BBxKZB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/AQM6BBxKZB.png
+    table: /home/alexart/vlm-benchmark/data/tables/AQM6BBxKZB.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations are in the last bin for Category=Low?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: HRosUbCTXz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HRosUbCTXz.png
+    table: /home/alexart/vlm-benchmark/data/tables/HRosUbCTXz.txt
+- answer: 8
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: for Category=Low, approximately how many total observations occur between
+    Y=0.50 and Y=1.14?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: HRosUbCTXz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HRosUbCTXz.png
+    table: /home/alexart/vlm-benchmark/data/tables/HRosUbCTXz.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Mid
+  - High
+  prompt: which has more total observations, Category=Mid or Category=High?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: HRosUbCTXz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HRosUbCTXz.png
+    table: /home/alexart/vlm-benchmark/data/tables/HRosUbCTXz.txt
+- answer: 12.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the maximum count for Category=Low?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: HRosUbCTXz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HRosUbCTXz.png
+    table: /home/alexart/vlm-benchmark/data/tables/HRosUbCTXz.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - High
+  - Low
+  - Mid
+  prompt: for observations with Y=1.77, which category of Category are they most likely
+    to belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: HRosUbCTXz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HRosUbCTXz.png
+    table: /home/alexart/vlm-benchmark/data/tables/HRosUbCTXz.txt
+- answer: 0.1883359358355321
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the X value for W=-1.45?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: DRpOvhpSYg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DRpOvhpSYg.png
+    table: /home/alexart/vlm-benchmark/data/tables/DRpOvhpSYg.txt
+- answer: 5.01
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of W values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: DRpOvhpSYg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DRpOvhpSYg.png
+    table: /home/alexart/vlm-benchmark/data/tables/DRpOvhpSYg.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: DRpOvhpSYg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DRpOvhpSYg.png
+    table: /home/alexart/vlm-benchmark/data/tables/DRpOvhpSYg.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: DRpOvhpSYg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DRpOvhpSYg.png
+    table: /home/alexart/vlm-benchmark/data/tables/DRpOvhpSYg.txt
+- answer: W
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - W
+  - X
+  prompt: which has a larger range of values, W or X?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: DRpOvhpSYg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DRpOvhpSYg.png
+    table: /home/alexart/vlm-benchmark/data/tables/DRpOvhpSYg.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Z?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: DRpOvhpSYg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DRpOvhpSYg.png
+    table: /home/alexart/vlm-benchmark/data/tables/DRpOvhpSYg.txt
+- answer: 0.2524773247693941
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for Z=-0.34?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: xNj6p2SfKg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xNj6p2SfKg.png
+    table: /home/alexart/vlm-benchmark/data/tables/xNj6p2SfKg.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: xNj6p2SfKg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xNj6p2SfKg.png
+    table: /home/alexart/vlm-benchmark/data/tables/xNj6p2SfKg.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: xNj6p2SfKg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xNj6p2SfKg.png
+    table: /home/alexart/vlm-benchmark/data/tables/xNj6p2SfKg.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: xNj6p2SfKg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xNj6p2SfKg.png
+    table: /home/alexart/vlm-benchmark/data/tables/xNj6p2SfKg.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - Y
+  prompt: which has a larger range of values, Z or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: xNj6p2SfKg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xNj6p2SfKg.png
+    table: /home/alexart/vlm-benchmark/data/tables/xNj6p2SfKg.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: xNj6p2SfKg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/xNj6p2SfKg.png
+    table: /home/alexart/vlm-benchmark/data/tables/xNj6p2SfKg.txt
+- answer: 0.5408525557761032
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for W=0.51?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: z5SYHXZnUV
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/z5SYHXZnUV.png
+    table: /home/alexart/vlm-benchmark/data/tables/z5SYHXZnUV.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: z5SYHXZnUV
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/z5SYHXZnUV.png
+    table: /home/alexart/vlm-benchmark/data/tables/z5SYHXZnUV.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: z5SYHXZnUV
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/z5SYHXZnUV.png
+    table: /home/alexart/vlm-benchmark/data/tables/z5SYHXZnUV.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: z5SYHXZnUV
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/z5SYHXZnUV.png
+    table: /home/alexart/vlm-benchmark/data/tables/z5SYHXZnUV.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - W
+  - Z
+  prompt: which has a larger range of values, W or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: z5SYHXZnUV
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/z5SYHXZnUV.png
+    table: /home/alexart/vlm-benchmark/data/tables/z5SYHXZnUV.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: z5SYHXZnUV
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/z5SYHXZnUV.png
+    table: /home/alexart/vlm-benchmark/data/tables/z5SYHXZnUV.txt
+- answer: 1.1300095682416984
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for Y=1.18?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: LivGQnmJ1D
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/LivGQnmJ1D.png
+    table: /home/alexart/vlm-benchmark/data/tables/LivGQnmJ1D.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: LivGQnmJ1D
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/LivGQnmJ1D.png
+    table: /home/alexart/vlm-benchmark/data/tables/LivGQnmJ1D.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: LivGQnmJ1D
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/LivGQnmJ1D.png
+    table: /home/alexart/vlm-benchmark/data/tables/LivGQnmJ1D.txt
+- answer: -1.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: LivGQnmJ1D
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/LivGQnmJ1D.png
+    table: /home/alexart/vlm-benchmark/data/tables/LivGQnmJ1D.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - Z
+  prompt: which has a larger range of values, Y or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: LivGQnmJ1D
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/LivGQnmJ1D.png
+    table: /home/alexart/vlm-benchmark/data/tables/LivGQnmJ1D.txt
+- answer: 1
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the degree of the polynomial that best fits the relationship between
+    Y and Z?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: LivGQnmJ1D
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/LivGQnmJ1D.png
+    table: /home/alexart/vlm-benchmark/data/tables/LivGQnmJ1D.txt
+- answer: linear
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - linear
+  - nonlinear
+  prompt: is the relationship between Y and Z linear or nonlinear?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: LivGQnmJ1D
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/LivGQnmJ1D.png
+    table: /home/alexart/vlm-benchmark/data/tables/LivGQnmJ1D.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by X?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: LivGQnmJ1D
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/LivGQnmJ1D.png
+    table: /home/alexart/vlm-benchmark/data/tables/LivGQnmJ1D.txt
+- answer: 1.104830734559365
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for Y=0.67?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: ltMPU63gWJ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ltMPU63gWJ.png
+    table: /home/alexart/vlm-benchmark/data/tables/ltMPU63gWJ.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: ltMPU63gWJ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ltMPU63gWJ.png
+    table: /home/alexart/vlm-benchmark/data/tables/ltMPU63gWJ.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ltMPU63gWJ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ltMPU63gWJ.png
+    table: /home/alexart/vlm-benchmark/data/tables/ltMPU63gWJ.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ltMPU63gWJ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ltMPU63gWJ.png
+    table: /home/alexart/vlm-benchmark/data/tables/ltMPU63gWJ.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - W
+  prompt: which has a larger range of values, Y or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ltMPU63gWJ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ltMPU63gWJ.png
+    table: /home/alexart/vlm-benchmark/data/tables/ltMPU63gWJ.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by X?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: ltMPU63gWJ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ltMPU63gWJ.png
+    table: /home/alexart/vlm-benchmark/data/tables/ltMPU63gWJ.txt
+- answer: -0.1829599505874286
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for W=-1.68?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: hNmbvJFoAN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hNmbvJFoAN.png
+    table: /home/alexart/vlm-benchmark/data/tables/hNmbvJFoAN.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: hNmbvJFoAN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hNmbvJFoAN.png
+    table: /home/alexart/vlm-benchmark/data/tables/hNmbvJFoAN.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: hNmbvJFoAN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hNmbvJFoAN.png
+    table: /home/alexart/vlm-benchmark/data/tables/hNmbvJFoAN.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: hNmbvJFoAN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hNmbvJFoAN.png
+    table: /home/alexart/vlm-benchmark/data/tables/hNmbvJFoAN.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - W
+  - Y
+  prompt: which has a larger range of values, W or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: hNmbvJFoAN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hNmbvJFoAN.png
+    table: /home/alexart/vlm-benchmark/data/tables/hNmbvJFoAN.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by X?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: hNmbvJFoAN
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hNmbvJFoAN.png
+    table: /home/alexart/vlm-benchmark/data/tables/hNmbvJFoAN.txt
+- answer: -0.2726306917582348
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for Z=0.26?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: spvvbV0ctM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/spvvbV0ctM.png
+    table: /home/alexart/vlm-benchmark/data/tables/spvvbV0ctM.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: spvvbV0ctM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/spvvbV0ctM.png
+    table: /home/alexart/vlm-benchmark/data/tables/spvvbV0ctM.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: spvvbV0ctM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/spvvbV0ctM.png
+    table: /home/alexart/vlm-benchmark/data/tables/spvvbV0ctM.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: spvvbV0ctM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/spvvbV0ctM.png
+    table: /home/alexart/vlm-benchmark/data/tables/spvvbV0ctM.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - W
+  prompt: which has a larger range of values, Z or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: spvvbV0ctM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/spvvbV0ctM.png
+    table: /home/alexart/vlm-benchmark/data/tables/spvvbV0ctM.txt
+- answer: 1.793557314321856
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for X=-0.22?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: y7JepSNyly
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/y7JepSNyly.png
+    table: /home/alexart/vlm-benchmark/data/tables/y7JepSNyly.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: y7JepSNyly
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/y7JepSNyly.png
+    table: /home/alexart/vlm-benchmark/data/tables/y7JepSNyly.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: y7JepSNyly
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/y7JepSNyly.png
+    table: /home/alexart/vlm-benchmark/data/tables/y7JepSNyly.txt
+- answer: -1.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: y7JepSNyly
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/y7JepSNyly.png
+    table: /home/alexart/vlm-benchmark/data/tables/y7JepSNyly.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - Z
+  prompt: which has a larger range of values, X or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: y7JepSNyly
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/y7JepSNyly.png
+    table: /home/alexart/vlm-benchmark/data/tables/y7JepSNyly.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: y7JepSNyly
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/y7JepSNyly.png
+    table: /home/alexart/vlm-benchmark/data/tables/y7JepSNyly.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations are in the 1st bin?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: plL0w9flvB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/plL0w9flvB.png
+    table: /home/alexart/vlm-benchmark/data/tables/plL0w9flvB.txt
+- answer: 63
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations occur between W=-0.32 and W=0.68?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: plL0w9flvB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/plL0w9flvB.png
+    table: /home/alexart/vlm-benchmark/data/tables/plL0w9flvB.txt
+- answer: 20.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the maximum count for W?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: plL0w9flvB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/plL0w9flvB.png
+    table: /home/alexart/vlm-benchmark/data/tables/plL0w9flvB.txt
+- answer: 0.3
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which value of W appears most frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: plL0w9flvB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/plL0w9flvB.png
+    table: /home/alexart/vlm-benchmark/data/tables/plL0w9flvB.txt
+- answer: 2.31
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which nonzero value of W appears least frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: plL0w9flvB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/plL0w9flvB.png
+    table: /home/alexart/vlm-benchmark/data/tables/plL0w9flvB.txt
+- answer: -1.2
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - -2.2
+  - -1.2
+  prompt: which W value is more frequent, W=-2.20 or W=-1.20?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: plL0w9flvB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/plL0w9flvB.png
+    table: /home/alexart/vlm-benchmark/data/tables/plL0w9flvB.txt
+- answer: 0.034482758620689655
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the probability that a new observation will have W greater than
+    1.68?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: plL0w9flvB
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/plL0w9flvB.png
+    table: /home/alexart/vlm-benchmark/data/tables/plL0w9flvB.txt
+- answer: 1.659163292015541
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the X value for Y=-1.08?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: vcth4HDbtn
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vcth4HDbtn.png
+    table: /home/alexart/vlm-benchmark/data/tables/vcth4HDbtn.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: vcth4HDbtn
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vcth4HDbtn.png
+    table: /home/alexart/vlm-benchmark/data/tables/vcth4HDbtn.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: vcth4HDbtn
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vcth4HDbtn.png
+    table: /home/alexart/vlm-benchmark/data/tables/vcth4HDbtn.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: vcth4HDbtn
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vcth4HDbtn.png
+    table: /home/alexart/vlm-benchmark/data/tables/vcth4HDbtn.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - X
+  prompt: which has a larger range of values, Y or X?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: vcth4HDbtn
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vcth4HDbtn.png
+    table: /home/alexart/vlm-benchmark/data/tables/vcth4HDbtn.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Z?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: vcth4HDbtn
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vcth4HDbtn.png
+    table: /home/alexart/vlm-benchmark/data/tables/vcth4HDbtn.txt
+- answer: 4
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations are in the last bin?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: tJalmySBrt
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/tJalmySBrt.png
+    table: /home/alexart/vlm-benchmark/data/tables/tJalmySBrt.txt
+- answer: 35
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations occur between X=-0.39 and X=0.40?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: tJalmySBrt
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/tJalmySBrt.png
+    table: /home/alexart/vlm-benchmark/data/tables/tJalmySBrt.txt
+- answer: 17.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the maximum count for X?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: tJalmySBrt
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/tJalmySBrt.png
+    table: /home/alexart/vlm-benchmark/data/tables/tJalmySBrt.txt
+- answer: 0.27
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which value of X appears most frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: tJalmySBrt
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/tJalmySBrt.png
+    table: /home/alexart/vlm-benchmark/data/tables/tJalmySBrt.txt
+- answer: 1.85
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which nonzero value of X appears least frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: tJalmySBrt
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/tJalmySBrt.png
+    table: /home/alexart/vlm-benchmark/data/tables/tJalmySBrt.txt
+- answer: -1.05
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 0.54
+  - -1.05
+  prompt: which X value is more frequent, X=0.54 or X=-1.05?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: tJalmySBrt
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/tJalmySBrt.png
+    table: /home/alexart/vlm-benchmark/data/tables/tJalmySBrt.txt
+- answer: 0.15862068965517243
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the probability that a new observation will have X greater than
+    1.19?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: tJalmySBrt
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/tJalmySBrt.png
+    table: /home/alexart/vlm-benchmark/data/tables/tJalmySBrt.txt
+- answer: 4.077212309707992
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for X=-1.45?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: hGqxdGaw0h
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hGqxdGaw0h.png
+    table: /home/alexart/vlm-benchmark/data/tables/hGqxdGaw0h.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: hGqxdGaw0h
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hGqxdGaw0h.png
+    table: /home/alexart/vlm-benchmark/data/tables/hGqxdGaw0h.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: hGqxdGaw0h
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hGqxdGaw0h.png
+    table: /home/alexart/vlm-benchmark/data/tables/hGqxdGaw0h.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: hGqxdGaw0h
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hGqxdGaw0h.png
+    table: /home/alexart/vlm-benchmark/data/tables/hGqxdGaw0h.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - Z
+  prompt: which has a larger range of values, X or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: hGqxdGaw0h
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hGqxdGaw0h.png
+    table: /home/alexart/vlm-benchmark/data/tables/hGqxdGaw0h.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Y?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: hGqxdGaw0h
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hGqxdGaw0h.png
+    table: /home/alexart/vlm-benchmark/data/tables/hGqxdGaw0h.txt
+- answer: 0.2490118481874326
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the X value for W=-0.24?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: E2pazeDlHQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/E2pazeDlHQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/E2pazeDlHQ.txt
+- answer: 5.01
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of W values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: E2pazeDlHQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/E2pazeDlHQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/E2pazeDlHQ.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: E2pazeDlHQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/E2pazeDlHQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/E2pazeDlHQ.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: E2pazeDlHQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/E2pazeDlHQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/E2pazeDlHQ.txt
+- answer: W
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - W
+  - X
+  prompt: which has a larger range of values, W or X?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: E2pazeDlHQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/E2pazeDlHQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/E2pazeDlHQ.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Category?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: E2pazeDlHQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/E2pazeDlHQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/E2pazeDlHQ.txt
+- answer: 3.0395242756421643
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Z value for X=0.23?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: Hwd4WBz5UB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Hwd4WBz5UB.png
+    table: /home/alexart/vlm-benchmark/data/tables/Hwd4WBz5UB.txt
+- answer: 16.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Z values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: Hwd4WBz5UB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Hwd4WBz5UB.png
+    table: /home/alexart/vlm-benchmark/data/tables/Hwd4WBz5UB.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Hwd4WBz5UB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Hwd4WBz5UB.png
+    table: /home/alexart/vlm-benchmark/data/tables/Hwd4WBz5UB.txt
+- answer: -1.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Hwd4WBz5UB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Hwd4WBz5UB.png
+    table: /home/alexart/vlm-benchmark/data/tables/Hwd4WBz5UB.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - Z
+  prompt: which has a larger range of values, X or Z?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: Hwd4WBz5UB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Hwd4WBz5UB.png
+    table: /home/alexart/vlm-benchmark/data/tables/Hwd4WBz5UB.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by W?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: Hwd4WBz5UB
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Hwd4WBz5UB.png
+    table: /home/alexart/vlm-benchmark/data/tables/Hwd4WBz5UB.txt
+- answer: 0.161545
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the mean Y value for Category=Low?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: kkXD7iBVes
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kkXD7iBVes.png
+    table: /home/alexart/vlm-benchmark/data/tables/kkXD7iBVes.txt
+- answer: 0.07008
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the difference in mean Y value between Category=Mid
+    and Category=Low?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: kkXD7iBVes
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kkXD7iBVes.png
+    table: /home/alexart/vlm-benchmark/data/tables/kkXD7iBVes.txt
+- answer: Mid
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options: &id002
+  - High
+  - Low
+  - Mid
+  prompt: which category has the highest mean Y value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: kkXD7iBVes
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kkXD7iBVes.png
+    table: /home/alexart/vlm-benchmark/data/tables/kkXD7iBVes.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options: *id002
+  prompt: which category has the lowest mean Y value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: kkXD7iBVes
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kkXD7iBVes.png
+    table: /home/alexart/vlm-benchmark/data/tables/kkXD7iBVes.txt
+- answer: -0.8067876570110144
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the X value for Z=0.49?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 6rLz4ZiOqp
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6rLz4ZiOqp.png
+    table: /home/alexart/vlm-benchmark/data/tables/6rLz4ZiOqp.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 6rLz4ZiOqp
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6rLz4ZiOqp.png
+    table: /home/alexart/vlm-benchmark/data/tables/6rLz4ZiOqp.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6rLz4ZiOqp
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6rLz4ZiOqp.png
+    table: /home/alexart/vlm-benchmark/data/tables/6rLz4ZiOqp.txt
+- answer: -1.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6rLz4ZiOqp
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6rLz4ZiOqp.png
+    table: /home/alexart/vlm-benchmark/data/tables/6rLz4ZiOqp.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - X
+  prompt: which has a larger range of values, Z or X?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 6rLz4ZiOqp
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6rLz4ZiOqp.png
+    table: /home/alexart/vlm-benchmark/data/tables/6rLz4ZiOqp.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by W?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 6rLz4ZiOqp
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6rLz4ZiOqp.png
+    table: /home/alexart/vlm-benchmark/data/tables/6rLz4ZiOqp.txt
+- answer: -0.250935
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the mean X value for Category=Low?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: hxbTn7p9ML
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hxbTn7p9ML.png
+    table: /home/alexart/vlm-benchmark/data/tables/hxbTn7p9ML.txt
+- answer: 0.364839
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the difference in mean X value between Category=High
+    and Category=Low?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: hxbTn7p9ML
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hxbTn7p9ML.png
+    table: /home/alexart/vlm-benchmark/data/tables/hxbTn7p9ML.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options: &id003
+  - High
+  - Low
+  - Mid
+  prompt: which category has the highest mean X value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: hxbTn7p9ML
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hxbTn7p9ML.png
+    table: /home/alexart/vlm-benchmark/data/tables/hxbTn7p9ML.txt
+- answer: Low
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options: *id003
+  prompt: which category has the lowest mean X value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: hxbTn7p9ML
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/hxbTn7p9ML.png
+    table: /home/alexart/vlm-benchmark/data/tables/hxbTn7p9ML.txt
+- answer: 0.049723
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the mean W value for Category=High?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: Wgz6lg2tHh
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Wgz6lg2tHh.png
+    table: /home/alexart/vlm-benchmark/data/tables/Wgz6lg2tHh.txt
+- answer: 0.039980999999999996
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the difference in mean W value between Category=Mid
+    and Category=Low?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: Wgz6lg2tHh
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Wgz6lg2tHh.png
+    table: /home/alexart/vlm-benchmark/data/tables/Wgz6lg2tHh.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options: &id004
+  - High
+  - Low
+  - Mid
+  prompt: which category has the highest mean W value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: Wgz6lg2tHh
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Wgz6lg2tHh.png
+    table: /home/alexart/vlm-benchmark/data/tables/Wgz6lg2tHh.txt
+- answer: Mid
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options: *id004
+  prompt: which category has the lowest mean W value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: Wgz6lg2tHh
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Wgz6lg2tHh.png
+    table: /home/alexart/vlm-benchmark/data/tables/Wgz6lg2tHh.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations are in the 1st bin?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: gbCkJvzb36
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/gbCkJvzb36.png
+    table: /home/alexart/vlm-benchmark/data/tables/gbCkJvzb36.txt
+- answer: 26
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations occur between Y=-2.05 and Y=-0.77?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: gbCkJvzb36
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/gbCkJvzb36.png
+    table: /home/alexart/vlm-benchmark/data/tables/gbCkJvzb36.txt
+- answer: 21.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the maximum count for Y?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: gbCkJvzb36
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/gbCkJvzb36.png
+    table: /home/alexart/vlm-benchmark/data/tables/gbCkJvzb36.txt
+- answer: -0.14
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which value of Y appears most frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: gbCkJvzb36
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/gbCkJvzb36.png
+    table: /home/alexart/vlm-benchmark/data/tables/gbCkJvzb36.txt
+- answer: -2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which nonzero value of Y appears least frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: gbCkJvzb36
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/gbCkJvzb36.png
+    table: /home/alexart/vlm-benchmark/data/tables/gbCkJvzb36.txt
+- answer: -0.56
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - -0.56
+  - 1.99
+  prompt: which Y value is more frequent, Y=-0.56 or Y=1.99?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: gbCkJvzb36
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/gbCkJvzb36.png
+    table: /home/alexart/vlm-benchmark/data/tables/gbCkJvzb36.txt
+- answer: 0.9862068965517241
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the probability that a new observation will have Y greater than
+    -2.05?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: gbCkJvzb36
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/gbCkJvzb36.png
+    table: /home/alexart/vlm-benchmark/data/tables/gbCkJvzb36.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations are in the last bin for Category=Mid?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: NRkUQwqmHy
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/NRkUQwqmHy.png
+    table: /home/alexart/vlm-benchmark/data/tables/NRkUQwqmHy.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: for Category=Mid, approximately how many total observations occur between
+    Z=8.31 and Z=11.65?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: NRkUQwqmHy
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/NRkUQwqmHy.png
+    table: /home/alexart/vlm-benchmark/data/tables/NRkUQwqmHy.txt
+- answer: Low
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Mid
+  - Low
+  prompt: which has more total observations, Category=Mid or Category=Low?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: NRkUQwqmHy
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/NRkUQwqmHy.png
+    table: /home/alexart/vlm-benchmark/data/tables/NRkUQwqmHy.txt
+- answer: 16.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the maximum count for Category=Low?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: NRkUQwqmHy
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/NRkUQwqmHy.png
+    table: /home/alexart/vlm-benchmark/data/tables/NRkUQwqmHy.txt
+- answer: Low
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - High
+  - Low
+  - Mid
+  prompt: for observations with Z=15.0, which category of Category are they most likely
+    to belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: NRkUQwqmHy
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/NRkUQwqmHy.png
+    table: /home/alexart/vlm-benchmark/data/tables/NRkUQwqmHy.txt
+- answer: 2.1364587022532566
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for W=-0.82?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: FVscMQu4WG
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/FVscMQu4WG.png
+    table: /home/alexart/vlm-benchmark/data/tables/FVscMQu4WG.txt
+- answer: 5.01
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of W values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: FVscMQu4WG
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/FVscMQu4WG.png
+    table: /home/alexart/vlm-benchmark/data/tables/FVscMQu4WG.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: FVscMQu4WG
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/FVscMQu4WG.png
+    table: /home/alexart/vlm-benchmark/data/tables/FVscMQu4WG.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: FVscMQu4WG
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/FVscMQu4WG.png
+    table: /home/alexart/vlm-benchmark/data/tables/FVscMQu4WG.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - W
+  - Y
+  prompt: which has a larger range of values, W or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: FVscMQu4WG
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/FVscMQu4WG.png
+    table: /home/alexart/vlm-benchmark/data/tables/FVscMQu4WG.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Z?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: FVscMQu4WG
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/FVscMQu4WG.png
+    table: /home/alexart/vlm-benchmark/data/tables/FVscMQu4WG.txt
+- answer: -0.8054283573486993
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for Y=1.42?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: Y5V9G5Dree
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Y5V9G5Dree.png
+    table: /home/alexart/vlm-benchmark/data/tables/Y5V9G5Dree.txt
+- answer: 5.01
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of W values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: Y5V9G5Dree
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Y5V9G5Dree.png
+    table: /home/alexart/vlm-benchmark/data/tables/Y5V9G5Dree.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Y5V9G5Dree
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Y5V9G5Dree.png
+    table: /home/alexart/vlm-benchmark/data/tables/Y5V9G5Dree.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Y5V9G5Dree
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Y5V9G5Dree.png
+    table: /home/alexart/vlm-benchmark/data/tables/Y5V9G5Dree.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - W
+  prompt: which has a larger range of values, Y or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: Y5V9G5Dree
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Y5V9G5Dree.png
+    table: /home/alexart/vlm-benchmark/data/tables/Y5V9G5Dree.txt
+- answer: 0.3387614494610336
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for X=-0.64?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: HT1XHCtYuM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HT1XHCtYuM.png
+    table: /home/alexart/vlm-benchmark/data/tables/HT1XHCtYuM.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: HT1XHCtYuM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HT1XHCtYuM.png
+    table: /home/alexart/vlm-benchmark/data/tables/HT1XHCtYuM.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: HT1XHCtYuM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HT1XHCtYuM.png
+    table: /home/alexart/vlm-benchmark/data/tables/HT1XHCtYuM.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: HT1XHCtYuM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HT1XHCtYuM.png
+    table: /home/alexart/vlm-benchmark/data/tables/HT1XHCtYuM.txt
+- answer: W
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - W
+  prompt: which has a larger range of values, X or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: HT1XHCtYuM
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/HT1XHCtYuM.png
+    table: /home/alexart/vlm-benchmark/data/tables/HT1XHCtYuM.txt
+- answer: -0.3479230050637634
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for X=0.95?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: iCThFHNV5W
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iCThFHNV5W.png
+    table: /home/alexart/vlm-benchmark/data/tables/iCThFHNV5W.txt
+- answer: 3.96
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of X values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: iCThFHNV5W
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iCThFHNV5W.png
+    table: /home/alexart/vlm-benchmark/data/tables/iCThFHNV5W.txt
+- answer: 1.99
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: iCThFHNV5W
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iCThFHNV5W.png
+    table: /home/alexart/vlm-benchmark/data/tables/iCThFHNV5W.txt
+- answer: -1.97
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum X value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: iCThFHNV5W
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iCThFHNV5W.png
+    table: /home/alexart/vlm-benchmark/data/tables/iCThFHNV5W.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - Y
+  prompt: which has a larger range of values, X or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: iCThFHNV5W
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/iCThFHNV5W.png
+    table: /home/alexart/vlm-benchmark/data/tables/iCThFHNV5W.txt
+- answer: 0.9732756772555656
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the W value for Y=0.61?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: ovzMhkigvP
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ovzMhkigvP.png
+    table: /home/alexart/vlm-benchmark/data/tables/ovzMhkigvP.txt
+- answer: 5.01
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of W values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: ovzMhkigvP
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ovzMhkigvP.png
+    table: /home/alexart/vlm-benchmark/data/tables/ovzMhkigvP.txt
+- answer: 2.69
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ovzMhkigvP
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ovzMhkigvP.png
+    table: /home/alexart/vlm-benchmark/data/tables/ovzMhkigvP.txt
+- answer: -2.33
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum W value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ovzMhkigvP
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ovzMhkigvP.png
+    table: /home/alexart/vlm-benchmark/data/tables/ovzMhkigvP.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - W
+  prompt: which has a larger range of values, Y or W?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ovzMhkigvP
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ovzMhkigvP.png
+    table: /home/alexart/vlm-benchmark/data/tables/ovzMhkigvP.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Z?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: ovzMhkigvP
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ovzMhkigvP.png
+    table: /home/alexart/vlm-benchmark/data/tables/ovzMhkigvP.txt
+- answer: 1.883165511346209
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for X=-0.67?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: k2ZGgXHnGA
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/k2ZGgXHnGA.png
+    table: /home/alexart/vlm-benchmark/data/tables/k2ZGgXHnGA.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: k2ZGgXHnGA
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/k2ZGgXHnGA.png
+    table: /home/alexart/vlm-benchmark/data/tables/k2ZGgXHnGA.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: k2ZGgXHnGA
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/k2ZGgXHnGA.png
+    table: /home/alexart/vlm-benchmark/data/tables/k2ZGgXHnGA.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: k2ZGgXHnGA
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/k2ZGgXHnGA.png
+    table: /home/alexart/vlm-benchmark/data/tables/k2ZGgXHnGA.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - X
+  - Y
+  prompt: which has a larger range of values, X or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: k2ZGgXHnGA
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/k2ZGgXHnGA.png
+    table: /home/alexart/vlm-benchmark/data/tables/k2ZGgXHnGA.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by Z?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: k2ZGgXHnGA
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/k2ZGgXHnGA.png
+    table: /home/alexart/vlm-benchmark/data/tables/k2ZGgXHnGA.txt
+- answer: 0.5389143786302837
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the X value for Y=-0.04?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 6zfGpWuvBz
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zfGpWuvBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zfGpWuvBz.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 6zfGpWuvBz
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zfGpWuvBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zfGpWuvBz.txt
+- answer: 3.04
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6zfGpWuvBz
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zfGpWuvBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zfGpWuvBz.txt
+- answer: -3.32
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Y value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6zfGpWuvBz
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zfGpWuvBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zfGpWuvBz.txt
+- answer: Y
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Y
+  - X
+  prompt: which has a larger range of values, Y or X?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 6zfGpWuvBz
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zfGpWuvBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zfGpWuvBz.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by W?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 6zfGpWuvBz
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6zfGpWuvBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/6zfGpWuvBz.txt
+- answer: 0.4071896716306474
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the Y value for Z=-0.82?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: nRhNlzmvTo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/nRhNlzmvTo.png
+    table: /home/alexart/vlm-benchmark/data/tables/nRhNlzmvTo.txt
+- answer: 6.36
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the range of Y values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: nRhNlzmvTo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/nRhNlzmvTo.png
+    table: /home/alexart/vlm-benchmark/data/tables/nRhNlzmvTo.txt
+- answer: 15.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the maximum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: nRhNlzmvTo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/nRhNlzmvTo.png
+    table: /home/alexart/vlm-benchmark/data/tables/nRhNlzmvTo.txt
+- answer: -1.73
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the minimum Z value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: nRhNlzmvTo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/nRhNlzmvTo.png
+    table: /home/alexart/vlm-benchmark/data/tables/nRhNlzmvTo.txt
+- answer: Z
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Z
+  - Y
+  prompt: which has a larger range of values, Z or Y?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: nRhNlzmvTo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/nRhNlzmvTo.png
+    table: /home/alexart/vlm-benchmark/data/tables/nRhNlzmvTo.txt
+- answer: 'no'
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by X?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: nRhNlzmvTo
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/nRhNlzmvTo.png
+    table: /home/alexart/vlm-benchmark/data/tables/nRhNlzmvTo.txt
+- answer: 57
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately how many observations are there for Category=High?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: ujMJIHBRE7
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ujMJIHBRE7.png
+    table: /home/alexart/vlm-benchmark/data/tables/ujMJIHBRE7.txt
+- answer: 18
+  answer_type: <class 'int'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: approximately what is the difference in number of observations between High
+    and Mid?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: ujMJIHBRE7
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ujMJIHBRE7.png
+    table: /home/alexart/vlm-benchmark/data/tables/ujMJIHBRE7.txt
+- answer: 57.0
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the maximum count for Category?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: ujMJIHBRE7
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ujMJIHBRE7.png
+    table: /home/alexart/vlm-benchmark/data/tables/ujMJIHBRE7.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which value of Category appears most frequently?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ujMJIHBRE7
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ujMJIHBRE7.png
+    table: /home/alexart/vlm-benchmark/data/tables/ujMJIHBRE7.txt
+- answer: Mid
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: which nonzero value of Category appears least frequently?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ujMJIHBRE7
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ujMJIHBRE7.png
+    table: /home/alexart/vlm-benchmark/data/tables/ujMJIHBRE7.txt
+- answer: High
+  answer_type: <class 'str'>
+  dataset: dataset_21
+  generator: generator_21
+  options:
+  - Low
+  - High
+  prompt: which Category value is more frequent, Low or High?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ujMJIHBRE7
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ujMJIHBRE7.png
+    table: /home/alexart/vlm-benchmark/data/tables/ujMJIHBRE7.txt
+- answer: 0.2671232876712329
+  answer_type: <class 'float'>
+  dataset: dataset_21
+  generator: generator_21
+  prompt: what is the probability that a new observation will have Category=Mid?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: ujMJIHBRE7
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ujMJIHBRE7.png
+    table: /home/alexart/vlm-benchmark/data/tables/ujMJIHBRE7.txt

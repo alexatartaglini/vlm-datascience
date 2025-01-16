@@ -1,0 +1,19 @@
+categorical_vars:
+- Period
+- State
+generator_name: generator_17
+n_categorical: 2
+n_numeric: 2
+n_sequential: 1
+name: dataset_17
+num_points: 178
+numeric_vars:
+- G1
+- G2
+sequential_vars:
+- Period
+variables:
+- Period
+- G1
+- G2
+- State

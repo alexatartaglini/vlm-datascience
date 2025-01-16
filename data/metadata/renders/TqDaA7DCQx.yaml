@@ -1,0 +1,14 @@
+agg_func: mean
+dataset_name: dataset_7
+generator_name: generator_7
+legend: false
+num_vars: 2
+render_id: TqDaA7DCQx
+renders:
+  plot: data/plots/TqDaA7DCQx.png
+  table: data/tables/TqDaA7DCQx.txt
+type: bar
+x: C2
+x_type: categorical
+y: Y
+y_type: numeric

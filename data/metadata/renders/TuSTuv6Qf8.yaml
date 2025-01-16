@@ -1,0 +1,12 @@
+bins: 5
+dataset_name: dataset_17
+generator_name: generator_17
+legend: false
+num_vars: 1
+render_id: TuSTuv6Qf8
+renders:
+  plot: data/plots/TuSTuv6Qf8.png
+  table: data/tables/TuSTuv6Qf8.txt
+type: histogram
+x: Period
+x_type: categorical

@@ -1,0 +1,19 @@
+bins: 5
+dataset_name: dataset_17
+generator_name: generator_17
+hue: State
+hue_type: categorical
+hue_values:
+- S3
+- S1
+- S2
+legend: true
+num_vars: 2
+render_id: vZCCxwaP8f
+renders:
+  plot: data/plots/vZCCxwaP8f.png
+  table: data/tables/vZCCxwaP8f.txt
+subtype: stacked
+type: histogram
+x: Period
+x_type: categorical

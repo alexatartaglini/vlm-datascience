@@ -1,0 +1,15 @@
+dataset_name: dataset_21
+generator_name: generator_21
+hue: X
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: ltMPU63gWJ
+renders:
+  plot: data/plots/ltMPU63gWJ.png
+  table: data/tables/ltMPU63gWJ.txt
+type: scatter
+x: Y
+x_type: numeric
+y: W
+y_type: numeric

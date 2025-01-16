@@ -1,0 +1,25 @@
+bins: 15
+dataset_name: dataset_21
+generator_name: generator_21
+hue: Category
+hue_type: categorical
+hue_values:
+- High
+- Low
+- Mid
+legend: true
+num_vars: 2
+plot_xticks:
+- -1.7348132523687383
+- 1.61205814672509
+- 4.958929545818918
+- 8.305800944912747
+- 11.652672344006575
+- 14.999543743100404
+render_id: NRkUQwqmHy
+renders:
+  plot: data/plots/NRkUQwqmHy.png
+  table: data/tables/NRkUQwqmHy.txt
+type: histogram
+x: Z
+x_type: numeric

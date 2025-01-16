@@ -1,0 +1,17 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: Y
+hue_type: numeric
+legend: true
+num_vars: 4
+render_id: pu1nw8diEB
+renders:
+  plot: data/plots/pu1nw8diEB.png
+  table: data/tables/pu1nw8diEB.txt
+style: C
+style_type: categorical
+type: scatter
+x: B
+x_type: numeric
+y: A
+y_type: numeric

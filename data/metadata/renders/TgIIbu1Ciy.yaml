@@ -1,0 +1,12 @@
+bins: 3
+dataset_name: dataset_7
+generator_name: generator_7
+legend: false
+num_vars: 1
+render_id: TgIIbu1Ciy
+renders:
+  plot: data/plots/TgIIbu1Ciy.png
+  table: data/tables/TgIIbu1Ciy.txt
+type: histogram
+x: C2
+x_type: categorical

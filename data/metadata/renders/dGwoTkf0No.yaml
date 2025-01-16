@@ -1,0 +1,17 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: X
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: dGwoTkf0No
+renders:
+  plot: data/plots/dGwoTkf0No.png
+  table: data/tables/dGwoTkf0No.txt
+style: C
+style_type: categorical
+type: scatter
+x: B
+x_type: numeric
+y: A
+y_type: numeric

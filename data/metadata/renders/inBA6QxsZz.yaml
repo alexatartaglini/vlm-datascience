@@ -1,0 +1,17 @@
+dataset_name: dataset_17
+generator_name: generator_17
+hue: State
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: inBA6QxsZz
+renders:
+  plot: data/plots/inBA6QxsZz.png
+  table: data/tables/inBA6QxsZz.txt
+style: Period
+style_type: categorical
+type: scatter
+x: G2
+x_type: numeric
+y: G1
+y_type: numeric

@@ -1,0 +1,17 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C1
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: miAWN6sru0
+renders:
+  plot: data/plots/miAWN6sru0.png
+  table: data/tables/miAWN6sru0.txt
+style: C2
+style_type: categorical
+type: scatter
+x: X
+x_type: numeric
+y: Z
+y_type: numeric

@@ -1,0 +1,19 @@
+dataset_name: dataset_21
+generator_name: generator_21
+hue: Category
+hue_type: categorical
+hue_values:
+- High
+- Low
+- Mid
+legend: true
+num_vars: 3
+render_id: E2pazeDlHQ
+renders:
+  plot: data/plots/E2pazeDlHQ.png
+  table: data/tables/E2pazeDlHQ.txt
+type: scatter
+x: W
+x_type: numeric
+y: X
+y_type: numeric

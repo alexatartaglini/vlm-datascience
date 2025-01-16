@@ -1,0 +1,19 @@
+bins: 15
+dataset_name: dataset_5
+generator_name: generator_5
+legend: false
+num_vars: 1
+plot_xticks:
+- 0.3505120008376644
+- 0.5999838039198948
+- 0.8494556070021252
+- 1.0989274100843556
+- 1.348399213166586
+- 1.5978710162488163
+render_id: vVdNcNUCvL
+renders:
+  plot: data/plots/vVdNcNUCvL.png
+  table: data/tables/vVdNcNUCvL.txt
+type: histogram
+x: O
+x_type: numeric

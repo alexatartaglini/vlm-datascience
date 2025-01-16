@@ -1,0 +1,13 @@
+dataset_name: dataset_17
+generator_name: generator_17
+legend: false
+num_vars: 2
+render_id: UZVd7mfsgc
+renders:
+  plot: data/plots/UZVd7mfsgc.png
+  table: data/tables/UZVd7mfsgc.txt
+type: scatter
+x: G1
+x_type: numeric
+y: G2
+y_type: numeric

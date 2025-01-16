@@ -1,0 +1,16 @@
+categorical_vars: []
+generator_name: generator_4
+n_categorical: 0
+n_numeric: 3
+n_sequential: 0
+name: dataset_4
+num_points: 120
+numeric_vars:
+- J
+- K
+- L
+sequential_vars: []
+variables:
+- J
+- K
+- L

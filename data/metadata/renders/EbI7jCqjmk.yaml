@@ -1,0 +1,24 @@
+bins: 10
+dataset_name: dataset_17
+generator_name: generator_17
+legend: false
+num_vars: 1
+plot_xticks:
+- -4.722736961574737
+- -3.774234003810163
+- -2.825731046045589
+- -1.8772280882810142
+- -0.9287251305164399
+- 0.019777827248134372
+- 0.9682807850127091
+- 1.916783742777283
+- 2.8652867005418576
+- 3.8137896583064315
+- 4.762292616071005
+render_id: EbI7jCqjmk
+renders:
+  plot: data/plots/EbI7jCqjmk.png
+  table: data/tables/EbI7jCqjmk.txt
+type: histogram
+x: G1
+x_type: numeric

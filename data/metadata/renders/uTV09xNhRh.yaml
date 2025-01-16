@@ -1,0 +1,12 @@
+bins: 12
+dataset_name: dataset_16
+generator_name: generator_16
+legend: false
+num_vars: 1
+render_id: uTV09xNhRh
+renders:
+  plot: data/plots/uTV09xNhRh.png
+  table: data/tables/uTV09xNhRh.txt
+type: histogram
+x: T
+x_type: categorical

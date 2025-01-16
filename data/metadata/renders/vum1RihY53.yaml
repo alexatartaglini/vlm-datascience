@@ -1,0 +1,28 @@
+dataset_name: dataset_16
+generator_name: generator_16
+hue: T
+hue_type: categorical
+hue_values:
+- M4
+- M5
+- M12
+- M10
+- M1
+- M7
+- M6
+- M2
+- M11
+- M8
+- M9
+- M3
+legend: true
+num_vars: 3
+render_id: vum1RihY53
+renders:
+  plot: data/plots/vum1RihY53.png
+  table: data/tables/vum1RihY53.txt
+type: scatter
+x: V2
+x_type: numeric
+y: V1
+y_type: numeric

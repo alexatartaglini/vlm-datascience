@@ -1,0 +1,21 @@
+# Description: Cyclic patterns with regime shifts and nested dependencies
+
+variables: ["Cycle", "V1", "V2", "Regime", "Output"]
+
+variable_objects:
+  Cycle: "categorical(probs=[0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125], categories=['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8'], sequential=True)"
+  V1: "beta(a=2, b=2)"
+  V2: "normal(mean=5, std=1)"
+  Regime: "categorical(probs=[0.5, 0.5], categories=['High', 'Low'])"
+  Output: "normal(mean=0, std=1)"
+
+dependencies:
+  Cycle:
+    V1: "Trigonometric(['sin(x)', 'cos(x)'], [0.5, 0.3])"
+    V2: "Trigonometric(['sin(2*x)', 'cos(3*x)'], [2, 1])"
+  V1:
+    Regime: "BooleanFunction(['x > 0.7'], ['High', 'Low'])"
+  V2:
+    Output: "BooleanFunction(['x < 4', 'x > 6'], [-1, 1, 0], 'mean')"
+  Regime:
+    Output: "BooleanFunction(['x==\"High\"'], [2, -2], 'std')"

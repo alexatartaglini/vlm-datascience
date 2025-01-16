@@ -1,0 +1,13 @@
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 2
+render_id: iCThFHNV5W
+renders:
+  plot: data/plots/iCThFHNV5W.png
+  table: data/tables/iCThFHNV5W.txt
+type: scatter
+x: X
+x_type: numeric
+y: Y
+y_type: numeric

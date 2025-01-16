@@ -1,0 +1,24 @@
+# Description: Network-like Structure with Hub Effects. Network-like dependencies with hub-and-spoke patterns
+
+# Define the variables in order
+variables: ["C1", "C2", "G", "H", "I"]
+
+# Define the distribution of each variable
+variable_objects:
+  C1: "categorical(probs=[0.1, 0.2, 0.3, 0.4], categories=['P', 'Q', 'R', 'S'])"
+  C2: "categorical(probs=[0.3, 0.7], categories=['M', 'N'])"
+  G: "beta(a=3, b=2)"
+  H: "poisson(lam=5)"
+  I: "normal(mean=0, std=1)"
+
+# Define dependencies between variables
+dependencies:
+  C1:
+    C2: "BooleanFunction(['x==P', 'x==Q', 'x==R', 'x==S'], [0.8, 0.6, 0.4, 0.2])"
+    G: "BooleanFunction(['x==P', 'x==Q', 'x==R', 'x==S'], [0.9, 0.7, 0.5, 0.3])"
+  C2:
+    H: "BooleanFunction(['x==M and C1==P', 'x==M and C1==Q',
+                        'x==N and C1==P', 'x==N and C1==Q'],
+                       [10, 8, 5, 4, 3])"
+  G:
+    I: "BooleanFunction(['C2==M', 'C2==N'], [0.8, 0.4])"

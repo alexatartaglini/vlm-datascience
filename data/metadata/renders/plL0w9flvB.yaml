@@ -1,0 +1,19 @@
+bins: 20
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 1
+plot_xticks:
+- -2.3255541405906333
+- -1.3230622111948083
+- -0.3205702817989833
+- 0.6819216475968415
+- 1.6844135769926667
+- 2.686905506388492
+render_id: plL0w9flvB
+renders:
+  plot: data/plots/plL0w9flvB.png
+  table: data/tables/plL0w9flvB.txt
+type: histogram
+x: W
+x_type: numeric

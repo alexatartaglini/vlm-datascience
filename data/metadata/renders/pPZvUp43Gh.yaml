@@ -1,0 +1,24 @@
+bins: 10
+dataset_name: dataset_7
+generator_name: generator_7
+legend: false
+num_vars: 1
+plot_xticks:
+- -3.1537902581944266
+- -2.56247434208459
+- -1.9711584259747537
+- -1.3798425098649172
+- -0.7885265937550807
+- -0.19721067764524403
+- 0.3941052384645922
+- 0.9854211545744285
+- 1.5767370706842652
+- 2.168052986794102
+- 2.759368902903938
+render_id: pPZvUp43Gh
+renders:
+  plot: data/plots/pPZvUp43Gh.png
+  table: data/tables/pPZvUp43Gh.txt
+type: histogram
+x: X
+x_type: numeric

@@ -1,0 +1,13 @@
+dataset_name: dataset_16
+generator_name: generator_16
+legend: false
+num_vars: 2
+render_id: zaWGPxZKTg
+renders:
+  plot: data/plots/zaWGPxZKTg.png
+  table: data/tables/zaWGPxZKTg.txt
+type: scatter
+x: V1
+x_type: numeric
+y: V2
+y_type: numeric

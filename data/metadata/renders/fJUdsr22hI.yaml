@@ -1,0 +1,30 @@
+bins: 10
+dataset_name: dataset_5
+generator_name: generator_5
+hue: M
+hue_type: categorical
+hue_values:
+- 2
+- 1
+- 0
+legend: true
+num_vars: 2
+plot_xticks:
+- 0.3505120008376644
+- 0.47524790237877956
+- 0.5999838039198948
+- 0.7247197054610099
+- 0.8494556070021252
+- 0.9741915085432404
+- 1.0989274100843556
+- 1.2236633116254707
+- 1.348399213166586
+- 1.4731351147077012
+- 1.5978710162488163
+render_id: fJUdsr22hI
+renders:
+  plot: data/plots/fJUdsr22hI.png
+  table: data/tables/fJUdsr22hI.txt
+type: histogram
+x: O
+x_type: numeric

@@ -1,0 +1,24 @@
+bins: 15
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C1
+hue_type: categorical
+hue_values:
+- B
+- A
+legend: true
+num_vars: 2
+plot_xticks:
+- -3.1537902581944266
+- -1.9711584259747537
+- -0.7885265937550807
+- 0.3941052384645922
+- 1.5767370706842652
+- 2.759368902903938
+render_id: Pk4foMSjOB
+renders:
+  plot: data/plots/Pk4foMSjOB.png
+  table: data/tables/Pk4foMSjOB.txt
+type: histogram
+x: X
+x_type: numeric

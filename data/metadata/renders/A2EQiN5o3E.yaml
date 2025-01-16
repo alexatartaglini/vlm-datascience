@@ -1,0 +1,13 @@
+dataset_name: dataset_7
+generator_name: generator_7
+legend: false
+num_vars: 2
+render_id: A2EQiN5o3E
+renders:
+  plot: data/plots/A2EQiN5o3E.png
+  table: data/tables/A2EQiN5o3E.txt
+type: scatter
+x: X
+x_type: numeric
+y: Z
+y_type: numeric

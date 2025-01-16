@@ -1,0 +1,15 @@
+dataset_name: dataset_21
+generator_name: generator_21
+hue: Y
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: AQM6BBxKZB
+renders:
+  plot: data/plots/AQM6BBxKZB.png
+  table: data/tables/AQM6BBxKZB.txt
+type: scatter
+x: W
+x_type: numeric
+y: Z
+y_type: numeric

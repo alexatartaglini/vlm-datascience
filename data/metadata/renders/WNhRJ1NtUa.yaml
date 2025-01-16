@@ -1,0 +1,19 @@
+dataset_name: dataset_5
+generator_name: generator_5
+hue: M
+hue_type: categorical
+hue_values:
+- 2
+- 1
+- 0
+legend: true
+num_vars: 3
+render_id: WNhRJ1NtUa
+renders:
+  plot: data/plots/WNhRJ1NtUa.png
+  table: data/tables/WNhRJ1NtUa.txt
+type: scatter
+x: N
+x_type: numeric
+y: P
+y_type: numeric

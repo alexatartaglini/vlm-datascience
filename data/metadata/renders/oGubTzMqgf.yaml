@@ -1,0 +1,17 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C2
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: oGubTzMqgf
+renders:
+  plot: data/plots/oGubTzMqgf.png
+  table: data/tables/oGubTzMqgf.txt
+style: C1
+style_type: categorical
+type: scatter
+x: X
+x_type: numeric
+y: Z
+y_type: numeric

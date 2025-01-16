@@ -1,0 +1,4 @@
+Category  W (mean)
+    High  0.049723
+     Low -0.016917
+     Mid -0.056898

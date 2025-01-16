@@ -1,0 +1,17 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C1
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: x8MfHrSPeu
+renders:
+  plot: data/plots/x8MfHrSPeu.png
+  table: data/tables/x8MfHrSPeu.txt
+style: C2
+style_type: categorical
+type: scatter
+x: Z
+x_type: numeric
+y: X
+y_type: numeric

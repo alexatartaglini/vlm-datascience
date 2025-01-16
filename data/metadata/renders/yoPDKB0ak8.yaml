@@ -1,0 +1,19 @@
+bins: 2
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C2
+hue_type: categorical
+hue_values:
+- S
+- T
+- R
+legend: true
+num_vars: 2
+render_id: yoPDKB0ak8
+renders:
+  plot: data/plots/yoPDKB0ak8.png
+  table: data/tables/yoPDKB0ak8.txt
+subtype: stacked
+type: histogram
+x: C1
+x_type: categorical

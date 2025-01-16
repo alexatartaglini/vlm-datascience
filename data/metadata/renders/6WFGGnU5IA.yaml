@@ -1,0 +1,19 @@
+bins: 20
+dataset_name: dataset_5
+generator_name: generator_5
+legend: false
+num_vars: 1
+plot_xticks:
+- 2.0
+- 4.0
+- 6.0
+- 8.0
+- 10.0
+- 12.0
+render_id: 6WFGGnU5IA
+renders:
+  plot: data/plots/6WFGGnU5IA.png
+  table: data/tables/6WFGGnU5IA.txt
+type: histogram
+x: P
+x_type: numeric

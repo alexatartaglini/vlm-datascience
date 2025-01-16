@@ -1,0 +1,12 @@
+bins: 2
+dataset_name: dataset_7
+generator_name: generator_7
+legend: false
+num_vars: 1
+render_id: XNJ1c4JFFc
+renders:
+  plot: data/plots/XNJ1c4JFFc.png
+  table: data/tables/XNJ1c4JFFc.txt
+type: histogram
+x: C1
+x_type: categorical

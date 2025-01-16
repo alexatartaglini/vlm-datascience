@@ -1,0 +1,19 @@
+dataset_name: dataset_5
+generator_name: generator_5
+hue: M
+hue_type: categorical
+hue_values:
+- 2
+- 1
+- 0
+legend: true
+num_vars: 3
+render_id: GCYwprVZ8b
+renders:
+  plot: data/plots/GCYwprVZ8b.png
+  table: data/tables/GCYwprVZ8b.txt
+type: scatter
+x: N
+x_type: numeric
+y: O
+y_type: numeric

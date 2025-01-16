@@ -1,0 +1,19 @@
+bins: 15
+dataset_name: dataset_16
+generator_name: generator_16
+legend: false
+num_vars: 1
+plot_xticks:
+- -7.697645907127743
+- -4.636339080050676
+- -1.5750322529736085
+- 1.4862745741034598
+- 4.547581401180526
+- 7.608888228257594
+render_id: kxl7Sv0pBz
+renders:
+  plot: data/plots/kxl7Sv0pBz.png
+  table: data/tables/kxl7Sv0pBz.txt
+type: histogram
+x: V2
+x_type: numeric

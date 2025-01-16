@@ -1,0 +1,24 @@
+# Description: Time Series with Regime Changes. Time-varying regime changes with cyclical patterns
+
+# Define the variables in order
+variables: ["C1", "A", "B", "D", "E"]
+
+# Define the distribution of each variable
+variable_objects:
+  A: "uniform(low=0, high=100)"  # Time-like variable
+  C1: "categorical(probs=[0.3, 0.4, 0.3], categories=['X', 'Y', 'Z'])"  # Regime
+  B: "normal(mean=0, std=1)"
+  D: "exponential(rate=2)"
+  E: "beta(a=2, b=5)"
+
+# Define dependencies between variables
+dependencies:
+  A:
+    C1: "BooleanFunction(['x<30', 'x<70'], ['X', 'Y', 'Z'])"  # Regime changes
+    B: "Trigonometric(['sin(0.1*x)', 'cos(0.05*x)'], [1, 0.5])"
+  C1:
+    B: "BooleanFunction(['x==X', 'x==Y', 'x==Z'], [2, -2, 0])"
+    E: "BooleanFunction(['x==X', 'x==Y', 'x==Z'], [0.2, 0.8, 0.4])"
+  B:
+    D: "BooleanFunction(['abs(x)>2'], [2, 1])"
+    E: "Polynomial([0.2, 0, 0.1])"

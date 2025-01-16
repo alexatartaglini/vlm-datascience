@@ -1,0 +1,17 @@
+dataset_name: dataset_16
+generator_name: generator_16
+hue: T
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: CB8ywBA4r3
+renders:
+  plot: data/plots/CB8ywBA4r3.png
+  table: data/tables/CB8ywBA4r3.txt
+style: V3
+style_type: categorical
+type: scatter
+x: V1
+x_type: numeric
+y: V2
+y_type: numeric

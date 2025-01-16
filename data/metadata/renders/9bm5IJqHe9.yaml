@@ -1,0 +1,21 @@
+dataset_name: dataset_17
+generator_name: generator_17
+hue: Period
+hue_type: categorical
+hue_values:
+- E3
+- E1
+- E2
+- E5
+- E4
+legend: true
+num_vars: 3
+render_id: 9bm5IJqHe9
+renders:
+  plot: data/plots/9bm5IJqHe9.png
+  table: data/tables/9bm5IJqHe9.txt
+type: scatter
+x: G2
+x_type: numeric
+y: G1
+y_type: numeric

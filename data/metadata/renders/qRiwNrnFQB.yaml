@@ -1,0 +1,25 @@
+bins: 20
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C2
+hue_type: categorical
+hue_values:
+- S
+- T
+- R
+legend: true
+num_vars: 2
+plot_xticks:
+- 1.055577486534986
+- 1.9356736815796742
+- 2.8157698766243624
+- 3.695866071669051
+- 4.575962266713739
+- 5.456058461758427
+render_id: qRiwNrnFQB
+renders:
+  plot: data/plots/qRiwNrnFQB.png
+  table: data/tables/qRiwNrnFQB.txt
+type: histogram
+x: Z
+x_type: numeric

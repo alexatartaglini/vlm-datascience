@@ -1,0 +1,14 @@
+agg_func: mean
+dataset_name: dataset_17
+generator_name: generator_17
+legend: false
+num_vars: 2
+render_id: xMOLObYeVR
+renders:
+  plot: data/plots/xMOLObYeVR.png
+  table: data/tables/xMOLObYeVR.txt
+type: bar
+x: Period
+x_type: categorical
+y: G1
+y_type: numeric

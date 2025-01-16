@@ -1,0 +1,25 @@
+bins: 20
+dataset_name: dataset_16
+generator_name: generator_16
+hue: V3
+hue_type: categorical
+hue_values:
+- '''L1'''
+- '''L2'''
+- '''L3'''
+legend: true
+num_vars: 2
+plot_xticks:
+- -3.558606419318049
+- -2.0247911413381123
+- -0.49097586335817534
+- 1.0428394146217617
+- 2.576654692601698
+- 4.110469970581635
+render_id: 0bw18FaZE3
+renders:
+  plot: data/plots/0bw18FaZE3.png
+  table: data/tables/0bw18FaZE3.txt
+type: histogram
+x: V1
+x_type: numeric

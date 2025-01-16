@@ -1,0 +1,6 @@
+Period  count
+    E1     44
+    E2     38
+    E3     32
+    E4     34
+    E5     30

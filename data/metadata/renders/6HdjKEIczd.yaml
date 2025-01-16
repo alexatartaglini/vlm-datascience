@@ -1,0 +1,17 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C2
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: 6HdjKEIczd
+renders:
+  plot: data/plots/6HdjKEIczd.png
+  table: data/tables/6HdjKEIczd.txt
+style: C1
+style_type: categorical
+type: scatter
+x: Y
+x_type: numeric
+y: X
+y_type: numeric

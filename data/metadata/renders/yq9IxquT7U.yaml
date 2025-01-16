@@ -1,0 +1,13 @@
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 2
+render_id: yq9IxquT7U
+renders:
+  plot: data/plots/yq9IxquT7U.png
+  table: data/tables/yq9IxquT7U.txt
+type: scatter
+x: Y
+x_type: numeric
+y: Z
+y_type: numeric

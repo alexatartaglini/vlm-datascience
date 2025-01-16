@@ -1,0 +1,14 @@
+agg_func: mean
+dataset_name: dataset_5
+generator_name: generator_5
+legend: false
+num_vars: 2
+render_id: 7SUTpB3OKC
+renders:
+  plot: data/plots/7SUTpB3OKC.png
+  table: data/tables/7SUTpB3OKC.txt
+type: bar
+x: M
+x_type: categorical
+y: P
+y_type: numeric

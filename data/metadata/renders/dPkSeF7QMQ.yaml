@@ -1,0 +1,17 @@
+dataset_name: dataset_16
+generator_name: generator_16
+hue: V3
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: dPkSeF7QMQ
+renders:
+  plot: data/plots/dPkSeF7QMQ.png
+  table: data/tables/dPkSeF7QMQ.txt
+style: T
+style_type: categorical
+type: scatter
+x: V2
+x_type: numeric
+y: V1
+y_type: numeric

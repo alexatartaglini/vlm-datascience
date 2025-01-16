@@ -1,0 +1,20 @@
+categorical_vars:
+- Group
+- Subgroup
+generator_name: generator_8
+n_categorical: 2
+n_numeric: 3
+n_sequential: 0
+name: dataset_8
+num_points: 67
+numeric_vars:
+- V1
+- V2
+- V3
+sequential_vars: []
+variables:
+- Group
+- Subgroup
+- V1
+- V2
+- V3

@@ -1,0 +1,19 @@
+bins: 15
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 1
+plot_xticks:
+- -1.9709020850810428
+- -1.1796188473400684
+- -0.3883356095990942
+- 0.40294762814188
+- 1.1942308658828544
+- 1.9855141036238284
+render_id: tJalmySBrt
+renders:
+  plot: data/plots/tJalmySBrt.png
+  table: data/tables/tJalmySBrt.txt
+type: histogram
+x: X
+x_type: numeric

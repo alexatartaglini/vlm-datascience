@@ -1,0 +1,19 @@
+# Description: Seasonal patterns with cyclic dependencies. Models seasonal patterns with cyclic dependencies, where the sequential variable T represents months and influences both continuous and categorical variables in a cyclic manner.
+
+# Define the variables in order
+variables: ["T", "V1", "V2", "V3"]
+
+# Define the distribution of each variable
+variable_objects:
+  T: "categorical(probs=[0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.087], categories=['M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12'], sequential=True)"
+  V1: "normal(mean=0, std=1)"
+  V2: "uniform(low=-5, high=5)"
+  V3: "categorical(probs=[0.3, 0.4, 0.3], categories=['L1', 'L2', 'L3'])"
+
+# Define dependencies between variables
+dependencies:
+  T:
+    V1: "BooleanFunction(['x in [\"M12\", \"M1\", \"M2\"]', 'x in [\"M3\", \"M4\", \"M5\"]', 'x in [\"M6\", \"M7\", \"M8\"]'], [2, 0, -2, 1], 'mean')"  # Temperature-like pattern
+    V2: "Trigonometric(['sin(x)'], [3])"  # Cyclic pattern
+  V1:
+    V3: "BooleanFunction(['x > 1', 'x < -1'], ['L1', 'L3', 'L2'])"  # State transitions based on V1

@@ -1,0 +1,25 @@
+# Description: Multi-component system with seasonal effects and regime changes
+
+# Define the variables in order
+variables: ["X", "A", "B", "C", "Y"]
+
+# Define the distribution of each variable
+variable_objects:
+  X: "categorical(probs=[0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625], categories=['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10', 'P11', 'P12', 'P13', 'P14', 'P15', 'P16'], sequential=True)"
+  A: "normal(mean=0, std=1)"
+  B: "uniform(low=0, high=0.25)"
+  C: "categorical(probs=[0.3, 0.4, 0.3], categories=['L1', 'L2', 'L3'])"
+  Y: "normal(mean=5, std=1)"
+
+# Define the dependencies between variables
+dependencies:
+  X:
+    A: "Trigonometric(['sin(x)', 'cos(x)'], [2, 1])"  # Smooth seasonal pattern
+    B: "BooleanFunction(['x==\"P4\"', 'x==\"P8\"', 'x==\"P12\"'], [0, 5.5, 3.4, 8.6], 'mean')"  # Step changes
+    C: "BooleanFunction(['x in [\"P1\",\"P2\",\"P3\",\"P4\"]', 'x in [\"P9\",\"P10\",\"P11\",\"P12\"]'], ['L1', 'L3', 'L2'])"  # Regime changes
+  A:
+    Y: "Polynomial([5, 1.5])"  # Strong linear effect
+  B:
+    Y: "BooleanFunction(['x < 0.3', 'x > 0.7'], [0.5, 2, 1], 'std')"  # Varying uncertainty
+  C:
+    Y: "BooleanFunction(['x==\"L1\"', 'x==\"L2\"', 'x==\"L3\"'], [-2, 0, 2], 'mean')"  # Level shifts

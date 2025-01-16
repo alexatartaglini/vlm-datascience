@@ -1,0 +1,19 @@
+bins: 20
+dataset_name: dataset_5
+generator_name: generator_5
+legend: false
+num_vars: 1
+plot_xticks:
+- -3.3837031250864387
+- -2.098381798676229
+- -0.8130604722660189
+- 0.4722608541441913
+- 1.757582180554401
+- 3.04290350696461
+render_id: 83vObd2oAB
+renders:
+  plot: data/plots/83vObd2oAB.png
+  table: data/tables/83vObd2oAB.txt
+type: histogram
+x: N
+x_type: numeric

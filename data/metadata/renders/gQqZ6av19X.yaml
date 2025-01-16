@@ -1,0 +1,17 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: C
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: gQqZ6av19X
+renders:
+  plot: data/plots/gQqZ6av19X.png
+  table: data/tables/gQqZ6av19X.txt
+style: X
+style_type: categorical
+type: scatter
+x: B
+x_type: numeric
+y: Y
+y_type: numeric

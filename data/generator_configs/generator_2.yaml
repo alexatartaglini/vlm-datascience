@@ -1,0 +1,20 @@
+# Description: Clustered Data with Transitions. Distinct regions and stepped transitions.
+
+# Define the variables in order
+variables: ["P", "Q", "R", "S"]
+
+# Define the distribution of each variable
+variable_objects:
+  P: "uniform(low=-3, high=3)"
+  Q: "normal(mean=0, std=0.8)"
+  R: "exponential(rate=1.2)"
+  S: "normal(mean=5, std=0.3)"
+
+# Define dependencies between variables
+dependencies:
+  P:
+    Q: "BooleanFunction(['x<-1', 'x>1'], [-2, 2, 0])"  # Three distinct regions
+  Q:
+    R: "Polynomial([1, 0, 0.5])"  # Parabolic relationship
+  R:
+    S: "BooleanFunction(['x<1', 'x<2', 'x<3'], [4, 5, 6, 7])"  # Stepped relationship

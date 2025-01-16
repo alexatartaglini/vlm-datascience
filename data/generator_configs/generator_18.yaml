@@ -1,0 +1,19 @@
+# Description: Phase transitions with hysteresis. The sequential variable P represents levels that influence the parameters of both continuous distributions and create state transitions with memory effects.
+
+# Define the variables in order
+variables: ["P", "X1", "X2", "S1"]
+
+# Define the distribution of each variable
+variable_objects:
+  P: "categorical(probs=[0.143, 0.143, 0.143, 0.143, 0.143, 0.143, 0.142], categories=['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7'], sequential=True)"
+  X1: "normal(mean=0, std=1)"
+  X2: "beta(a=2, b=2)"
+  S1: "categorical(probs=[0.5, 0.5], categories=['A', 'B'])"
+
+# Define dependencies between variables
+dependencies:
+  P:
+    X1: "BooleanFunction(['x in [\"L1\", \"L2\"]', 'x in [\"L3\", \"L4\", \"L5\"]'], [-1, 0, 1], 'mean')"  # Phase transitions
+    X2: "BooleanFunction(['x in [\"L1\", \"L2\"]', 'x in [\"L3\", \"L4\"]', 'x in [\"L5\", \"L6\", \"L7\"]'], [(1, 1), (2, 2), (3, 1), (2, 2)], 'a, b')"  # Shape changes
+  X1:
+    S1: "BooleanFunction(['x > 0 and P in [\"L1\", \"L2\", \"L3\"]', 'x < 0 and P in [\"L5\", \"L6\", \"L7\"]'], ['A', 'B', 'A'])"  # Hysteresis effect

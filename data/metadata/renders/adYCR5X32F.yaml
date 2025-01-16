@@ -1,0 +1,15 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: Y
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: adYCR5X32F
+renders:
+  plot: data/plots/adYCR5X32F.png
+  table: data/tables/adYCR5X32F.txt
+type: scatter
+x: Z
+x_type: numeric
+y: X
+y_type: numeric

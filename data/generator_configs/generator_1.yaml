@@ -1,0 +1,17 @@
+# Description: Heavy-tailed Distribution with Outliers. Natural outliers and different behavior in the tails.
+
+# Define the variables in order
+variables: ["X", "Y", "Z"]
+
+# Define the distribution of each variable
+variable_objects:
+  X: "exponential(rate=0.5)"  # Creates right-skewed distribution
+  Y: "normal(mean=0, std=2)"
+  Z: "beta(a=2, b=5)"  # Creates asymmetric distribution
+
+# Define dependencies between variables
+dependencies:
+  X:
+    Y: "Polynomial([0, 2, 0.5])"  # Quadratic relationship with increasing spread
+  Y:
+    Z: "BooleanFunction(['x<-2', 'x>2'], [0.9, 0.1, 0.5])"  # Different behavior for outliers

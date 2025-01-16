@@ -1,0 +1,24 @@
+bins: 10
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 1
+plot_xticks:
+- -1.7348132523687383
+- -0.06137755282182411
+- 1.61205814672509
+- 3.2854938462720042
+- 4.958929545818918
+- 6.632365245365833
+- 8.305800944912747
+- 9.979236644459661
+- 11.652672344006575
+- 13.32610804355349
+- 14.999543743100404
+render_id: DI2hHrPr8c
+renders:
+  plot: data/plots/DI2hHrPr8c.png
+  table: data/tables/DI2hHrPr8c.txt
+type: histogram
+x: Z
+x_type: numeric

@@ -1,0 +1,25 @@
+# Description: Interaction Effects Between Categories.  Shows how the relationship between variables changes depending on multiple categorical variables
+
+# Define the variables in order
+variables: ["C1", "C2", "X", "Y", "Z"]
+
+# Define the distribution of each variable
+variable_objects:
+  C1: "categorical(probs=[0.3, 0.7], categories=['A', 'B'])"  # First category
+  C2: "categorical(probs=[0.4, 0.3, 0.3], categories=['R', 'S', 'T'])"  # Second category
+  X: "normal(mean=0, std=1)"
+  Y: "normal(mean=0, std=0.5)"
+  Z: "exponential(rate=1)"
+
+# Define dependencies between variables
+dependencies:
+  C1:
+    X: "BooleanFunction(['x==A', 'x==B'], [-1, 1])"  # Base level for X
+    Y: "BooleanFunction(['x==A', 'x==B'], [0, 2])"   # Base level for Y
+  C2:
+    X: "BooleanFunction(['x==R', 'x==S', 'x==T'], [0.5, -0.5, 0])"  # Additive effect
+    Z: "BooleanFunction(['x==R', 'x==S', 'x==T'], [1, 2, 3])"       # Different rates
+  X:
+    Y: "BooleanFunction(['C1==A and C2==R', 'C1==A and C2==S', 'C1==A and C2==T',
+                        'C1==B and C2==R', 'C1==B and C2==S', 'C1==B and C2==T'],
+                       [0.5, -0.5, 0, -0.5, 0.5, 0])"  # Complex interaction effects

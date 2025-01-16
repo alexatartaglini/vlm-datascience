@@ -1,0 +1,14 @@
+agg_func: mean
+dataset_name: dataset_5
+generator_name: generator_5
+legend: false
+num_vars: 2
+render_id: prPx3eL769
+renders:
+  plot: data/plots/prPx3eL769.png
+  table: data/tables/prPx3eL769.txt
+type: bar
+x: M
+x_type: categorical
+y: O
+y_type: numeric

@@ -1,0 +1,13 @@
+dataset_name: dataset_5
+generator_name: generator_5
+legend: false
+num_vars: 2
+render_id: fbvomilL0A
+renders:
+  plot: data/plots/fbvomilL0A.png
+  table: data/tables/fbvomilL0A.txt
+type: scatter
+x: N
+x_type: numeric
+y: P
+y_type: numeric

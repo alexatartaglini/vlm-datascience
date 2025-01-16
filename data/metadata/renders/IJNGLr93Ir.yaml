@@ -1,0 +1,14 @@
+agg_func: mean
+dataset_name: dataset_5
+generator_name: generator_5
+legend: false
+num_vars: 2
+render_id: IJNGLr93Ir
+renders:
+  plot: data/plots/IJNGLr93Ir.png
+  table: data/tables/IJNGLr93Ir.txt
+type: bar
+x: M
+x_type: categorical
+y: N
+y_type: numeric

@@ -1,0 +1,15 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: B
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: oFExMyKdHF
+renders:
+  plot: data/plots/oFExMyKdHF.png
+  table: data/tables/oFExMyKdHF.txt
+type: scatter
+x: Y
+x_type: numeric
+y: A
+y_type: numeric

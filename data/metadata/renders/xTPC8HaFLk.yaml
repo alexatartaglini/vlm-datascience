@@ -1,0 +1,19 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C2
+hue_type: categorical
+hue_values:
+- S
+- T
+- R
+legend: true
+num_vars: 3
+render_id: xTPC8HaFLk
+renders:
+  plot: data/plots/xTPC8HaFLk.png
+  table: data/tables/xTPC8HaFLk.txt
+type: scatter
+x: Z
+x_type: numeric
+y: X
+y_type: numeric

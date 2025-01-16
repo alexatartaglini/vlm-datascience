@@ -1,0 +1,17 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: X
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: hNXhVuTgzA
+renders:
+  plot: data/plots/hNXhVuTgzA.png
+  table: data/tables/hNXhVuTgzA.txt
+style: C
+style_type: categorical
+type: scatter
+x: Y
+x_type: numeric
+y: B
+y_type: numeric

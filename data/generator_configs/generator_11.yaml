@@ -1,0 +1,23 @@
+# Description: Clustered Data with Varying Densities. Density-based clustering with varying correlation structures
+
+# Define the variables in order
+variables: ["C1", "F", "X", "Y", "Z"]
+
+# Define the distribution of each variable
+variable_objects:
+  C1: "categorical(probs=[0.2, 0.3, 0.5], categories=['A', 'B', 'C'])"
+  F: "beta(a=2, b=2)"
+  X: "normal(mean=0, std=1)"
+  Y: "normal(mean=0, std=0.5)"
+  Z: "uniform(low=-1, high=1)"
+
+# Define dependencies between variables
+dependencies:
+  C1:
+    X: "BooleanFunction(['x==A', 'x==B', 'x==C'], [0, 3, 1.5])"
+    Y: "BooleanFunction(['x==A', 'x==B', 'x==C'], [0, -2, 1])"
+    F: "BooleanFunction(['x==A', 'x==B', 'x==C'], [0.8, 0.2, 0.5])"
+  X:
+    Y: "BooleanFunction(['C1==A', 'C1==B', 'C1==C'], [0.9, 0.3, 0.6])"
+  Y:
+    Z: "Polynomial([0, 0.5, 0.2])"

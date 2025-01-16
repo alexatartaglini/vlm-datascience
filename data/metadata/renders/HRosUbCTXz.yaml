@@ -1,0 +1,30 @@
+bins: 10
+dataset_name: dataset_21
+generator_name: generator_21
+hue: Category
+hue_type: categorical
+hue_values:
+- High
+- Low
+- Mid
+legend: true
+num_vars: 2
+plot_xticks:
+- -3.319928283786252
+- -2.6834414640904245
+- -2.0469546443945976
+- -1.4104678246987703
+- -0.773981005002943
+- -0.13749418530711566
+- 0.4989926343887112
+- 1.1354794540845385
+- 1.7719662737803659
+- 2.408453093476193
+- 3.0449399131720205
+render_id: HRosUbCTXz
+renders:
+  plot: data/plots/HRosUbCTXz.png
+  table: data/tables/HRosUbCTXz.txt
+type: histogram
+x: Y
+x_type: numeric

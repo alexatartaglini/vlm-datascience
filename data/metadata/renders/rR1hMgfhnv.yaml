@@ -1,0 +1,30 @@
+bins: 10
+dataset_name: dataset_21
+generator_name: generator_21
+hue: Category
+hue_type: categorical
+hue_values:
+- High
+- Low
+- Mid
+legend: true
+num_vars: 2
+plot_xticks:
+- -2.3255541405906333
+- -1.8243081758927207
+- -1.3230622111948083
+- -0.8218162464968959
+- -0.3205702817989833
+- 0.18067568289892932
+- 0.6819216475968415
+- 1.183167612294754
+- 1.6844135769926667
+- 2.1856595416905793
+- 2.686905506388492
+render_id: rR1hMgfhnv
+renders:
+  plot: data/plots/rR1hMgfhnv.png
+  table: data/tables/rR1hMgfhnv.txt
+type: histogram
+x: W
+x_type: numeric

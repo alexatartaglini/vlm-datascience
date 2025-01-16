@@ -1,0 +1,15 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: A
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: 9FXzPtk7EN
+renders:
+  plot: data/plots/9FXzPtk7EN.png
+  table: data/tables/9FXzPtk7EN.txt
+type: scatter
+x: Y
+x_type: numeric
+y: B
+y_type: numeric

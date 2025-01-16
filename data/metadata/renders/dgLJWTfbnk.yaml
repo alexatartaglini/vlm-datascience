@@ -1,0 +1,16 @@
+agg_func: mean
+dataset_name: dataset_20
+generator_name: generator_20
+hue: C
+hue_type: categorical
+legend: true
+num_vars: 3
+render_id: dgLJWTfbnk
+renders:
+  plot: data/plots/dgLJWTfbnk.png
+  table: data/tables/dgLJWTfbnk.txt
+type: bar
+x: X
+x_type: categorical
+y: A
+y_type: numeric

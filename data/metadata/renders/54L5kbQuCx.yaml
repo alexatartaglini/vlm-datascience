@@ -1,0 +1,19 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C2
+hue_type: categorical
+hue_values:
+- S
+- T
+- R
+legend: true
+num_vars: 3
+render_id: 54L5kbQuCx
+renders:
+  plot: data/plots/54L5kbQuCx.png
+  table: data/tables/54L5kbQuCx.txt
+type: scatter
+x: Y
+x_type: numeric
+y: Z
+y_type: numeric

@@ -1,0 +1,15 @@
+dataset_name: dataset_21
+generator_name: generator_21
+hue: Z
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: FVscMQu4WG
+renders:
+  plot: data/plots/FVscMQu4WG.png
+  table: data/tables/FVscMQu4WG.txt
+type: scatter
+x: W
+x_type: numeric
+y: Y
+y_type: numeric

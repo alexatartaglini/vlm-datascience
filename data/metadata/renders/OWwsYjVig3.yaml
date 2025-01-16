@@ -1,0 +1,19 @@
+dataset_name: dataset_5
+generator_name: generator_5
+hue: M
+hue_type: categorical
+hue_values:
+- 2
+- 1
+- 0
+legend: true
+num_vars: 3
+render_id: OWwsYjVig3
+renders:
+  plot: data/plots/OWwsYjVig3.png
+  table: data/tables/OWwsYjVig3.txt
+type: scatter
+x: O
+x_type: numeric
+y: N
+y_type: numeric

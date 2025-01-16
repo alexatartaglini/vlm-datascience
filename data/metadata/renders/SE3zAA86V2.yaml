@@ -1,0 +1,25 @@
+bins: 20
+dataset_name: dataset_5
+generator_name: generator_5
+hue: M
+hue_type: categorical
+hue_values:
+- 2
+- 1
+- 0
+legend: true
+num_vars: 2
+plot_xticks:
+- 2.0
+- 4.0
+- 6.0
+- 8.0
+- 10.0
+- 12.0
+render_id: SE3zAA86V2
+renders:
+  plot: data/plots/SE3zAA86V2.png
+  table: data/tables/SE3zAA86V2.txt
+type: histogram
+x: P
+x_type: numeric

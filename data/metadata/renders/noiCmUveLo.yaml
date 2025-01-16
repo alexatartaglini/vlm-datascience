@@ -1,0 +1,24 @@
+bins: 20
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C1
+hue_type: categorical
+hue_values:
+- B
+- A
+legend: true
+num_vars: 2
+plot_xticks:
+- -0.6883301091065478
+- 0.018040037635666417
+- 0.7244101843778806
+- 1.4307803311200948
+- 2.137150477862309
+- 2.843520624604523
+render_id: noiCmUveLo
+renders:
+  plot: data/plots/noiCmUveLo.png
+  table: data/tables/noiCmUveLo.txt
+type: histogram
+x: Y
+x_type: numeric

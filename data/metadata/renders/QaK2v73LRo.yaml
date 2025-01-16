@@ -1,0 +1,19 @@
+bins: 20
+dataset_name: dataset_20
+generator_name: generator_20
+legend: false
+num_vars: 1
+plot_xticks:
+- -4.468698772984939
+- -2.835860167724599
+- -1.2030215624642584
+- 0.4298170427960821
+- 2.062655648056422
+- 3.695494253316762
+render_id: QaK2v73LRo
+renders:
+  plot: data/plots/QaK2v73LRo.png
+  table: data/tables/QaK2v73LRo.txt
+type: histogram
+x: A
+x_type: numeric

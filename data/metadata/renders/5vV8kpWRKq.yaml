@@ -1,0 +1,25 @@
+bins: 20
+dataset_name: dataset_20
+generator_name: generator_20
+hue: C
+hue_type: categorical
+hue_values:
+- '''L3'''
+- '''L2'''
+- '''L1'''
+legend: true
+num_vars: 2
+plot_xticks:
+- 0.0032492408912481
+- 0.0525865307310361
+- 0.10192382057082411
+- 0.1512611104106121
+- 0.2005984002504001
+- 0.2499356900901881
+render_id: 5vV8kpWRKq
+renders:
+  plot: data/plots/5vV8kpWRKq.png
+  table: data/tables/5vV8kpWRKq.txt
+type: histogram
+x: B
+x_type: numeric

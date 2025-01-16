@@ -1,0 +1,16 @@
+agg_func: mean
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C1
+hue_type: categorical
+legend: true
+num_vars: 3
+render_id: 6gaaite4kR
+renders:
+  plot: data/plots/6gaaite4kR.png
+  table: data/tables/6gaaite4kR.txt
+type: bar
+x: C2
+x_type: categorical
+y: Y
+y_type: numeric

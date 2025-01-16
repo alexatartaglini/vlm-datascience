@@ -1,0 +1,4 @@
+Category  Y (mean)
+    High  0.159427
+     Low  0.161545
+     Mid  0.231625

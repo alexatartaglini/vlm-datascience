@@ -1,0 +1,19 @@
+dataset_name: dataset_16
+generator_name: generator_16
+hue: V3
+hue_type: categorical
+hue_values:
+- '''L1'''
+- '''L2'''
+- '''L3'''
+legend: true
+num_vars: 3
+render_id: DTGmbTPj66
+renders:
+  plot: data/plots/DTGmbTPj66.png
+  table: data/tables/DTGmbTPj66.txt
+type: scatter
+x: V1
+x_type: numeric
+y: V2
+y_type: numeric

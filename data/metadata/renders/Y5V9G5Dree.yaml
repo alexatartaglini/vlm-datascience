@@ -1,0 +1,13 @@
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 2
+render_id: Y5V9G5Dree
+renders:
+  plot: data/plots/Y5V9G5Dree.png
+  table: data/tables/Y5V9G5Dree.txt
+type: scatter
+x: Y
+x_type: numeric
+y: W
+y_type: numeric

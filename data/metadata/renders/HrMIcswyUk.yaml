@@ -1,0 +1,17 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: B
+hue_type: numeric
+legend: true
+num_vars: 4
+render_id: HrMIcswyUk
+renders:
+  plot: data/plots/HrMIcswyUk.png
+  table: data/tables/HrMIcswyUk.txt
+style: C
+style_type: categorical
+type: scatter
+x: Y
+x_type: numeric
+y: A
+y_type: numeric

@@ -1,0 +1,18 @@
+# Description: Heteroskedasticity with Nonlinear Trends. Variance changes with the predictor variable
+
+# Define the variables in order
+variables: ["J", "K", "L"]
+
+# Define the distribution of each variable
+variable_objects:
+  J: "uniform(low=-3, high=3)"
+  K: "normal(mean=0, std=1)"
+  L: "exponential(rate=1)"
+
+# Define dependencies between variables
+dependencies:
+  J:
+    K: "Polynomial([0, 0, 0.5])"  # Quadratic trend
+    L: "BooleanFunction(['abs(x)<1', 'abs(x)<2', 'abs(x)>=2'], [0.2, 0.5, 1.0], 'std')"  # Increasing variance
+  K:
+    L: "Polynomial([1, 0.3])"  # Linear relationship with heteroskedastic noise

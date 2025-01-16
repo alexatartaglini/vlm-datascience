@@ -1,0 +1,15 @@
+dataset_name: dataset_21
+generator_name: generator_21
+hue: Y
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: QAv8Ans2Ia
+renders:
+  plot: data/plots/QAv8Ans2Ia.png
+  table: data/tables/QAv8Ans2Ia.txt
+type: scatter
+x: Z
+x_type: numeric
+y: X
+y_type: numeric

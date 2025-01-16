@@ -1,0 +1,30 @@
+bins: 10
+dataset_name: dataset_17
+generator_name: generator_17
+hue: State
+hue_type: categorical
+hue_values:
+- S3
+- S1
+- S2
+legend: true
+num_vars: 2
+plot_xticks:
+- -3.5580955958274
+- -2.7439626871333864
+- -1.929829778439373
+- -1.1156968697453595
+- -0.30156396105134586
+- 0.5125689476426678
+- 1.326701856336681
+- 2.140834765030695
+- 2.9549676737247084
+- 3.7691005824187216
+- 4.583233491112736
+render_id: suIlvhBCgV
+renders:
+  plot: data/plots/suIlvhBCgV.png
+  table: data/tables/suIlvhBCgV.txt
+type: histogram
+x: G2
+x_type: numeric

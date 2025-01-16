@@ -1,0 +1,19 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: C
+hue_type: categorical
+hue_values:
+- '''L3'''
+- '''L2'''
+- '''L1'''
+legend: true
+num_vars: 3
+render_id: BAfQvjIftp
+renders:
+  plot: data/plots/BAfQvjIftp.png
+  table: data/tables/BAfQvjIftp.txt
+type: scatter
+x: A
+x_type: numeric
+y: B
+y_type: numeric

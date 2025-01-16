@@ -1,0 +1,4 @@
+State  count
+   S1     58
+   S2     72
+   S3     48

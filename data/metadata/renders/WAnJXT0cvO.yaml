@@ -1,0 +1,13 @@
+dataset_name: dataset_7
+generator_name: generator_7
+legend: false
+num_vars: 2
+render_id: WAnJXT0cvO
+renders:
+  plot: data/plots/WAnJXT0cvO.png
+  table: data/tables/WAnJXT0cvO.txt
+type: scatter
+x: Y
+x_type: numeric
+y: Z
+y_type: numeric

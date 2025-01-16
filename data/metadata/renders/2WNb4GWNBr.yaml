@@ -1,0 +1,12 @@
+bins: 3
+dataset_name: dataset_5
+generator_name: generator_5
+legend: false
+num_vars: 1
+render_id: 2WNb4GWNBr
+renders:
+  plot: data/plots/2WNb4GWNBr.png
+  table: data/tables/2WNb4GWNBr.txt
+type: histogram
+x: M
+x_type: categorical

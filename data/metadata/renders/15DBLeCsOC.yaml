@@ -1,0 +1,21 @@
+dataset_name: dataset_17
+generator_name: generator_17
+hue: Period
+hue_type: categorical
+hue_values:
+- E3
+- E1
+- E2
+- E5
+- E4
+legend: true
+num_vars: 3
+render_id: 15DBLeCsOC
+renders:
+  plot: data/plots/15DBLeCsOC.png
+  table: data/tables/15DBLeCsOC.txt
+type: scatter
+x: G1
+x_type: numeric
+y: G2
+y_type: numeric

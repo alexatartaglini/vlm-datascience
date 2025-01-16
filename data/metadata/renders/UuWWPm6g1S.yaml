@@ -1,0 +1,19 @@
+bins: 20
+dataset_name: dataset_20
+generator_name: generator_20
+legend: false
+num_vars: 1
+plot_xticks:
+- 0.0032492408912481
+- 0.0525865307310361
+- 0.10192382057082411
+- 0.1512611104106121
+- 0.2005984002504001
+- 0.2499356900901881
+render_id: UuWWPm6g1S
+renders:
+  plot: data/plots/UuWWPm6g1S.png
+  table: data/tables/UuWWPm6g1S.txt
+type: histogram
+x: B
+x_type: numeric

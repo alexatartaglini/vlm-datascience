@@ -1,0 +1,13 @@
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 2
+render_id: ODrdqo2p27
+renders:
+  plot: data/plots/ODrdqo2p27.png
+  table: data/tables/ODrdqo2p27.txt
+type: scatter
+x: X
+x_type: numeric
+y: Z
+y_type: numeric

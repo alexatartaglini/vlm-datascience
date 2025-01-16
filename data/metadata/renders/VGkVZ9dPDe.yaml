@@ -1,0 +1,15 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: Y
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: VGkVZ9dPDe
+renders:
+  plot: data/plots/VGkVZ9dPDe.png
+  table: data/tables/VGkVZ9dPDe.txt
+type: scatter
+x: B
+x_type: numeric
+y: A
+y_type: numeric

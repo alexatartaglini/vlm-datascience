@@ -1,0 +1,16 @@
+agg_func: mean
+dataset_name: dataset_20
+generator_name: generator_20
+hue: X
+hue_type: categorical
+legend: true
+num_vars: 3
+render_id: DyQ85IymX3
+renders:
+  plot: data/plots/DyQ85IymX3.png
+  table: data/tables/DyQ85IymX3.txt
+type: bar
+x: C
+x_type: categorical
+y: A
+y_type: numeric

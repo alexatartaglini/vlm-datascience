@@ -1,0 +1,14 @@
+agg_func: mean
+dataset_name: dataset_20
+generator_name: generator_20
+legend: false
+num_vars: 2
+render_id: 1mqejFAcwK
+renders:
+  plot: data/plots/1mqejFAcwK.png
+  table: data/tables/1mqejFAcwK.txt
+type: bar
+x: C
+x_type: categorical
+y: Y
+y_type: numeric

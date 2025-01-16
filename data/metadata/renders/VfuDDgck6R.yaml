@@ -1,0 +1,13 @@
+dataset_name: dataset_20
+generator_name: generator_20
+legend: false
+num_vars: 2
+render_id: VfuDDgck6R
+renders:
+  plot: data/plots/VfuDDgck6R.png
+  table: data/tables/VfuDDgck6R.txt
+type: scatter
+x: A
+x_type: numeric
+y: Y
+y_type: numeric

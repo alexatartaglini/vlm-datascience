@@ -1,0 +1,13 @@
+dataset_name: dataset_20
+generator_name: generator_20
+legend: false
+num_vars: 2
+render_id: PkMOEbSPpx
+renders:
+  plot: data/plots/PkMOEbSPpx.png
+  table: data/tables/PkMOEbSPpx.txt
+type: scatter
+x: B
+x_type: numeric
+y: Y
+y_type: numeric

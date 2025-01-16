@@ -1,0 +1,25 @@
+bins: 15
+dataset_name: dataset_20
+generator_name: generator_20
+hue: C
+hue_type: categorical
+hue_values:
+- '''L3'''
+- '''L2'''
+- '''L1'''
+legend: true
+num_vars: 2
+plot_xticks:
+- 3.70193346273627
+- 6.246593168142599
+- 8.791252873548927
+- 11.335912578955256
+- 13.880572284361584
+- 16.425231989767916
+render_id: NbwSYjnrSz
+renders:
+  plot: data/plots/NbwSYjnrSz.png
+  table: data/tables/NbwSYjnrSz.txt
+type: histogram
+x: Y
+x_type: numeric

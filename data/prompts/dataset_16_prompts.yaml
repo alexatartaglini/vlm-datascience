@@ -1,0 +1,1662 @@
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately how many observations are in the 2nd bin for V3='L1'?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 0bw18FaZE3
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/0bw18FaZE3.png
+    table: /home/alexart/vlm-benchmark/data/tables/0bw18FaZE3.txt
+- answer: 50
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for V3='L1', approximately how many total observations occur between V1=1.04
+    and V1=2.58?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 0bw18FaZE3
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/0bw18FaZE3.png
+    table: /home/alexart/vlm-benchmark/data/tables/0bw18FaZE3.txt
+- answer: '''L1'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - '''L3'''
+  - '''L1'''
+  prompt: which has more total observations, V3='L3' or V3='L1'?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 0bw18FaZE3
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/0bw18FaZE3.png
+    table: /home/alexart/vlm-benchmark/data/tables/0bw18FaZE3.txt
+- answer: 16.0
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the maximum count for V3='L2'?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 0bw18FaZE3
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/0bw18FaZE3.png
+    table: /home/alexart/vlm-benchmark/data/tables/0bw18FaZE3.txt
+- answer: '''L2'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - '''L1'''
+  - '''L2'''
+  - '''L3'''
+  prompt: for observations with V1=-0.49, which category of V3 are they most likely
+    to belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 0bw18FaZE3
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/0bw18FaZE3.png
+    table: /home/alexart/vlm-benchmark/data/tables/0bw18FaZE3.txt
+- answer: 10
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately how many observations are in the 2nd bin?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: zubJNo12TY
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zubJNo12TY.png
+    table: /home/alexart/vlm-benchmark/data/tables/zubJNo12TY.txt
+- answer: 9
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately how many observations occur between V1=2.58 and V1=3.34?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: zubJNo12TY
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zubJNo12TY.png
+    table: /home/alexart/vlm-benchmark/data/tables/zubJNo12TY.txt
+- answer: 31.0
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the maximum count for V1?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: zubJNo12TY
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zubJNo12TY.png
+    table: /home/alexart/vlm-benchmark/data/tables/zubJNo12TY.txt
+- answer: -0.1
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: which value of V1 appears most frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: zubJNo12TY
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zubJNo12TY.png
+    table: /home/alexart/vlm-benchmark/data/tables/zubJNo12TY.txt
+- answer: 3.73
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: which nonzero value of V1 appears least frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: zubJNo12TY
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zubJNo12TY.png
+    table: /home/alexart/vlm-benchmark/data/tables/zubJNo12TY.txt
+- answer: 1.43
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - -1.64
+  - 1.43
+  prompt: which V1 value is more frequent, V1=-1.64 or V1=1.43?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: zubJNo12TY
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zubJNo12TY.png
+    table: /home/alexart/vlm-benchmark/data/tables/zubJNo12TY.txt
+- answer: 0.9044943820224719
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the probability that a new observation will have V1 greater than
+    -2.02?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: zubJNo12TY
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zubJNo12TY.png
+    table: /home/alexart/vlm-benchmark/data/tables/zubJNo12TY.txt
+- answer: -0.739011
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the mean V2 value for T=M8?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 9UOQ31rF2M
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9UOQ31rF2M.png
+    table: /home/alexart/vlm-benchmark/data/tables/9UOQ31rF2M.txt
+- answer: 6.032109
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the difference in mean V2 value between T=M11 and
+    T=M6?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 9UOQ31rF2M
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9UOQ31rF2M.png
+    table: /home/alexart/vlm-benchmark/data/tables/9UOQ31rF2M.txt
+- answer: M2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options: &id001
+  - M1
+  - M10
+  - M11
+  - M12
+  - M2
+  - M3
+  - M4
+  - M5
+  - M6
+  - M7
+  - M8
+  - M9
+  prompt: which category has the highest mean V2 value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 9UOQ31rF2M
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9UOQ31rF2M.png
+    table: /home/alexart/vlm-benchmark/data/tables/9UOQ31rF2M.txt
+- answer: M6
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options: *id001
+  prompt: which category has the lowest mean V2 value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 9UOQ31rF2M
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/9UOQ31rF2M.png
+    table: /home/alexart/vlm-benchmark/data/tables/9UOQ31rF2M.txt
+- answer: 3.2756989203333724
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the V2 value for V1=2.26?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: KzFsN9ZRjw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/KzFsN9ZRjw.png
+    table: /home/alexart/vlm-benchmark/data/tables/KzFsN9ZRjw.txt
+- answer: 15.31
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the range of V2 values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: KzFsN9ZRjw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/KzFsN9ZRjw.png
+    table: /home/alexart/vlm-benchmark/data/tables/KzFsN9ZRjw.txt
+- answer: 4.11
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the maximum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: KzFsN9ZRjw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/KzFsN9ZRjw.png
+    table: /home/alexart/vlm-benchmark/data/tables/KzFsN9ZRjw.txt
+- answer: -3.56
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the minimum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: KzFsN9ZRjw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/KzFsN9ZRjw.png
+    table: /home/alexart/vlm-benchmark/data/tables/KzFsN9ZRjw.txt
+- answer: V2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - V1
+  - V2
+  prompt: which has a larger range of values, V1 or V2?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: KzFsN9ZRjw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/KzFsN9ZRjw.png
+    table: /home/alexart/vlm-benchmark/data/tables/KzFsN9ZRjw.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by V3?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: KzFsN9ZRjw
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/KzFsN9ZRjw.png
+    table: /home/alexart/vlm-benchmark/data/tables/KzFsN9ZRjw.txt
+- answer: -1.003421
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the mean V2 value for V3='L2' and T=M7?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 3kXBpFwtmg
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3kXBpFwtmg.png
+    table: /home/alexart/vlm-benchmark/data/tables/3kXBpFwtmg.txt
+- answer: 2.228198
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for T=M3, approximately what is the difference in mean V2 value between
+    V3='L2' and V3='L1'?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 3kXBpFwtmg
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3kXBpFwtmg.png
+    table: /home/alexart/vlm-benchmark/data/tables/3kXBpFwtmg.txt
+- answer: 2.8172040000000003
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for V3='L2', approximately what is the difference in mean V2 value between
+    T=M10 and T=M1?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 3kXBpFwtmg
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3kXBpFwtmg.png
+    table: /home/alexart/vlm-benchmark/data/tables/3kXBpFwtmg.txt
+- answer: T=M2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - M2
+  - M9
+  prompt: 'For V3=''L1'', which has a higher mean V2 value: T=M2 or T=M9?'
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 3kXBpFwtmg
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/3kXBpFwtmg.png
+    table: /home/alexart/vlm-benchmark/data/tables/3kXBpFwtmg.txt
+- answer: 17
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately how many observations are there for T=M3?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: uTV09xNhRh
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/uTV09xNhRh.png
+    table: /home/alexart/vlm-benchmark/data/tables/uTV09xNhRh.txt
+- answer: 5
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the difference in number of observations between M1
+    and M8?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: uTV09xNhRh
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/uTV09xNhRh.png
+    table: /home/alexart/vlm-benchmark/data/tables/uTV09xNhRh.txt
+- answer: 20.0
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the maximum count for T?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: uTV09xNhRh
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/uTV09xNhRh.png
+    table: /home/alexart/vlm-benchmark/data/tables/uTV09xNhRh.txt
+- answer: M4
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: which value of T appears most frequently?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: uTV09xNhRh
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/uTV09xNhRh.png
+    table: /home/alexart/vlm-benchmark/data/tables/uTV09xNhRh.txt
+- answer: M9
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: which nonzero value of T appears least frequently?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: uTV09xNhRh
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/uTV09xNhRh.png
+    table: /home/alexart/vlm-benchmark/data/tables/uTV09xNhRh.txt
+- answer: M5
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - M10
+  - M5
+  prompt: which T value is more frequent, M10 or M5?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: uTV09xNhRh
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/uTV09xNhRh.png
+    table: /home/alexart/vlm-benchmark/data/tables/uTV09xNhRh.txt
+- answer: 0.061452513966480445
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the probability that a new observation will have T=M8?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: uTV09xNhRh
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/uTV09xNhRh.png
+    table: /home/alexart/vlm-benchmark/data/tables/uTV09xNhRh.txt
+- answer: 2.08702120571414
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the V2 value for V1=3.92?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: CB8ywBA4r3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CB8ywBA4r3.png
+    table: /home/alexart/vlm-benchmark/data/tables/CB8ywBA4r3.txt
+- answer: 7.67
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the range of V1 values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: CB8ywBA4r3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CB8ywBA4r3.png
+    table: /home/alexart/vlm-benchmark/data/tables/CB8ywBA4r3.txt
+- answer: 4.11
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the maximum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: CB8ywBA4r3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CB8ywBA4r3.png
+    table: /home/alexart/vlm-benchmark/data/tables/CB8ywBA4r3.txt
+- answer: -3.56
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the minimum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: CB8ywBA4r3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CB8ywBA4r3.png
+    table: /home/alexart/vlm-benchmark/data/tables/CB8ywBA4r3.txt
+- answer: V2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - V1
+  - V2
+  prompt: which has a larger range of values, V1 or V2?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: CB8ywBA4r3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CB8ywBA4r3.png
+    table: /home/alexart/vlm-benchmark/data/tables/CB8ywBA4r3.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by T?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: CB8ywBA4r3
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/CB8ywBA4r3.png
+    table: /home/alexart/vlm-benchmark/data/tables/CB8ywBA4r3.txt
+- answer: 1.83449
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the mean V2 value for V3='L1'?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: rFGadtoYXy
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/rFGadtoYXy.png
+    table: /home/alexart/vlm-benchmark/data/tables/rFGadtoYXy.txt
+- answer: 0.934404
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the difference in mean V2 value between V3='L2' and
+    V3='L3'?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: rFGadtoYXy
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/rFGadtoYXy.png
+    table: /home/alexart/vlm-benchmark/data/tables/rFGadtoYXy.txt
+- answer: '''L1'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options: &id002
+  - '''L1'''
+  - '''L2'''
+  - '''L3'''
+  prompt: which category has the highest mean V2 value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: rFGadtoYXy
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/rFGadtoYXy.png
+    table: /home/alexart/vlm-benchmark/data/tables/rFGadtoYXy.txt
+- answer: '''L3'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options: *id002
+  prompt: which category has the lowest mean V2 value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: rFGadtoYXy
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/rFGadtoYXy.png
+    table: /home/alexart/vlm-benchmark/data/tables/rFGadtoYXy.txt
+- answer: -2.134619
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the mean V1 value for T=M7?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: ttRM9Rbcy9
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttRM9Rbcy9.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttRM9Rbcy9.txt
+- answer: 0.004903999999999797
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the difference in mean V1 value between T=M10 and
+    T=M1?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: ttRM9Rbcy9
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttRM9Rbcy9.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttRM9Rbcy9.txt
+- answer: M12
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options: &id003
+  - M1
+  - M10
+  - M11
+  - M12
+  - M2
+  - M3
+  - M4
+  - M5
+  - M6
+  - M7
+  - M8
+  - M9
+  prompt: which category has the highest mean V1 value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ttRM9Rbcy9
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttRM9Rbcy9.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttRM9Rbcy9.txt
+- answer: M7
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options: *id003
+  prompt: which category has the lowest mean V1 value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: ttRM9Rbcy9
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/ttRM9Rbcy9.png
+    table: /home/alexart/vlm-benchmark/data/tables/ttRM9Rbcy9.txt
+- answer: -0.79694
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the mean V1 value for V3='L2' and T=M7?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: qOggKTzATX
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/qOggKTzATX.png
+    table: /home/alexart/vlm-benchmark/data/tables/qOggKTzATX.txt
+- answer: 1.279713
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for T=M9, approximately what is the difference in mean V1 value between
+    V3='L1' and V3='L2'?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: qOggKTzATX
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/qOggKTzATX.png
+    table: /home/alexart/vlm-benchmark/data/tables/qOggKTzATX.txt
+- answer: 1.314447
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for V3='L3', approximately what is the difference in mean V1 value between
+    T=M8 and T=M4?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: qOggKTzATX
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/qOggKTzATX.png
+    table: /home/alexart/vlm-benchmark/data/tables/qOggKTzATX.txt
+- answer: 1.1534605588092468
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the V2 value for V1=1.80?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: zaWGPxZKTg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zaWGPxZKTg.png
+    table: /home/alexart/vlm-benchmark/data/tables/zaWGPxZKTg.txt
+- answer: 7.67
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the range of V1 values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: zaWGPxZKTg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zaWGPxZKTg.png
+    table: /home/alexart/vlm-benchmark/data/tables/zaWGPxZKTg.txt
+- answer: 4.11
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the maximum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: zaWGPxZKTg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zaWGPxZKTg.png
+    table: /home/alexart/vlm-benchmark/data/tables/zaWGPxZKTg.txt
+- answer: -3.56
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the minimum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: zaWGPxZKTg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zaWGPxZKTg.png
+    table: /home/alexart/vlm-benchmark/data/tables/zaWGPxZKTg.txt
+- answer: V2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - V1
+  - V2
+  prompt: which has a larger range of values, V1 or V2?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: zaWGPxZKTg
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/zaWGPxZKTg.png
+    table: /home/alexart/vlm-benchmark/data/tables/zaWGPxZKTg.txt
+- answer: -2.429591
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the mean V2 value for T=M5 and V3='L1'?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: Xutjx8zpA7
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Xutjx8zpA7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Xutjx8zpA7.txt
+- answer: 3.680492
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for V3='L2', approximately what is the difference in mean V2 value between
+    T=M10 and T=M7?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: Xutjx8zpA7
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Xutjx8zpA7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Xutjx8zpA7.txt
+- answer: 2.3036700000000003
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for T=M9, approximately what is the difference in mean V2 value between
+    V3='L1' and V3='L2'?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: Xutjx8zpA7
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Xutjx8zpA7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Xutjx8zpA7.txt
+- answer: V3='L2'
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - '''L2'''
+  - '''L3'''
+  prompt: 'For T=M7, which has a higher mean V2 value: V3=''L2'' or V3=''L3''?'
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: Xutjx8zpA7
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Xutjx8zpA7.png
+    table: /home/alexart/vlm-benchmark/data/tables/Xutjx8zpA7.txt
+- answer: 68
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately how many observations are there for V3='L2'?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 433jwDZX5k
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/433jwDZX5k.png
+    table: /home/alexart/vlm-benchmark/data/tables/433jwDZX5k.txt
+- answer: 24
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the difference in number of observations between 'L2'
+    and 'L3'?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 433jwDZX5k
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/433jwDZX5k.png
+    table: /home/alexart/vlm-benchmark/data/tables/433jwDZX5k.txt
+- answer: 68.0
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the maximum count for V3?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 433jwDZX5k
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/433jwDZX5k.png
+    table: /home/alexart/vlm-benchmark/data/tables/433jwDZX5k.txt
+- answer: '''L2'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: which value of V3 appears most frequently?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 433jwDZX5k
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/433jwDZX5k.png
+    table: /home/alexart/vlm-benchmark/data/tables/433jwDZX5k.txt
+- answer: '''L3'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: which nonzero value of V3 appears least frequently?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 433jwDZX5k
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/433jwDZX5k.png
+    table: /home/alexart/vlm-benchmark/data/tables/433jwDZX5k.txt
+- answer: '''L1'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - '''L3'''
+  - '''L1'''
+  prompt: which V3 value is more frequent, 'L3' or 'L1'?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 433jwDZX5k
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/433jwDZX5k.png
+    table: /home/alexart/vlm-benchmark/data/tables/433jwDZX5k.txt
+- answer: 0.37988826815642457
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the probability that a new observation will have V3='L2'?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: 433jwDZX5k
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/433jwDZX5k.png
+    table: /home/alexart/vlm-benchmark/data/tables/433jwDZX5k.txt
+- answer: 0.3982688309922977
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the V2 value for V1=-0.31?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: Z7Dt03dy5u
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Z7Dt03dy5u.png
+    table: /home/alexart/vlm-benchmark/data/tables/Z7Dt03dy5u.txt
+- answer: 7.67
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the range of V1 values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: Z7Dt03dy5u
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Z7Dt03dy5u.png
+    table: /home/alexart/vlm-benchmark/data/tables/Z7Dt03dy5u.txt
+- answer: 7.61
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the maximum V2 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Z7Dt03dy5u
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Z7Dt03dy5u.png
+    table: /home/alexart/vlm-benchmark/data/tables/Z7Dt03dy5u.txt
+- answer: -7.7
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the minimum V2 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: Z7Dt03dy5u
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Z7Dt03dy5u.png
+    table: /home/alexart/vlm-benchmark/data/tables/Z7Dt03dy5u.txt
+- answer: V2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - V1
+  - V2
+  prompt: which has a larger range of values, V1 or V2?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: Z7Dt03dy5u
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Z7Dt03dy5u.png
+    table: /home/alexart/vlm-benchmark/data/tables/Z7Dt03dy5u.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by T?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: Z7Dt03dy5u
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/Z7Dt03dy5u.png
+    table: /home/alexart/vlm-benchmark/data/tables/Z7Dt03dy5u.txt
+- answer: 0
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately how many observations are in the 1st bin for V3='L1'?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 6sKHRmjfej
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6sKHRmjfej.png
+    table: /home/alexart/vlm-benchmark/data/tables/6sKHRmjfej.txt
+- answer: 4
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for V3='L2', approximately how many total observations occur between V2=-7.70
+    and V2=-4.64?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 6sKHRmjfej
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6sKHRmjfej.png
+    table: /home/alexart/vlm-benchmark/data/tables/6sKHRmjfej.txt
+- answer: '''L1'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - '''L1'''
+  - '''L3'''
+  prompt: which has more total observations, V3='L1' or V3='L3'?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 6sKHRmjfej
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6sKHRmjfej.png
+    table: /home/alexart/vlm-benchmark/data/tables/6sKHRmjfej.txt
+- answer: 10.0
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the maximum count for V3='L2'?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 6sKHRmjfej
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6sKHRmjfej.png
+    table: /home/alexart/vlm-benchmark/data/tables/6sKHRmjfej.txt
+- answer: '''L2'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - '''L1'''
+  - '''L2'''
+  - '''L3'''
+  prompt: for observations with V2=1.49, which category of V3 are they most likely
+    to belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 6sKHRmjfej
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/6sKHRmjfej.png
+    table: /home/alexart/vlm-benchmark/data/tables/6sKHRmjfej.txt
+- answer: 0.9378673067750224
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the V1 value for V2=4.95?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: vum1RihY53
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vum1RihY53.png
+    table: /home/alexart/vlm-benchmark/data/tables/vum1RihY53.txt
+- answer: 7.67
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the range of V1 values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: vum1RihY53
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vum1RihY53.png
+    table: /home/alexart/vlm-benchmark/data/tables/vum1RihY53.txt
+- answer: 4.11
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the maximum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: vum1RihY53
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vum1RihY53.png
+    table: /home/alexart/vlm-benchmark/data/tables/vum1RihY53.txt
+- answer: -3.56
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the minimum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: vum1RihY53
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vum1RihY53.png
+    table: /home/alexart/vlm-benchmark/data/tables/vum1RihY53.txt
+- answer: V2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - V2
+  - V1
+  prompt: which has a larger range of values, V2 or V1?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: vum1RihY53
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vum1RihY53.png
+    table: /home/alexart/vlm-benchmark/data/tables/vum1RihY53.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by T?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: vum1RihY53
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/vum1RihY53.png
+    table: /home/alexart/vlm-benchmark/data/tables/vum1RihY53.txt
+- answer: 3.922270776539236
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the V1 value for V2=2.09?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: dPkSeF7QMQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/dPkSeF7QMQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/dPkSeF7QMQ.txt
+- answer: 15.31
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the range of V2 values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: dPkSeF7QMQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/dPkSeF7QMQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/dPkSeF7QMQ.txt
+- answer: 7.61
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the maximum V2 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: dPkSeF7QMQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/dPkSeF7QMQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/dPkSeF7QMQ.txt
+- answer: -7.7
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the minimum V2 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: dPkSeF7QMQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/dPkSeF7QMQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/dPkSeF7QMQ.txt
+- answer: V2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - V2
+  - V1
+  prompt: which has a larger range of values, V2 or V1?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: dPkSeF7QMQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/dPkSeF7QMQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/dPkSeF7QMQ.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by V3?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: dPkSeF7QMQ
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/dPkSeF7QMQ.png
+    table: /home/alexart/vlm-benchmark/data/tables/dPkSeF7QMQ.txt
+- answer: 4
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately how many observations are in the 2nd bin?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: kxl7Sv0pBz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kxl7Sv0pBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/kxl7Sv0pBz.txt
+- answer: 40
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately how many observations occur between V2=-4.64 and V2=-1.58?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: kxl7Sv0pBz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kxl7Sv0pBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/kxl7Sv0pBz.txt
+- answer: 23.0
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the maximum count for V2?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: kxl7Sv0pBz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kxl7Sv0pBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/kxl7Sv0pBz.txt
+- answer: -0.04
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: which value of V2 appears most frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: kxl7Sv0pBz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kxl7Sv0pBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/kxl7Sv0pBz.txt
+- answer: -6.17
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: which nonzero value of V2 appears least frequently?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: kxl7Sv0pBz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kxl7Sv0pBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/kxl7Sv0pBz.txt
+- answer: -4.13
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - -4.13
+  - 5.06
+  prompt: which V2 value is more frequent, V2=-4.13 or V2=5.06?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: kxl7Sv0pBz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kxl7Sv0pBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/kxl7Sv0pBz.txt
+- answer: 0.38202247191011235
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the probability that a new observation will have V2 greater than
+    1.49?
+  prompt_tier: inference
+  prompt_type: quantitative
+  render_id: kxl7Sv0pBz
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/kxl7Sv0pBz.png
+    table: /home/alexart/vlm-benchmark/data/tables/kxl7Sv0pBz.txt
+- answer: -1.2491540263728145
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the V1 value for V2=-7.34?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: OQkU2eGsVr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OQkU2eGsVr.png
+    table: /home/alexart/vlm-benchmark/data/tables/OQkU2eGsVr.txt
+- answer: 7.67
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the range of V1 values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: OQkU2eGsVr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OQkU2eGsVr.png
+    table: /home/alexart/vlm-benchmark/data/tables/OQkU2eGsVr.txt
+- answer: 4.11
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the maximum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: OQkU2eGsVr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OQkU2eGsVr.png
+    table: /home/alexart/vlm-benchmark/data/tables/OQkU2eGsVr.txt
+- answer: -3.56
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the minimum V1 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: OQkU2eGsVr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OQkU2eGsVr.png
+    table: /home/alexart/vlm-benchmark/data/tables/OQkU2eGsVr.txt
+- answer: V2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - V2
+  - V1
+  prompt: which has a larger range of values, V2 or V1?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: OQkU2eGsVr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OQkU2eGsVr.png
+    table: /home/alexart/vlm-benchmark/data/tables/OQkU2eGsVr.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by T?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: OQkU2eGsVr
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/OQkU2eGsVr.png
+    table: /home/alexart/vlm-benchmark/data/tables/OQkU2eGsVr.txt
+- answer: -4.367778289305718
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the V2 value for V1=-0.76?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: DTGmbTPj66
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DTGmbTPj66.png
+    table: /home/alexart/vlm-benchmark/data/tables/DTGmbTPj66.txt
+- answer: 7.67
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the range of V1 values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: DTGmbTPj66
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DTGmbTPj66.png
+    table: /home/alexart/vlm-benchmark/data/tables/DTGmbTPj66.txt
+- answer: 7.61
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the maximum V2 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: DTGmbTPj66
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DTGmbTPj66.png
+    table: /home/alexart/vlm-benchmark/data/tables/DTGmbTPj66.txt
+- answer: -7.7
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the minimum V2 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: DTGmbTPj66
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DTGmbTPj66.png
+    table: /home/alexart/vlm-benchmark/data/tables/DTGmbTPj66.txt
+- answer: V2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - V1
+  - V2
+  prompt: which has a larger range of values, V1 or V2?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: DTGmbTPj66
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DTGmbTPj66.png
+    table: /home/alexart/vlm-benchmark/data/tables/DTGmbTPj66.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by V3?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: DTGmbTPj66
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/DTGmbTPj66.png
+    table: /home/alexart/vlm-benchmark/data/tables/DTGmbTPj66.txt
+- answer: -2.020344
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the mean V1 value for V3='L3'?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: BhYFr7906p
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/BhYFr7906p.png
+    table: /home/alexart/vlm-benchmark/data/tables/BhYFr7906p.txt
+- answer: 2.0735580000000002
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the difference in mean V1 value between V3='L1' and
+    V3='L2'?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: BhYFr7906p
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/BhYFr7906p.png
+    table: /home/alexart/vlm-benchmark/data/tables/BhYFr7906p.txt
+- answer: '''L1'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options: &id004
+  - '''L1'''
+  - '''L2'''
+  - '''L3'''
+  prompt: which category has the highest mean V1 value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: BhYFr7906p
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/BhYFr7906p.png
+    table: /home/alexart/vlm-benchmark/data/tables/BhYFr7906p.txt
+- answer: '''L3'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options: *id004
+  prompt: which category has the lowest mean V1 value?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: BhYFr7906p
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/BhYFr7906p.png
+    table: /home/alexart/vlm-benchmark/data/tables/BhYFr7906p.txt
+- answer: 0.072996
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the mean V1 value for T=M11 and V3='L2'?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: j6lbXuFDyw
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/j6lbXuFDyw.png
+    table: /home/alexart/vlm-benchmark/data/tables/j6lbXuFDyw.txt
+- answer: 0.6304559999999999
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for V3='L2', approximately what is the difference in mean V1 value between
+    T=M11 and T=M6?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: j6lbXuFDyw
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/j6lbXuFDyw.png
+    table: /home/alexart/vlm-benchmark/data/tables/j6lbXuFDyw.txt
+- answer: 2.365882
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for T=M12, approximately what is the difference in mean V1 value between
+    V3='L2' and V3='L1'?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: j6lbXuFDyw
+  render_type: bar
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/j6lbXuFDyw.png
+    table: /home/alexart/vlm-benchmark/data/tables/j6lbXuFDyw.txt
+- answer: 2
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately how many observations are there for T=M5 and V3='L3'?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: unSnF1CH4B
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/unSnF1CH4B.png
+    table: /home/alexart/vlm-benchmark/data/tables/unSnF1CH4B.txt
+- answer: 11
+  answer_type: <class 'int'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: for V3='L3', approximately what is the difference in number of observations
+    between M6 and M4?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: unSnF1CH4B
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/unSnF1CH4B.png
+    table: /home/alexart/vlm-benchmark/data/tables/unSnF1CH4B.txt
+- answer: '''L1'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - '''L1'''
+  - '''L3'''
+  prompt: which has more total observations, V3='L1' or V3='L3'?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: unSnF1CH4B
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/unSnF1CH4B.png
+    table: /home/alexart/vlm-benchmark/data/tables/unSnF1CH4B.txt
+- answer: 11.0
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: what is the maximum count for V3='L1'?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: unSnF1CH4B
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/unSnF1CH4B.png
+    table: /home/alexart/vlm-benchmark/data/tables/unSnF1CH4B.txt
+- answer: '''L1'''
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - '''L1'''
+  - '''L2'''
+  - '''L3'''
+  prompt: for observations with T=M12, which category of V3 are they most likely to
+    belong to?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: unSnF1CH4B
+  render_type: histogram
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/unSnF1CH4B.png
+    table: /home/alexart/vlm-benchmark/data/tables/unSnF1CH4B.txt
+- answer: 1.5343428907157324
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the V1 value for V2=6.02?
+  prompt_tier: retrieval
+  prompt_type: quantitative
+  render_id: 5IRISIDi1k
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5IRISIDi1k.png
+    table: /home/alexart/vlm-benchmark/data/tables/5IRISIDi1k.txt
+- answer: 15.31
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the range of V2 values in the data?
+  prompt_tier: arithmetic
+  prompt_type: quantitative
+  render_id: 5IRISIDi1k
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5IRISIDi1k.png
+    table: /home/alexart/vlm-benchmark/data/tables/5IRISIDi1k.txt
+- answer: 7.61
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the maximum V2 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 5IRISIDi1k
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5IRISIDi1k.png
+    table: /home/alexart/vlm-benchmark/data/tables/5IRISIDi1k.txt
+- answer: -7.7
+  answer_type: <class 'float'>
+  dataset: dataset_16
+  generator: generator_16
+  prompt: approximately what is the minimum V2 value?
+  prompt_tier: boolean
+  prompt_type: quantitative
+  render_id: 5IRISIDi1k
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5IRISIDi1k.png
+    table: /home/alexart/vlm-benchmark/data/tables/5IRISIDi1k.txt
+- answer: V2
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - V2
+  - V1
+  prompt: which has a larger range of values, V2 or V1?
+  prompt_tier: boolean
+  prompt_type: qualitative
+  render_id: 5IRISIDi1k
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5IRISIDi1k.png
+    table: /home/alexart/vlm-benchmark/data/tables/5IRISIDi1k.txt
+- answer: 'yes'
+  answer_type: <class 'str'>
+  dataset: dataset_16
+  generator: generator_16
+  options:
+  - 'yes'
+  - 'no'
+  prompt: can the data be meaningfully clustered by V3?
+  prompt_tier: inference
+  prompt_type: qualitative
+  render_id: 5IRISIDi1k
+  render_type: scatter
+  renders:
+    plot: /home/alexart/vlm-benchmark/data/plots/5IRISIDi1k.png
+    table: /home/alexart/vlm-benchmark/data/tables/5IRISIDi1k.txt

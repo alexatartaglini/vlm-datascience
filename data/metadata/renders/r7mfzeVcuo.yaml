@@ -1,0 +1,15 @@
+dataset_name: dataset_21
+generator_name: generator_21
+hue: W
+hue_type: numeric
+legend: true
+num_vars: 3
+render_id: r7mfzeVcuo
+renders:
+  plot: data/plots/r7mfzeVcuo.png
+  table: data/tables/r7mfzeVcuo.txt
+type: scatter
+x: Y
+x_type: numeric
+y: Z
+y_type: numeric

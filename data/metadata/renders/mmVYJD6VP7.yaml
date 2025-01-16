@@ -1,0 +1,13 @@
+dataset_name: dataset_20
+generator_name: generator_20
+legend: false
+num_vars: 2
+render_id: mmVYJD6VP7
+renders:
+  plot: data/plots/mmVYJD6VP7.png
+  table: data/tables/mmVYJD6VP7.txt
+type: scatter
+x: A
+x_type: numeric
+y: B
+y_type: numeric

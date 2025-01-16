@@ -1,0 +1,17 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: C
+hue_type: categorical
+legend: true
+num_vars: 4
+render_id: 0TYpsDX4C7
+renders:
+  plot: data/plots/0TYpsDX4C7.png
+  table: data/tables/0TYpsDX4C7.txt
+style: X
+style_type: categorical
+type: scatter
+x: A
+x_type: numeric
+y: B
+y_type: numeric

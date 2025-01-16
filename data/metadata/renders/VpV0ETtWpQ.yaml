@@ -1,0 +1,32 @@
+dataset_name: dataset_20
+generator_name: generator_20
+hue: X
+hue_type: categorical
+hue_values:
+- P12
+- P13
+- P6
+- P16
+- P2
+- P14
+- P10
+- P1
+- P3
+- P5
+- P8
+- P7
+- P11
+- P15
+- P4
+- P9
+legend: true
+num_vars: 3
+render_id: VpV0ETtWpQ
+renders:
+  plot: data/plots/VpV0ETtWpQ.png
+  table: data/tables/VpV0ETtWpQ.txt
+type: scatter
+x: A
+x_type: numeric
+y: Y
+y_type: numeric

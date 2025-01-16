@@ -1,0 +1,19 @@
+bins: 20
+dataset_name: dataset_7
+generator_name: generator_7
+legend: false
+num_vars: 1
+plot_xticks:
+- -0.6883301091065478
+- 0.018040037635666417
+- 0.7244101843778806
+- 1.4307803311200948
+- 2.137150477862309
+- 2.843520624604523
+render_id: Yd7YzFkkme
+renders:
+  plot: data/plots/Yd7YzFkkme.png
+  table: data/tables/Yd7YzFkkme.txt
+type: histogram
+x: Y
+x_type: numeric

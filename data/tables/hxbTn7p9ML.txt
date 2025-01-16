@@ -1,0 +1,4 @@
+Category  X (mean)
+    High  0.113904
+     Low -0.250935
+     Mid -0.103770

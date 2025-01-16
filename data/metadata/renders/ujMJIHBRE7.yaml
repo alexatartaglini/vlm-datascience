@@ -1,0 +1,12 @@
+bins: 3
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 1
+render_id: ujMJIHBRE7
+renders:
+  plot: data/plots/ujMJIHBRE7.png
+  table: data/tables/ujMJIHBRE7.txt
+type: histogram
+x: Category
+x_type: categorical

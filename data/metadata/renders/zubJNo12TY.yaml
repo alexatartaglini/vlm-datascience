@@ -1,0 +1,24 @@
+bins: 10
+dataset_name: dataset_16
+generator_name: generator_16
+legend: false
+num_vars: 1
+plot_xticks:
+- -3.558606419318049
+- -2.7916987803280806
+- -2.0247911413381123
+- -1.2578835023481436
+- -0.49097586335817534
+- 0.27593177563179294
+- 1.0428394146217617
+- 1.80974705361173
+- 2.576654692601698
+- 3.3435623315916665
+- 4.110469970581635
+render_id: zubJNo12TY
+renders:
+  plot: data/plots/zubJNo12TY.png
+  table: data/tables/zubJNo12TY.txt
+type: histogram
+x: V1
+x_type: numeric

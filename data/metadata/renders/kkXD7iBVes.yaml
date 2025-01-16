@@ -1,0 +1,14 @@
+agg_func: mean
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 2
+render_id: kkXD7iBVes
+renders:
+  plot: data/plots/kkXD7iBVes.png
+  table: data/tables/kkXD7iBVes.txt
+type: bar
+x: Category
+x_type: categorical
+y: Y
+y_type: numeric

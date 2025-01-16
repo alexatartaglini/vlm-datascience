@@ -1,0 +1,12 @@
+bins: 3
+dataset_name: dataset_20
+generator_name: generator_20
+legend: false
+num_vars: 1
+render_id: oTWmSNCFok
+renders:
+  plot: data/plots/oTWmSNCFok.png
+  table: data/tables/oTWmSNCFok.txt
+type: histogram
+x: C
+x_type: categorical

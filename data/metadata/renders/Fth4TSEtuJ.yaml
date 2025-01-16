@@ -1,0 +1,19 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C2
+hue_type: categorical
+hue_values:
+- S
+- T
+- R
+legend: true
+num_vars: 3
+render_id: Fth4TSEtuJ
+renders:
+  plot: data/plots/Fth4TSEtuJ.png
+  table: data/tables/Fth4TSEtuJ.txt
+type: scatter
+x: Y
+x_type: numeric
+y: X
+y_type: numeric

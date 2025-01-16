@@ -1,0 +1,18 @@
+bins: 3
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C1
+hue_type: categorical
+hue_values:
+- B
+- A
+legend: true
+num_vars: 2
+render_id: iNioK4CjMT
+renders:
+  plot: data/plots/iNioK4CjMT.png
+  table: data/tables/iNioK4CjMT.txt
+subtype: stacked
+type: histogram
+x: C2
+x_type: categorical

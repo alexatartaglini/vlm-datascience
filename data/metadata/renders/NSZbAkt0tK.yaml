@@ -1,0 +1,13 @@
+dataset_name: dataset_7
+generator_name: generator_7
+legend: false
+num_vars: 2
+render_id: NSZbAkt0tK
+renders:
+  plot: data/plots/NSZbAkt0tK.png
+  table: data/tables/NSZbAkt0tK.txt
+type: scatter
+x: X
+x_type: numeric
+y: Y
+y_type: numeric

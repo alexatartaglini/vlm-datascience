@@ -1,0 +1,30 @@
+bins: 10
+dataset_name: dataset_5
+generator_name: generator_5
+hue: M
+hue_type: categorical
+hue_values:
+- 2
+- 1
+- 0
+legend: true
+num_vars: 2
+plot_xticks:
+- -3.3837031250864387
+- -2.741042461881334
+- -2.098381798676229
+- -1.4557211354711237
+- -0.8130604722660189
+- -0.170399809060914
+- 0.4722608541441913
+- 1.1149215173492957
+- 1.757582180554401
+- 2.4002428437595063
+- 3.04290350696461
+render_id: JfpjH9qw8j
+renders:
+  plot: data/plots/JfpjH9qw8j.png
+  table: data/tables/JfpjH9qw8j.txt
+type: histogram
+x: N
+x_type: numeric

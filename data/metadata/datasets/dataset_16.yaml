@@ -1,0 +1,19 @@
+categorical_vars:
+- T
+- V3
+generator_name: generator_16
+n_categorical: 2
+n_numeric: 2
+n_sequential: 1
+name: dataset_16
+num_points: 179
+numeric_vars:
+- V1
+- V2
+sequential_vars:
+- T
+variables:
+- T
+- V1
+- V2
+- V3

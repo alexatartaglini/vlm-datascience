@@ -1,0 +1,6 @@
+Period  State=S1  State=S2  State=S3
+    E1        38         6         0
+    E2        16        21         1
+    E3         0        15        17
+    E4         0         8        26
+    E5         4        22         4

@@ -1,0 +1,13 @@
+dataset_name: dataset_21
+generator_name: generator_21
+legend: false
+num_vars: 2
+render_id: spvvbV0ctM
+renders:
+  plot: data/plots/spvvbV0ctM.png
+  table: data/tables/spvvbV0ctM.txt
+type: scatter
+x: Z
+x_type: numeric
+y: W
+y_type: numeric

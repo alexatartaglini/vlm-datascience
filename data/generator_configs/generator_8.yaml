@@ -1,0 +1,23 @@
+# Description: Nested Categories with Hierarchical Effects. Creates nested category effects where subcategories behave differently within main categories
+
+# Define the variables in order
+variables: ["Group", "Subgroup", "V1", "V2", "V3"]
+
+# Define the distribution of each variable
+variable_objects:
+  Group: "categorical(probs=[0.5, 0.5], categories=['G1', 'G2'])"
+  Subgroup: "categorical(probs=[0.25, 0.25, 0.25, 0.25], categories=['A', 'B', 'C', 'D'])"
+  V1: "normal(mean=0, std=1)"
+  V2: "beta(a=2, b=5)"
+  V3: "poisson(lam=3)"
+
+# Define dependencies between variables
+dependencies:
+  Group:
+    Subgroup: "BooleanFunction(['x==G1'], [(0.4, 0.4, 0.1, 0.1), (0.25, 0.25, 0.25, 0.25)], 'probs')"  # Different subgroup distributions per group
+    V1: "BooleanFunction(['x==G1', 'x==G2'], [-1, 1])"
+  Subgroup:
+    V2: "BooleanFunction(['x==A', 'x==B', 'x==C', 'x==D'], [0.2, 0.4, 0.6, 0.8])"
+    V3: "BooleanFunction(['Group==G1 and x==A', 'Group==G1 and x==B',
+                         'Group==G2 and x==C', 'Group==G2 and x==D'],
+                        [2, 3, 4, 5, 3])"  # Nested effects on count data

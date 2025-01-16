@@ -1,0 +1,16 @@
+agg_func: mean
+dataset_name: dataset_16
+generator_name: generator_16
+hue: T
+hue_type: categorical
+legend: true
+num_vars: 3
+render_id: qOggKTzATX
+renders:
+  plot: data/plots/qOggKTzATX.png
+  table: data/tables/qOggKTzATX.txt
+type: bar
+x: V3
+x_type: categorical
+y: V1
+y_type: numeric

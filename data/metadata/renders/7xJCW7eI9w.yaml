@@ -1,0 +1,19 @@
+dataset_name: dataset_21
+generator_name: generator_21
+hue: Category
+hue_type: categorical
+hue_values:
+- High
+- Low
+- Mid
+legend: true
+num_vars: 3
+render_id: 7xJCW7eI9w
+renders:
+  plot: data/plots/7xJCW7eI9w.png
+  table: data/tables/7xJCW7eI9w.txt
+type: scatter
+x: X
+x_type: numeric
+y: Y
+y_type: numeric

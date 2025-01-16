@@ -1,0 +1,18 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C1
+hue_type: categorical
+hue_values:
+- B
+- A
+legend: true
+num_vars: 3
+render_id: NJq7Dj8fkp
+renders:
+  plot: data/plots/NJq7Dj8fkp.png
+  table: data/tables/NJq7Dj8fkp.txt
+type: scatter
+x: X
+x_type: numeric
+y: Z
+y_type: numeric

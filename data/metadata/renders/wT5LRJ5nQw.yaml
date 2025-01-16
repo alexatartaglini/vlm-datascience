@@ -1,0 +1,13 @@
+dataset_name: dataset_5
+generator_name: generator_5
+legend: false
+num_vars: 2
+render_id: wT5LRJ5nQw
+renders:
+  plot: data/plots/wT5LRJ5nQw.png
+  table: data/tables/wT5LRJ5nQw.txt
+type: scatter
+x: O
+x_type: numeric
+y: P
+y_type: numeric

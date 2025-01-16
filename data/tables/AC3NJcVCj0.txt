@@ -1,0 +1,4 @@
+Category  Z (mean)
+    High  1.071689
+     Low  1.566934
+     Mid  1.176981

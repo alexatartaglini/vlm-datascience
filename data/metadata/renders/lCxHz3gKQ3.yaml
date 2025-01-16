@@ -1,0 +1,16 @@
+agg_func: mean
+dataset_name: dataset_17
+generator_name: generator_17
+hue: Period
+hue_type: categorical
+legend: true
+num_vars: 3
+render_id: lCxHz3gKQ3
+renders:
+  plot: data/plots/lCxHz3gKQ3.png
+  table: data/tables/lCxHz3gKQ3.txt
+type: bar
+x: State
+x_type: categorical
+y: G1
+y_type: numeric

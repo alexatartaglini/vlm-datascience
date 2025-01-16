@@ -1,0 +1,34 @@
+# Description: Category-Dependent Correlations. Uses combinations of categories to create complex patterns
+
+# Define the variables in order
+variables: ["Type1", "Type2", "W", "X", "Y", "Z"]
+
+# Define the distribution of each variable
+variable_objects:
+  Type1: "categorical(probs=[0.3, 0.3, 0.4], categories=['Low', 'Mid', 'High'])"
+  Type2: "categorical(probs=[0.5, 0.5], categories=['Yes', 'No'])"
+  W: "normal(mean=0, std=1)"
+  X: "normal(mean=0, std=0.8)"
+  Y: "uniform(low=-1, high=1)"
+  Z: "exponential(rate=1)"
+
+# Define dependencies between variables
+dependencies:
+  Type1:
+    W: "BooleanFunction(['x==Low', 'x==Mid', 'x==High'], [-1, 0, 1])"
+    X: "BooleanFunction(['x==Low', 'x==Mid', 'x==High'], [0, 1, 2])"
+  Type2:
+    Y: "BooleanFunction(['x==Yes', 'x==No'], [0.5, -0.5])"
+  W:
+    X: "BooleanFunction(['Type1==Low', 'Type1==Mid', 'Type1==High'], 
+                       [0.8, 0.2, -0.5])"  # Different correlations per Type1
+  X:
+    Y: "BooleanFunction(['Type2==Yes', 'Type2==No'], 
+                       [0.3, -0.3])"  # Correlation changes with Type2
+    Z: "BooleanFunction(['Type1==Low and Type2==Yes', 
+                        'Type1==Low and Type2==No',
+                        'Type1==Mid and Type2==Yes',
+                        'Type1==Mid and Type2==No',
+                        'Type1==High and Type2==Yes',
+                        'Type1==High and Type2==No'],
+                       [0.2, -0.2, 0.4, -0.4, 0.6, -0.6])"  # Complex interaction effects

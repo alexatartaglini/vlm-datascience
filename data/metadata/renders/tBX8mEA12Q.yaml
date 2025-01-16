@@ -1,0 +1,19 @@
+bins: 15
+dataset_name: dataset_20
+generator_name: generator_20
+legend: false
+num_vars: 1
+plot_xticks:
+- 3.70193346273627
+- 6.246593168142599
+- 8.791252873548927
+- 11.335912578955256
+- 13.880572284361584
+- 16.425231989767916
+render_id: tBX8mEA12Q
+renders:
+  plot: data/plots/tBX8mEA12Q.png
+  table: data/tables/tBX8mEA12Q.txt
+type: histogram
+x: Y
+x_type: numeric

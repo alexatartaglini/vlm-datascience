@@ -1,0 +1,19 @@
+bins: 16
+dataset_name: dataset_20
+generator_name: generator_20
+hue: C
+hue_type: categorical
+hue_values:
+- '''L3'''
+- '''L2'''
+- '''L1'''
+legend: true
+num_vars: 2
+render_id: m4FY8kQFok
+renders:
+  plot: data/plots/m4FY8kQFok.png
+  table: data/tables/m4FY8kQFok.txt
+subtype: stacked
+type: histogram
+x: X
+x_type: categorical

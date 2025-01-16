@@ -1,0 +1,20 @@
+# Description: Multimodal Mixture with Complex Dependencies. Complex clustering with different behaviors in each cluster
+
+# Define the variables in order
+variables: ["M", "N", "O", "P"]
+
+# Define the distribution of each variable
+variable_objects:
+  M: "categorical(probs=[0.3, 0.4, 0.3], categories=[0, 1, 2])"  # Three clusters
+  N: "normal(mean=0, std=0.5)"
+  O: "beta(a=2, b=2)"  # Symmetric beta for bounded values
+  P: "poisson(lam=3)"  # Count data
+
+# Define dependencies between variables
+dependencies:
+  M:
+    N: "BooleanFunction(['x==0', 'x==1', 'x==2'], [-2, 0, 2], 'mean')"  # Three distinct centers
+    O: "BooleanFunction(['x==0', 'x==1', 'x==2'], [0.3, 0.5, 0.7])"  # Different means for each group
+  N:
+    O: "Polynomial([0.5, 0, 0.2])"  # Quadratic relationship
+    P: "BooleanFunction(['x<-1', 'x>1'], [2, 4, 3], 'lam')"  # Different Poisson means based on N

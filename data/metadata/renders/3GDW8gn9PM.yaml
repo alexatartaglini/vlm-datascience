@@ -1,0 +1,19 @@
+dataset_name: dataset_7
+generator_name: generator_7
+hue: C2
+hue_type: categorical
+hue_values:
+- S
+- T
+- R
+legend: true
+num_vars: 3
+render_id: 3GDW8gn9PM
+renders:
+  plot: data/plots/3GDW8gn9PM.png
+  table: data/tables/3GDW8gn9PM.txt
+type: scatter
+x: Z
+x_type: numeric
+y: Y
+y_type: numeric
